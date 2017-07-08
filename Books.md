@@ -1,1 +1,1 @@
-* [Start With Why](start-with-why) - Simon Sinek
+* [[Start-With-Why]] - Simon Sinek
