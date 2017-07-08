@@ -8,14 +8,14 @@
 
 ## Shapes
 
-* <rect>
-* <circle>
-* <ellipse>
-* <line>
-* <polyline>
-* <polygon>
-* <path>
-* <text>
+* `<rect>`
+* `<circle>`
+* `<ellipse>`
+* `<line>`
+* `<polyline>`
+* `<polygon>`
+* `<path>`
+* `<text>`
 
 ## Strokes
 
