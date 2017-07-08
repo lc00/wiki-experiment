@@ -5,6 +5,7 @@
 ## Ember
 
 * [Liquid Fire](Liquid-Fire)
+* [Ember Addons](Ember-Addons)
 
 ## HTML
 
