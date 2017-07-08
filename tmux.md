@@ -23,15 +23,15 @@ ctrl + b, d
 
 tmux kill-session -t session-name
 
-**Kill a window*
+**Kill a window**
 
 tmux kill-window -t window-name
 
-**Navigate panes*
+**Navigate panes**
 
 select-pane -D/-U/-L/-R
 
-**Ctrl + b Reference*
+**Ctrl + b Reference**
 
 (mapped mine to Ctrl + space)
 
