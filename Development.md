@@ -2,6 +2,7 @@
 
 * [[ES2015]]
 * [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
+* [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
 
 ## Ember
 
