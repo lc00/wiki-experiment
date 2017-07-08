@@ -2,6 +2,10 @@
 
 * [Liquid Fire](Liquid-Fire)
 
+## HTML
+
+* [[SVG]]
+
 ## Text
 
 * [[Markdown]]
