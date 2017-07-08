@@ -41,17 +41,17 @@ sed -n '/matched-text/s/old-text/new-text/g' input-file.txt
 
 ## Search types
 
-`s/` - Substitute pattern
-`d/` - Delete pattern
-`y/` - Character replacement
+* `s/` - Substitute pattern
+* `d/` - Delete pattern
+* `y/` - Character replacement
 
 Can contain ranges:
 
-`1,5s` - Substitute within the first and fifth lines
+* `1,5s` - Substitute within the first and fifth lines
 
 ## Commands
 
-`/c` - Change line
-`/d` - Delete line
-`/i` - Add line above
-`/a` - Add line below
+* `/c` - Change line
+* `/d` - Delete line
+* `/i` - Add line above
+* `/a` - Add line below
