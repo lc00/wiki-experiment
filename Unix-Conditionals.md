@@ -41,7 +41,7 @@ esac
 ## Combined Expressions
 
 | Operation | Effect |
-| :-------: | :----: |
+| :-------: | :----- |
 | [ ! EXPR ] | True if EXPR is false. |
 | [ ( EXPR ) ] | Returns the value of EXPR. This may be used to override the normal precedence of operators. |
 | [ EXPR1 -a EXPR2 ] | True if both EXPR1 and EXPR2 are true. |
@@ -51,7 +51,7 @@ esac
 # Conditional Expressions
 
 | Primary | Meaning |
-| :-------: | :----: |
+| :-----: | :---- |
 | [ -a FILE ] | True if FILE exists. |
 | [ -b FILE ] | True if FILE exists and is a block-special file. |
 | [ -c FILE ] | True if FILE exists and is a character-special file. |
