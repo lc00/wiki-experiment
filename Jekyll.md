@@ -2,7 +2,7 @@
 
 * `jekyll build` - Build site
 * `jekyll serve` - Serve on localhost:4200
-* `--drafts` - Include drafts
+    * `--drafts` - Include drafts
 
 ## Pages
 
