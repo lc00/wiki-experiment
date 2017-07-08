@@ -13,6 +13,7 @@
 ## Text
 
 * [[Markdown]]
+* [[YUIDoc]]
 
 ## Styling
 
