@@ -1,4 +1,4 @@
-Session (theme) > Window (project) > Pane (view)
+Session > Window > Pane
 
 **List sessions**
 
