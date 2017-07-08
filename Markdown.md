@@ -18,9 +18,9 @@
 ## Links
 
 ```
-[link text](url.com “title here”)
+[link text](url.com "title here")
 [link text][google]
-[google]: url.com “title here”
+[google]: url.com "title here"
 <google.com>
 <kyle@coberly.com>
 ```
