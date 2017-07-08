@@ -149,7 +149,7 @@
 * `multiple="multiple"`
 * `pattern="regexp"` - Validates the input
 * `placeholder="text"` - Hint
-* `required="equire"` - Must be filled out before submitting
+* `required="require"` - Must be filled out before submitting
 * `readonly="readonly"`
 * `size="3"` - Width of input element
 * `src="u/r/l"` - For image type that will be used as a submit button
