@@ -49,7 +49,7 @@ Can also be based on DOM state:
 
 `insertNewView is a promise that resolves to `newView`. Allows you to animate the views in parallel or in series.
 
-```
+```js
 function(oldView, insertNewView, options){
     stop(oldView);
     return animate(oldView, {
