@@ -317,9 +317,10 @@ Can curry inputs to make new functions
 
 ## Workflow
 
-Too much frustration and excitement means that your feedback loop is too long. Make programming boring.
-Write badly to get to green, copy/paste code, but use tools to catch bad stuff, then refactor.
-Commit after every green.
+* Too much frustration and excitement means that your feedback loop is too long.
+* Make programming boring.
+* Write badly to get to green, copy/paste code, but use tools to catch bad stuff, then refactor.
+* Commit after every green.
 
 Refactoring legacy code:
 
