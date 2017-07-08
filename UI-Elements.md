@@ -1,5 +1,5 @@
 | Element | Purpose | Example |
-| :------ | :-----: | ------: |
+| :------ | :------ | :-----: |
 | Adjustment Handle | | |
 | Split Button | Gives a button options | |
 | Scroll Bar | | |
