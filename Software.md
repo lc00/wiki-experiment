@@ -1,6 +1,6 @@
 ## Ember
 
-* [Liquid Fire][Liquid-Fire]
+* [Liquid Fire](Liquid-Fire)
 
 ## Text
 
