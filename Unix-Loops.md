@@ -18,11 +18,11 @@ for ((i=0; i<5; i++))
 ```
 
 ```bash
-While
+while [ $some_variable -lt 10 ]
 ```
 
 ```bash
-Until
+until [ $some_variable -gt 10 ]
 ```
 
 ## Loop Control
