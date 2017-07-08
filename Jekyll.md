@@ -1,8 +1,8 @@
 ## Commands
 
-`jekyll build` - Build site
-`jekyll serve` - Serve on localhost:4200
-`--drafts` - Include drafts
+* `jekyll build` - Build site
+* `jekyll serve` - Serve on localhost:4200
+* `--drafts` - Include drafts
 
 ## Pages
 
