@@ -13,6 +13,7 @@
 ## HTML
 
 * [[SVG]]
+* [[HTML5]]
 
 ## Text
 
