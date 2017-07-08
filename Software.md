@@ -27,3 +27,4 @@
 * [[curl]]
 * [[sed]]
 * [UNIX Loops](UNIX-Loops)
+* [UNIX Conditionals](UNIX-Conditionals)
