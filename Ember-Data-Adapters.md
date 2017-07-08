@@ -48,12 +48,15 @@ Use transforms for strings, numbers, dates.
 
 ## Snapshots
 
+```
 post.get('id')           => postSnapshot.id
 post.get('title')        => postSnapshot.attr('title')
 post.get('author')       => postSnapshot.belongsTo('author')
 post.get('comments')     => postSnapshot.hasMany('comments')
 post.constructor         => postSnapshot.type;
 post.constructor.typeKey => postSnapshot.typeKey
+```
+
 Underlying record is in snapshot.record
 
 ## Notes
