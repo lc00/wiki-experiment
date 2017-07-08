@@ -31,3 +31,7 @@
 * [UNIX Loops](UNIX-Loops)
 * [UNIX Conditionals](UNIX-Conditionals)
 * [UNIX Text Tools](Unix-Text-Tools)
+
+## Infrastructure
+
+* [Design vs. Infrastructure](Design-Vs-Infrastructure) - Talk from Boulder Startup Week
