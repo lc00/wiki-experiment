@@ -8,19 +8,19 @@
 
 **Request Headers**
 
-`-H “Authorization: OAuth 232dsfdsd2”`  
-`-H “OtherHeader: Value”`
+`-H "Authorization: OAuth 232dsfdsd2"`  
+`-H "OtherHeader: Value"`
 
 **Data**
 
-`-d ‘{“keyName”: “valueHere”}’`  
+`-d '{"keyName": "valueHere"}'`  
 `-d @file-name.json`  
-`-d “keyName=value”`  
+`-d "keyName=value"`  
 
 **Multipart / Files**
 
-`-F “keyName=value”`  
-`-F “publicKey=@key_name.rsa;type=text/plain”`
+`-F "keyName=value"`  
+`-F "publicKey=@key_name.rsa;type=text/plain"`
 
 **URL**
 
