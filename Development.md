@@ -8,6 +8,7 @@
 
 * [Liquid Fire](Liquid-Fire)
 * [Ember Addons](Ember-Addons)
+* [Data Adapters](Ember-Data-Adapters) - EmberConf Workshop by Igor Terzic
 
 ## HTML
 
