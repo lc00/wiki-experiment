@@ -1,3 +1,7 @@
+## JavaScript
+
+* [[ES2015]]
+
 ## Ember
 
 * [Liquid Fire](Liquid-Fire)
