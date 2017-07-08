@@ -233,7 +233,7 @@ class theSubClass(){
 ```js
 function NewTrait(oldObject){
   const newObject = Object.create(oldObject);
-  newObject.newTrait = “hey”;
+  newObject.newTrait = "hey";
   return newObject;
 }
 ```
