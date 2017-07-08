@@ -1,4 +1,3 @@
-* [[Software]]
-* [[Classes]]
-* [[Books]]
+* [[Development]]
+* [[Business]]
 * [[Education]]

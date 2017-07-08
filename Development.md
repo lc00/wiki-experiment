@@ -1,6 +1,7 @@
 ## JavaScript
 
 * [[ES2015]]
+* [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
 
 ## Ember
 
