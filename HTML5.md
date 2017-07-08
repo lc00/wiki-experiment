@@ -22,6 +22,9 @@
 * `ul`
 * `ol`
 * `li`
+* `dl` - Description list, key-value pairs
+* `dt` - Term
+* `dd` - Description
 
 ## Application
 
@@ -91,10 +94,6 @@
 * `colgroup` - Group of columns
 * `col` - Column that should have a consistent style
 * `tfoot` - Rows defining the summary of columns
-
-* `dl` - Description list, key-value pairs
-* `dt` - Term
-* `dd` - Description
 
 ## Form Helpers
 
