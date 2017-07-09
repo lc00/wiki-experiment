@@ -18,3 +18,4 @@
 * [[Responsive Design Workflow]] - Hay
 * [[The Best Interface Is No Interface]] - Golden Krishna
 * [[The Book of GIMP]]
+* [[Visual Poetry]]
