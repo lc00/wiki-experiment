@@ -17,3 +17,4 @@
 * [[Mobile Usability]] - Jakob Nielsen
 * [[Responsive Design Workflow]] - Hay
 * [[The Best Interface Is No Interface]] - Golden Krishna
+* [[The Book of GIMP]]
