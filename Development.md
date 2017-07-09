@@ -38,3 +38,16 @@
 
 * [Design vs. Infrastructure](Design-Vs-Infrastructure) - Talk from Boulder Startup Week
 * [[Jekyll]]
+
+## To Finish
+
+* [[Functional JavaScript]] - Fogus
+* [[Think Like A Programmer]] - Anton Spraul
+* [[How Software Works]] - Anton Spraul
+* [[Developer Testing]] - Alexander Tarlinder
+* [[Joel On Software]] - Joel Spolsky
+* [[Data Structures and Algorithms with JavaScript]]
+* [[HTML5 Hacks]] - Cravens & Burtoft
+* [[The Official Ubuntu Server Book]]
+* [[TDD By Example]]
+
