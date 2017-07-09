@@ -1,3 +1,5 @@
 * [[Development]]
 * [[Business]]
 * [[Education]]
+* [[Economics]]
+* [[Design]]
