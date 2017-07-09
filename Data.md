@@ -1,3 +1,7 @@
+## Statistics
+
+* [[Business Statistics]]
+
 ## To Finish
 
 * [[The Truthful Art]]
