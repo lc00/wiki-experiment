@@ -11,6 +11,12 @@
     * Arrows to scroll
     * `W` to write to a config file
 
+## Setting up remote access on a server
+
+* Generate an SSH key on the local computer
+* Make sure there's an `~/.ssh` folder in the remote computer with `install -d -m 700 ~/.ssh`
+* Copy your public key to the remote server's `.ssh/authorized_keys` folder with `cat ~/.ssh/id_rsa.pub | ssh <USERNAME>@<IP-ADDRESS> 'cat >> ~/.ssh/authorized_keys'`
+
 ## Mounting a device
 
 ```bash

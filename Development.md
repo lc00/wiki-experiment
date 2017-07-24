@@ -42,6 +42,8 @@
 * [[Nginx]]
 * [[Raspberry Pi]]
 * [[System Administration]]
+* [[Route 53]]
+* [[S3]]
 
 ## To Finish
 
