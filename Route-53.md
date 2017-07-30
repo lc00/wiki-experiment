@@ -24,6 +24,7 @@
         192.30.252.154
     ```
 * Add the URL to the Github repo in "Settings" (it adds a `CNAME` file with the apex domain name to the repo)
+* No SSL (http only)
 
 ## Redirecting and masking the URL with Firebase Deploy
 
@@ -35,3 +36,4 @@
         151.101.65.195
     ```
 * Use "Connect Custom Domain" on Firebase the console and follow the instructions.
+* Google will issue an SSL certificate within 24 hours (https)
