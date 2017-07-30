@@ -9,7 +9,8 @@
 * Make a new Hosting Zone- this is a collection of DNS records related to one domain
 * Copy the generated NS URLs to the Name Server entries for the domain
 * Create a new S3 bucket
-    * Make the name identical to the URL, including subdomain (you'll need one for "apex" and www)
+    * Make the name identical to the URL, including subdomain 
+    * You'll need one for the "apex" and www if you want to keep the www in the address, otherwise use a CNAME record for www
     * Set the property of the bucket to be a static host, and redirect to the URL the site lives at
 * Add an A Record to the Hosting Zone, set the alias to the bucket you set up
 
