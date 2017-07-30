@@ -23,3 +23,14 @@
         192.30.252.154
     ```
 * Add the URL to the Github repo in "Settings" (it adds a `CNAME` file with the apex domain name to the repo)
+
+## Redirecting and masking the URL with Firebase Deploy
+
+* Make a new Hosting Zone- this is a collection of DNS records related to one domain
+* Copy the generated NS URLs to the Name Server entries for the domain
+* Add an A Record to the Hosting Zone, set the values to Firebase's name servers:
+    ```
+        151.101.1.195 
+        151.101.65.195
+    ```
+* Use "Connect Custom Domain" on Firebase the console and follow the instructions.
