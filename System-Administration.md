@@ -24,3 +24,12 @@ mkdir /mnt/sd # Make a folder to mount to
 sudo mount /dev/mmcblk0p1 /mnt/sd # Mount the device to the folder
 sudo umount /mnt/sd # Unmount the folder
 ```
+
+## DNS Lookup
+
+* To look up all DNS records, use `dig -t ANY example.com +noall +answer`
+* You can set default options in a `~/.digrc` file
+
+## Reverse-DNS Lookup
+
+To see what URL owns an IP, use `dig -x 127.0.0.1`
