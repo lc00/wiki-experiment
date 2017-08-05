@@ -4,6 +4,10 @@
 * [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
 * [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
 
+## Express
+
+* [[Passport]]
+
 ## Ember
 
 * [Liquid Fire](Liquid-Fire)
@@ -33,6 +37,10 @@
 * [UNIX Loops](UNIX-Loops)
 * [UNIX Conditionals](UNIX-Conditionals)
 * [UNIX Text Tools](Unix-Text-Tools)
+
+## Vim
+
+* [[Vim-Fugitive]]
 
 ## Infrastructure
 
