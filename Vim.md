@@ -47,7 +47,7 @@
 * `gg` - Beginning of file
 * `G` - End of file
 * `G<number>` - Go to line
-* ```` - Go to your last edit
+* ```````` - Go to your last edit
 * `''` - Go to the beginning of the line your last edit was on
 * `+` - First character of next line
 * `-` - First character of previous line
