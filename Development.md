@@ -40,6 +40,7 @@
 
 ## Vim
 
+* [[Vim]]
 * [[Vim-Fugitive]]
 
 ## Infrastructure
