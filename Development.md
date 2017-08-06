@@ -1,11 +1,15 @@
 ## JavaScript
 
+* [[JavaScript]]
+* [[Node.js]]
 * [[ES2015]]
 * [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
 * [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
+* [[WebSockets]]
 
 ## Express
 
+* [[Express]]
 * [[Passport]]
 
 ## Ember
@@ -57,6 +61,8 @@
 ## Databases
 
 * [[Mongo]]
+* [[Mongoose]]
+* [[Redis]]
 
 ## To Finish
 
@@ -69,14 +75,11 @@
 * [[HTML5 Hacks]] - Cravens & Burtoft
 * [[The Official Ubuntu Server Book]]
 * [[TDD By Example]]
-* [[Mongoose]]
 * [[Ember Run Loop]]
 * [[CSS3]]
-* [[JavaScript]]
 * [[Functional Programming]]
 * [[How Linux Works]]
 * [[Ubuntu]]
-* [[Node.js]]
 * [[StrongLoop Node.js Workshop]]
 * [[Linux]]
 * [[EmberConf Notes]]
