@@ -20,6 +20,8 @@
 ## Communication
 
 * `wall "message"` - Send a message to all logged in users ("write all")
+* `write username "message"` - Send a message to a specific user.
+* `talk username` - Start a chat with a user. Can be remote. Terminated by Ctrl-D.
 
 ## Mounting a device
 

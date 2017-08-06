@@ -1,6 +1,7 @@
 ## Strategy
 
 * [[Innovation]]
+* [[Reorgs]]
 
 ## Management
 
