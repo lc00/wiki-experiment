@@ -64,7 +64,7 @@
 
 * `m <marker name>` - Set a named marker
 * `' <marker name>` - Jump to beginning of marker’s name
-* ``` <marker name>`` - Jump to marker
+* `` `<marker name>`` - Jump to marker
 
 ## Screen Commands
 
