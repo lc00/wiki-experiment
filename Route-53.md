@@ -3,6 +3,7 @@
 * A Record - Maps a URL to an IP
 * CNAME - "Canonical name", Maps one URL to another URL (never an IP)
 * NS - "Name servers", the addresses that will resolve the URL
+* MX - "Mail Exchange", IP that will handle mail requests
 
 ## Redirecting a URL to another URL
 

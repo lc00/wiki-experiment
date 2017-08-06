@@ -17,6 +17,10 @@
 * Make sure there's an `~/.ssh` folder in the remote computer with `install -d -m 700 ~/.ssh`
 * Copy your public key to the remote server's `.ssh/authorized_keys` folder with `cat ~/.ssh/id_rsa.pub | ssh <USERNAME>@<IP-ADDRESS> 'cat >> ~/.ssh/authorized_keys'`
 
+## Communication
+
+* `wall "message"` - Send a message to all logged in users ("write all")
+
 ## Mounting a device
 
 ```bash
