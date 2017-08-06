@@ -76,7 +76,6 @@
 * [[Node.js]]
 * [[StrongLoop Node.js Workshop]]
 * [[Linux]]
-* [[vim]]
 * [[EmberConf Notes]]
 * [[Ember Testing]]
 * [[Testing]]
