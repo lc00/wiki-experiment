@@ -54,6 +54,10 @@
 * [[Route 53]]
 * [[S3]]
 
+## Databases
+
+* [[Mongo]]
+
 ## To Finish
 
 * [[Functional JavaScript]] - Fogus
@@ -66,7 +70,6 @@
 * [[The Official Ubuntu Server Book]]
 * [[TDD By Example]]
 * [[Mongoose]]
-* [[Mongo]]
 * [[Ember Run Loop]]
 * [[CSS3]]
 * [[JavaScript]]
