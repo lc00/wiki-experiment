@@ -20,8 +20,8 @@
 ## Communication
 
 * `wall "message"` - Send a message to all logged in users ("write all")
-* `write username "message"` - Send a message to a specific user.
-* `talk username` - Start a chat with a user. Can be remote. Terminated by Ctrl-D.
+* `write username [tty]` - Send messages to a specific user. Find out your tty with `tty`. Terminated by Ctrl-D.
+* `talk username` - Start a chat with a user. Can be remote. 
 
 ## Mounting a device
 
