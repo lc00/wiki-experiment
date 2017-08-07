@@ -7,7 +7,7 @@
 * ` ` ` -  Next tab
 * `~` -  Previous tab
 
-### Selection
+## Selection
 
 * `x` - Select
 * `* a` - Select all
@@ -15,7 +15,7 @@
 * `* r` - Select read
 * `* u` - Select unread
 
-### Actions
+## Actions
 
 * `e` - Archive
 * `r` - Reply
@@ -23,3 +23,8 @@
 * `Shift + t` - Add to tasks
 * `c` - Compose
 * `Ctrl + Enter` - Send
+
+## Scrolling
+
+* `Spacebar` - Scroll down
+* `Shift + Spacebar` - Scroll up
