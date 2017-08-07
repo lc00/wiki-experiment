@@ -19,7 +19,7 @@
 * `ls` - List (`-a` to include hidden files, `-l` for long form, `-R` for recursive)
 * `mv` - Move or rename (`-i` for interactive)
 * `rmdir` - Remove directorys (can take multiple)
-* find <directory> "<search string>"
+* `find <directory> "<search string>"`
     * `-print` (display results)
     * `-exec compress {} \;` (compress the file when you find it)
     * `-ok rm {} \;` (delete the file when you find it)
@@ -107,8 +107,8 @@
 
 ## Tips
 
-* Multiple commands can be separated with ;
-    * && is the same as ;, but only runs if the first one succeeds
+* Multiple commands can be separated with `;`
+    * `&&` is the same as `;`, but only runs if the first one succeeds
 * Find out what shell you’re using with echo $SHELL
 * `*` is a general wildcard, `?` is a single-character wildcard
 * History is in `~/.bash_history` - good for stubbing out scripts
