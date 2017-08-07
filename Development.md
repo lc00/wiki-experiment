@@ -12,6 +12,10 @@
 * [[Express]]
 * [[Passport]]
 
+## Testing
+
+* [[Testing]]
+
 ## Ember
 
 * [Liquid Fire](Liquid-Fire)
@@ -88,5 +92,4 @@
 * [[Linux]]
 * [[EmberConf Notes]]
 * [[Ember Testing]]
-* [[Testing]]
 * [[Bower]]
