@@ -6,6 +6,7 @@
 * [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
 * [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
 * [[WebSockets]]
+* [[Bower]]
 
 ## Express
 
@@ -92,4 +93,3 @@
 * [[Linux]]
 * [[EmberConf Notes]]
 * [[Ember Testing]]
-* [[Bower]]
