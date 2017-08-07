@@ -6,6 +6,8 @@
 ## Management
 
 * [4 Disciplines of Execution](4-Disciplines-Of-Execution) - Sean Covey
+* [[Burnout]]
+* [[Performance-Reviews]]
 
 ## Leadership
 
