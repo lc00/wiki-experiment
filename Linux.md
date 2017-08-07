@@ -16,6 +16,6 @@
 ## Linux Services
 
 * A daemon is background process
-* Daemons are listed in /etc/init.d
-* Start/stop/restart them with “sudo service <name> <command>”
-* Logs are in /var/log and /var/adm
+* Daemons are listed in `/etc/init.d`
+* Start/stop/restart them with `sudo service <name> <command>`
+* Logs are in `/var/log` and `/var/adm`
