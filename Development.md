@@ -40,9 +40,14 @@
 
 ## UNIX
 
+* [[Linux]]
+* [[UNIX]]
 * [[tmux]]
 * [[curl]]
 * [[sed]]
+* [[ftp]]
+* [[regex]]
+* [[Shell Scripting]]
 * [UNIX Loops](UNIX-Loops)
 * [UNIX Conditionals](UNIX-Conditionals)
 * [UNIX Text Tools](Unix-Text-Tools)
@@ -90,6 +95,5 @@
 * [[How Linux Works]]
 * [[Ubuntu]]
 * [[StrongLoop Node.js Workshop]]
-* [[Linux]]
 * [[EmberConf Notes]]
 * [[Ember Testing]]
