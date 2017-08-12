@@ -1,3 +1,7 @@
+## Typography
+
+* [[Typography]]
+
 ## To Finish
 
 * [[Web Style Guide]] - Patrick Lynch & Sarah Horton
