@@ -16,6 +16,18 @@ Adapters have 7 methods to override:
 * `ajaxSuccess()` / `ajaxError()` - Do something with response metadata
 * `findHasMany` / `findBelongsTo` - Make a `GET` request to a set of unloaded records from links
 
+```js
+buildURL: function(model, id, snapshot, requestType, query) {
+    var url = this._super();
+
+    if (url.toString().contains("conversations")){
+        url = url.replace("conversations", "me/convos");
+    }
+
+    return url;
+}
+```
+
 ## Adapter Properties
 
 * `namespace: "api/1"` - prepended to all calls
@@ -46,6 +58,31 @@ Format the server call and response. Have 3 main methods:
 
 Use transforms for strings, numbers, dates.
 
+## Common Serializer Response Overrides
+
+* `normalizeResponse()`
+* `normalizeFindAllResponse()`
+* `normalizeFindRecordResponse()`
+* `normalizeFindManyResponse()`
+* `normalizeFindBelongsToResponse()`
+* `normalizeFindHasManyResponse()`
+* `normalizeQueryResponse()`
+* `normalizeQueryRecordResponse()`
+* `normalizeCreateRecordResponse()`
+* `normalizeDeleteRecordResponse()`
+* `normalizeUpdateRecordResponse()`
+* `normalizeSaveResponse()`
+* `normalizeSingleResponse()`
+* `normalizeArrayResponse()`
+
+Each one is invoked on it's action and has the same interface: `(store, primaryModelClass, payload, id, requestType) => JSONAPIDocument`
+
+Also:
+
+* `serializeAttribute()`
+* `serializeBelongsTo()`
+* `serializeHasMany()`
+
 ## Snapshots
 
 ```
@@ -61,6 +98,7 @@ Underlying record is in snapshot.record
 
 ## Notes
 
+* Adapters & serializers can be per application or model
 * Don’t switch APIs, switch adapters
 * Use HTTP Mocks instead of fixtures
 * Model shouldn’t care how it’s represented on the server
