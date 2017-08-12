@@ -11,7 +11,7 @@
 
 ### Sans Serif- Stability, objective, clean, modern
 
-* [Helvetica](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Helvetica_Neue_typeface_weights.svg/220px-Helvetica_Neue_typeface_weights.svg.png)
+* ![Helvetica](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Helvetica_Neue_typeface_weights.svg/220px-Helvetica_Neue_typeface_weights.svg.png)
 * Franklin Gothic
 * Calibri
 * Myriad Italic
