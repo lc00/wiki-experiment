@@ -55,7 +55,8 @@
 ## Vim
 
 * [[Vim]]
-* [[Vim-Fugitive]]
+* [[Vim Fugitive]]
+* [[Vim Surround]]
 
 ## Infrastructure
 
