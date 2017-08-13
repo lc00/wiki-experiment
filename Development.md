@@ -45,6 +45,7 @@
 * [[tmux]]
 * [[curl]]
 * [[sed]]
+* [[awk]]
 * [[ftp]]
 * [[regex]]
 * [[Shell Scripting]]
