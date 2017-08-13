@@ -23,10 +23,11 @@
 * [Ember Addons](Ember-Addons)
 * [Data Adapters](Ember-Data-Adapters) - EmberConf Workshop by Igor Terzic
 
-## HTML
+## Web Markup
 
-* [[SVG]]
 * [[HTML5]]
+* [[CSS3]]
+* [[SVG]]
 
 ## Text
 
@@ -92,7 +93,6 @@
 * [[The Official Ubuntu Server Book]]
 * [[TDD By Example]]
 * [[Ember Run Loop]]
-* [[CSS3]]
 * [[Functional Programming]]
 * [[How Linux Works]]
 * [[Ubuntu]]
