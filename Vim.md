@@ -1,6 +1,7 @@
 ## Modes
 
 * `i`, `a` - Insert mode
+* `s` - Substitutes and inserts
 * `<esc>`, `<ctrl> + [` - Normal mode
 * `Q` - Go to ex mode
 * `visual` - To vim from ex mode`
