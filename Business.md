@@ -13,6 +13,7 @@
 
 * [Start With Why](Start-With-Why) - Simon Sinek
 * [Leading Others](Leading-Others) - The University of Colorado
+* [[Authentic Leadership]] - The University of Colorado
 
 ## To Finish
 
