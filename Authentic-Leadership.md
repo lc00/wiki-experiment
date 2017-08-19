@@ -1,3 +1,12 @@
+## Goals for Class
+
+* Increase your ability to:
+    * Develop awareness of the inner place from which you operate and modify it
+    * Enhance your personal power
+    * Influence others
+    * Create the results that matter the most to you
+    * Learn from your own experience. If you don't experience the change, it won't happen.
+
 * "Safety first" - Allow yourself and others to take risks with a safety net
     * Fear <-- High Performance --> Boredom
     * People need challenge, support, and recognition
@@ -28,6 +37,20 @@
 * Be more loyal to your dreams than your fears.
 * Yes/no questions are combative.
 * Follow what you feel. Where are you being pulled?
+* Management is working with change, leadership is working with complexity.
+* Change results from dissatisfaction
+* Doorbell moments indicate that autopilot isn't good enough.
+* It's not your job to compare yourself.
+* Find the wholeness that's already within you.
+* Increase your self-awareness and reflect.
+* Strive for wholeness over perfection ("Self-improvement"/doubt/criticism vs. self-compassion/love)
+
+Types of power:
+
+1. Personal power
+1. Relational power
+1. Knowledge power
+1. Positional power
 
 > "Managing for finacial results, then, begins with the leader managing his inner life so that the right emotional and behavioral chain reaction occurs."
 
@@ -72,20 +95,28 @@ Your self-worth is the determinant of your well-being. If you get yours from bei
 Serves these functions:
 
 * Executive
-* Sentry
+* Sentry (Uh oh! Creates shadow. Can you get it to put down the gun?)
 * Mediator
 * Maintains your patterns
-* Sense of self
+* Sense of self (Is self-worth found through being special or above-average? Uh oh! Unwinnable. Those with a deep sense of worthiness are vulnerable and authentic.)
 * Symbol
 
-The difference between a level 4 and a level 5 manager is a mature ego.
+The difference between a level 4 and a level 5 manager is a mature ego. Ego grows from dependence to independence to interdependence.
 
-| Bad Ego | Good Ego |
-| ------- | -------- |
-| Knower / judger | Observer / learner |
-| Defensive routines | Defects are treasures |
-| Fears being wrong | Acknowledges ignorance |
-| | Self-esteem is rooted in the long-term |
+| Bad Ego            | Good Ego               |
+| ------------------ | ---------------------- |
+| Knower / judger    | Observer / learner     |
+| Defensive routines | Defects are treasures  |
+| Fears being wrong  | Acknowledges ignorance |
+|                    | Self-esteem is rooted in the long-term |
+
+Do you actually have strength, or do you manipulate others' perception of you? A strong sense of self prevents you from being manipulated.
+
+### Shadows
+
+Your shadow is things that you hide about yourself. Your light shadow is the goodness in you that you hide. Your dark shadow is the things you secretly hate about yourself. Crusaders are often trying to ferret out their dark shadow in others. Shadows are native to humans, but they are not allowed by the social structure. We push the things that make us whole (good or bad) into the shadow.
+
+Are you _never_ a negative thing? You might benefit from having a little more greed, rudeness, lust, etc. Integrate your shadow- accept who you are instead of hiding it.
 
 ## Culture
 
@@ -126,7 +157,7 @@ Culture is an organizational glue. It's a primary source of conflict in relation
 
 A plan is just a tool, not a commitment. A change isn't complete until it becomes a part of your self-concept (for yourself and how others view you).
 
-Learning happens through failure- defensive reasoning blocks learning, and criticizing the outside protects your ego.
+Learning happens through failure- defensive reasoning blocks learning, and criticizing the outside protects your ego. You learn best when you're feeling positive emotions.
 
 Your ego's fear-based, defensive goals are:
 
@@ -150,11 +181,28 @@ Your ego's fear-based, defensive goals are:
 1. *Self* - Did you bring your best self? Did you help the other person bring their best selves?
     * Victim stance hurts this, generative stance improves it.
 
+In effective communication, task/relationship/self all go up. It's grounded in honesty, win-win-win, and respect.  You need to set aside your habit of judgment.
+
+Listening requires:
+
+* Downloading
+* Factual listening (Open mind vs. Judgment)
+* Empathic listening (Open heart vs. Cynicism)
+* Generative listening (Open will vs. Fear)
+
 ## Conflict Management
 
-Effective crisis and conflict management can lead to a stronger relationship than before.
+Effective crisis and conflict management can lead to a stronger relationship than before. If you want influence, you have to willing to be influenced. You can increase the liklihood of success by enlarging the arc of possibility by creating new thoughts and reducing fear-based competition.
 
-An "honorable complaint" can improve the task, relationship and the self.
+Conflicts require:
+
+* A disagreement
+* Scarcity (either operational or emotional)
+* Disputed "property rights"
+
+An "honorable complaint" can improve the task, relationship and the self. Don't let your partner cave in.
+
+Asking for an honorable apology:
 
 * State the breakdown
 * Get their story
@@ -162,9 +210,41 @@ An "honorable complaint" can improve the task, relationship and the self.
 * Request restitution
 * Design how to work better in the future
 
+When you sense a conflict:
+
+1. Circuit break (3 deep breaths). Decide:
+    * What do I want for me (what benefit do I hope to get)?
+    * What do I want for you?
+    * What do I want for us?
+1. Move from your differing position (reactive) to your shared interest (core truth). Make an invitation based on core truth.
+    * Public truth (what people think is acceptable)-> Reactive truth (what they actually think right now) -> Core truth (your true belief)
+1. Be inquisitive and search for a win/win
+    * Hold your beliefs as opinions, temporarily
+    * Make your thinking visible
+    * Inquire and advocate
+        * The facts
+        * Your opinions
+        * Your reasoning
+        * The standard you hope will result
+        * The implications of that
+
+High inquiry and high advocacy result in a win/win. The consequences of win/lose negotiation are fight or flight:
+
+Fight
+
+* Controlling
+* Labeling
+* Attacking
+
+Flight
+
+* Masking
+* Avoidance
+* Withdrawing
+
 ## Motivation
 
-* "Should" is a doorbell word.
+"Should" is a doorbell word. Work that you don't want to do has to align with a value you have. It's impossible to motivate someone else- you have to align their values with your goals. Extrinsic motivation narrows thinking and dulls creativity.
 
 ## Change
 
@@ -179,6 +259,16 @@ Fear-based behavior is likely to create the situation you most fear.
 1. How would you act if you didn't believe that?
 1. Is there something that could be as true or truer?
 
+(Dissatisfaction w/ perception of the present) + (desire for imagined benefits) - resistance = energy available for change. Don't increase motivation, reduce resistance. Overpowering resistance fights yourself. To lower resistance, don't change your thought (you can't), but change your filter. Look for competing commitments, and challenge the underlying assumptions. You can't push someone forward until they've let go. All change involves letting go and loss. Coping with change means accepting your feelings, managing your stress, and taking the generative stance.
+
+Sustaining a change requires an ecosystem of support.
+
+Organizational change requires:
+
+* Initiation (urgency, building a coalition, creating a vision, coming up with a strategy, communicating it)
+* Engagement (creating a learning process, empowering others, looking for short-term wins)
+* Integration (consolidating improvements, institutionalizing the change)
+
 ### Moments of Choice
 
 Noticing moments of choice is exhausting - it's a "new program to run." It can impact your ability to make other decisions. It can be frustrating, which can reinforce the old behavior.
@@ -191,7 +281,13 @@ If someone can't say "no", a request is really a command.
 
 ## Leadership
 
-Leadership is lifting people's vision, raising their performance, and building their personality-- and then makingn it last in your absence. Leadership is the capacity to shift and focus collective attention. Leadership is the power to co-create the future. Demonstrate your character, competence, influence. You need people to take initiative. Leaders project their shadow or their light. Lack of inner control creates danger. Extroverts and manipulators of the external world sometimes lack internal awareness.
+Leadership is lifting people's vision, raising their performance, and building their personality-- and then making it last in your absence. Leadership lasts when you leave. Leadership is the capacity to shift and focus collective attention. Leadership is the power to co-create the future. It makes people think "we did it!" Demonstrate your character, competence, influence. You need people to take initiative. Leaders project their shadow or their light. Lack of inner control creates danger. Extroverts and manipulators of the external world sometimes lack internal awareness. Quality and leadership are always in the important/not urgent quadrant. Your personal competencies are your leadership blindspot. Leadership is a lifelong journey. Lead from your strengths, don't worry so much about your weaknesses. Daily leadership: Perception + vision + choice + core values + actions + external factors = results.
+
+Good leadership includes:
+
+* Personal competencies (generativity, a self-referenced ego, self-compassion)
+* Interpersonal competencies (communication, delegation)
+* Business competencies (vision, resource management)
 
 | Myth      | Reality                             |
 | --------- | ----------------------------------- |
@@ -238,7 +334,9 @@ Swallowing a negative emotion concentrates it. Don't invalidate emotions- they a
 
 Facts ---> Thoughts (Beliefs, could be wrong) ---> Emotions (Never wrong)
 
-Choose to build a new neural pathway. What's another possible reality? Then replace the original thought with the new one.
+Choose to build a new neural pathway. What's another possible reality? Then replace the original thought with the new one. Beliefs are filters for new facts.
+
+Get bigger than emotions- go from "I am angry" to "I am feeling angry."
 
 What's my current story?
 
@@ -279,4 +377,18 @@ Emotions are your body's calls to action.
 
 ## Personal Mastery
 
-Clarify what's important to you.
+Clarify what's important to you. Your core identity is your mission + your core values. Listen to your emotions. Listening (non-control) isn't thinking (control). You may be listening to God's voice, a higher self, your inner being, or your soul.
+
+Your personal vision is a desired state at particular point in time. It's a result, not a process. It should have success criteria. It's not what you _don't_ want. What does your life want to do with you? Your peak experiences (highs and lows) are reflections of your values. Naming the thing you want gives you "eyes" to see the solution.
+
+Your purpose or mission is your reason for being. Detect it, don't invent it. Focus on the outcome, not the gap between here and there.
+
+* When do you feel like you're "on purpose"?
+* What do you live for?
+* When are you most alive?
+* What makes you say "Yes!" even when you've done it for the 1000th time?
+* What frustrates you?
+
+Acknowledge and accept your demons, with love. They're a part of you too.
+
+Where do you invest your energy? The important/not-urgent quadrant is about personal mastery.
