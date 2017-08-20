@@ -83,6 +83,10 @@
 * [[Mongoose]]
 * [[Redis]]
 
+## Computer Science
+
+* [[Data Structures]]
+
 ## Productivity
 
 * [[Gmail]]
@@ -91,17 +95,16 @@
 
 * [[Functional JavaScript]] - Fogus
 * [[Think Like A Programmer]] - Anton Spraul
-* [[How Software Works]] - Anton Spraul
 * [[Developer Testing]] - Alexander Tarlinder
 * [[Joel On Software]] - Joel Spolsky
 * [[Data Structures and Algorithms with JavaScript]]
 * [[HTML5 Hacks]] - Cravens & Burtoft
 * [[The Official Ubuntu Server Book]]
 * [[TDD By Example]]
+* [[ATDD By Example]]
 * [[Ember Run Loop]]
 * [[Functional Programming]]
 * [[How Linux Works]]
 * [[Ubuntu]]
-* [[StrongLoop Node.js Workshop]]
 * [[EmberConf Notes]]
 * [[Ember Testing]]
