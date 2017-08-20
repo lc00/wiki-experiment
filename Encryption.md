@@ -85,6 +85,36 @@ F | F A B C D E
 * Different 16-byte blocks are block chained
 * AES is secure because the value of any individual byte is influenced by the values of every other byte (this is called diffusion), and blockchaining further amplifies the diffusion across all the data
 
+## RSA Encryption
+
+* Public-key Encryption
+* Only deals with transmission one way
+* Creating a public-key
+    * Pick two prime numbers and multiply them together to get a prime-product
+    * Calculate the totient (# of numbers that are less than the prime-product and coprime with the prime-product). This is normally very difficult, but there's a shortcut to calculating totients with primes: Subtract 1 from each prime before multiplying
+    * Pick a number that is greater than 1, less than the totient, coprime with the totient. This is the public key.
+    * There is exactly one number that you can use to find the original primes- this is the private key.
+* Encrypting data
+    * Raise the data to encrypt to the power of the public key
+    * Divide that number by the prime-product
+    * The remainder is the ciphertext
+* Decrypting data
+    * Raise the ciphertext to the power of the private key
+    * Divide this number by the prime-product to get the original data
+
+### Performance Considerations
+
+* Big keys, doesn't work well with large data
+* Much slower than AES- exponential math is harder than bitwise meth
+* Combine with AES- RSA lock an AES encrypted dataset
+
+### Authentication with RSA
+
+* Since a public key is open to anyone, you don't know who's sending you something
+* You can authenticate a message by encrypting something with a private key instead of the public key
+* You can send an authenticated message by wrapping a message you've encrypted with your private key
+* How do you know that the person sending you a message didn't have their identity compromised? Use an identity authority that verifies identities.
+
 ## Block chaining
 
 * To prevent frequency analysis, different blocks of identical plaintext bytes produce different ciphertexts
@@ -104,3 +134,28 @@ F | F A B C D E
 * Known Plaintext Attack
     * Needs plaintext A, ciphertext A, and ciphertext B that was encrypted in the same way
     * Makes it easy to find a transposition pattern
+
+## Public-Key Cryptography
+
+* Also known as asymmetric encryption
+* Core idea is that locks and keys are different. You can put someone else's lock on something you want to send them, and only they would be able to open it.
+* You encrypt plaintext with someone's public key, and they decrypt the ciphertext with their private key
+* Creating a coprime by combining two prime numbers is easy- finding out which prime numbers created a coprime is much more difficult (a trapdoor function)
+
+## Types of Functions
+
+### Invertible Functions
+
+An invertible function can reliably be reversed (celsius to farenheit). A one-way function can't be reliably reversed (combinations of coins and dollar amounts).
+
+### One-Way Functions
+
+Some functions are harder to do one way than another. Squaring is easier than finding a square-root.
+
+### Trapdoor Functions
+
+A trapdoor function is a one-way function that is easy to compute if a secret value is known.
+
+* A prime number has itself and one as factors (trivial factors)
+* A composite number has non-trivial numbers as factors
+* Two numbers are coprime if they share only trivial factors. If you multiply two prime numbers, you get a coprime number.
