@@ -75,6 +75,7 @@
 
 * [[Encryption]]
 * [[Hashing]]
+* [[HTTPS]]
 
 ## Databases
 
