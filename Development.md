@@ -74,6 +74,7 @@
 ## Security
 
 * [[Encryption]]
+* [[Hashing]]
 
 ## Databases
 
