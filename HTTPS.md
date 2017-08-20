@@ -1,0 +1,1 @@
+* When communicating over the internet, remember that you're not communicating directly. You have to go through your router, ISP, the person you're communicating with's ISP, and possibly a variety of third parties. If one of those systems is compromised, you are subject to a man-in-the-middle attack.
