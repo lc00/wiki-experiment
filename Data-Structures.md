@@ -284,11 +284,14 @@ A linked list a collection of nodes that have pointers to the next node in the l
 * Node - Item in a linked list
 * Head - Beginning of a linked list, often a special kind of node
 * End of a linked list - Last node points to `null`
+* Advance - Move forward `n` nodes
+* Back - Move backward `n` nodes
+* Show - Display the current node
 
 ### Used For:
 
 * Every situation where a 1-dimensional array works, except not when you need random access to elements
-* Insertion and deletion are really efficient
+* Insertion and deletion are really efficient, especially insertion 
 
 ### Implementation
 
@@ -341,11 +344,178 @@ class LinkedList {
 }
 ```
 
+### Doubly-Linked Lists
+
+A doubly linked list a collection of nodes that have pointers to the next and previous nodes in the list.
+
+* Possible to traverse backward
+* Removal is more efficient than singly linked list, but insertion is slower
+
+#### Implementation
+
+```js
+class Node {
+    constructor(element){
+        this.element = element;
+        this.next = null;
+        this.previous = null;
+    }
+}
+
+class LinkedList {
+    constructor(){
+        this.head = new Node("head");
+    }
+    find(item){
+        var currentNode = this.head;
+        while (currrentNode.element != item){
+            currentNode = currentNode.next;
+        }
+        return currentNode;
+    }
+    findLast(){
+        var currentNode = this.head;
+        while (!(currrentNode.next == null)){
+            currentNode = currentNode.next;
+        }
+        return currentNode;
+    }
+    insert(newElement, item){
+        var newNode = new Node(newElement);
+        var currentNode = this.find(item);
+        newNode.next = currentNode.next;
+        newNode.previous = currentNode;
+        currentNode.next = newNode;
+    }
+    remove(item){
+        var currentNode = this.find(item);
+        if (!(currentNode.next == null)){
+            currentNode.previous.next = currentNode.next;
+            currentNode.next.previous = currentNode.previous;
+            currentNode.next = null;
+            currentNode.previous = null;
+        }
+    }
+    display(){
+        var currentNode = this.head;
+        while (!(currentNode.next == null)){
+            print(currentNode.next.element);
+            currentNode = currentNode.next;
+        }
+    }
+    displayReverse(){
+        var currentNode = this.head;
+        currentNode = this.findLast();
+        while (!(currentNode.previous == null)){
+            print(currentNode.element);
+            currentNode = currentNode.previous;
+        }
+    }
+}
+```
+
+### Circularly Linked Lists
+
+A circularly linked list is a singularly linked list that's end points back to its head.
+
+* You can go backward through a list without needing to doubly link it
+
+#### Implementation
+
+```js
+class Node {
+    constructor(element){
+        this.element = element;
+        this.next = null;
+        this.previous = null;
+    }
+}
+
+class LinkedList {
+    constructor(){
+        this.head = new Node("head");
+        this.head.next = this.head;
+    }
+    find(item){
+        var currentNode = this.head;
+        while (currrentNode.element != item){
+            currentNode = currentNode.next;
+        }
+        return currentNode;
+    }
+    insert(newElement, item){
+        var newNode = new Node(newElement);
+        var currentNode = this.find(item);
+        newNode.next = currentNode.next;
+        newNode.previous = currentNode;
+        currentNode.next = newNode;
+    }
+    remove(item){
+        var currentNode = this.find(item);
+        if (!(currentNode.next == null)){
+            currentNode.previous.next = currentNode.next;
+            currentNode.next.previous = currentNode.previous;
+            currentNode.next = null;
+            currentNode.previous = null;
+        }
+    }
+    display(){
+        var currentNode = this.head;
+        while (!(currentNode.next == null) && !(currentNode.next.element == "head")){
+            print(currentNode.next.element);
+            currentNode = currentNode.next;
+        }
+    }
+}
+```
+
 ## Dictionaries
+
+Stores data as key-value pairs.
+
+### Components
+
+* Add - Adds a new key/value pair
+* Remove - Removes a key/value pair
+* Find - Finds a value based on its key
+* Show All - Show all keys and values
+* Count - Number of key/value pairs
+* Clear - Remove all pairs
+
+### Implementation
+
+```js
+class Dictionary {
+    constructor(){
+        this.dataStore = [];
+    }
+    add(key, value){
+        this.dataStore[key] = value;
+    }
+    find(key){
+        return this.dataStore[key];
+    }
+    remove(key){
+        delete this.dataStore[key];
+    }
+    showAll(){
+        for each (var key in Object.keys(this.dataStore)){
+            print(`${key} -> ${this.datastore[key]}`);
+        }
+    }
+}
+```
 
 ## Hashing
 
+### Used For
+
+* Very fast insertion, deletion, and retrieval
+* Bad at searching and sorting
+
 ## Sets
+
+Unique values.
 
 ## Binary Trees
 
