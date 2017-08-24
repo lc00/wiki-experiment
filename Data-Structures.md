@@ -506,18 +506,167 @@ class Dictionary {
 }
 ```
 
-## Hashing
+## Hash Table
+
+* Have a limited number of array members
+* Goal is to evenly distribute the keys between members of the array
+
+### Components
+
+* Sized array
+    * Needs to be prime and bigger than 100
+* Hashing function needs to account for collisions
+    * Horner's method sums the ASCII values of a string, but then multiplies them by a prime constant
+* Handling collisions:
+    * Separate Chaining- Initialize every position in the hash table with an empty array and push items into it. Have to store the unhashed key along with the data in order to find it.
+    * Linear Probing- When a collision is found, look for the next empty cell to store the data in. Space efficient. Works better when the array is large (array size is twice the size of the data to be stored). Works by storing keys and values separately, and when it doesn't find a match, it increments through the array until it finds a match.
 
 ### Used For
 
 * Very fast insertion, deletion, and retrieval
 * Bad at searching and sorting
 
+### Implementation
+
+```js
+class HashTable {
+    constructor(){
+        this.table = new Array(137);
+    }
+    hornerHash(string, array){
+        const PRIME_CONSTANT = 37;
+        var total = 0;
+        for (let i = 0; i < string.length; ++i){
+            total += (PRIME_CONSTANT * total) + string.charCodeAt(i);
+        }
+        return parseInt(total % array.length);
+    }
+    showDistribution(){
+        var n = 0;
+        for (let i = 0; i < this.table.length; ++i){
+            if (this.table[i] != undefined){
+                print(`${i}: this.table[i]`);
+            }
+        }
+    }
+    put(key, data){
+        var position = this.hornerHash(key, this.table);
+        this.table[position] = data;
+    }
+    get(key){
+        return this.table[this.hornerHash(key)];
+    }
+}
+```
+
 ## Sets
 
-Unique values.
+A collection of unordered, unique elements.
+
+### Components
+
+* Members - Items in the set
+* Empty Set - Set with no members
+* Equal sets - Contain same members
+* Subset - All members are contained in another set
+* Union - Combine two sets
+* Intersection - Keep members that exist in both sets
+* Difference - Keep members that don't exist in both sets
+
+### Implementation
+
+```js
+class Set {
+    constructor(){
+        this.dataStore = [];
+    }
+    add(data){
+        if (this.dataStore.indexOf(data) < 0){
+            this.dataStore.push(data);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    remove(data){
+        var postion = this.dataStore.indexOf(data);
+        if (position > -1){
+            this.dataStore.splice(position, 1);
+            return true;
+        } else {
+            return false;
+        }
+    }
+    size(){
+        return this.dataStore.length;
+    }
+    contains(data){
+        if (this.dataStore.indexOf(data) > -1){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    union(set){
+        var temporarySet = new Set();
+        for (let i = 0; i < this.dataStore.length; ++i){
+            temporarySet.add(this.dataStore[i]);
+        }
+        for (let i = 0; i < set.dataStore.length; ++i){
+            if (!temporarySet.contains(set.dataStore[i])){
+                temporarySet.dataStore.push(set.dataStore[i]);
+            }
+        }
+        return temporarySet;
+    }
+    intersect(set){
+        var temporarySet = new Set();
+        for (let i = 0; i < this.dataStore.length; ++i){
+            if (set.contains(this.dataStore[i])){
+                temporarySet.add(this.dataStore[i]);
+            }
+        }
+        return temporarySet;
+    }
+    subset(set){
+        if (this.size() > set.size()){
+            return false;
+        } else {
+            for each (let member in this.dataStore){
+                if (!set.contains(member)){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+    difference(set){
+        var temporarySet = new Set();
+        for (let i = 0; i < this.dataStore.length; ++i){
+            if (!set.contains(this.dataStore[i])){
+                temporarySet.add(this.dataStore[i]);
+            }
+        }
+        return temporarySet;
+    }
+    show(){
+        return this.dataStore;
+    }
+}
+```
 
 ## Binary Trees
+
+A non-linear data structure used to store data in a hierarchical manner. Binary trees have no more than 2 child nodes.
+
+### Components
+
+* Nodes- Item of data
+* Edges- Connect nodes
+
+### Used For:
+
+* Fast to search (unlike linked list), insert, and delete (unlike array)
 
 ## Binary Search Trees
 
