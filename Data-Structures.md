@@ -655,19 +655,268 @@ class Set {
 }
 ```
 
+## Trees
+
+A non-linear data structure used to store data in a hierarchical manner.
+
+### Components
+
+* Nodes- Item of data
+* Edges- Connect nodes
+* Root Node - Top of the tree
+* Parent Node - Preceding node
+* Child Node - Descendant node
+* Leaf Node - Node with no Children
+* Path - Following edges from one node to another
+* Tree traversal - Visiting all of the nodes in some order
+* Level - Root node is 0, all of its children are 1, etc.
+* Subtree - The tree defined by calling any node a root node
+* Key value - The value of a node
+
 ## Binary Trees
 
 A non-linear data structure used to store data in a hierarchical manner. Binary trees have no more than 2 child nodes.
 
 ### Components
 
-* Nodes- Item of data
-* Edges- Connect nodes
+* Left node / Right node - Different kinds of values get stored in each
 
 ### Used For:
 
 * Fast to search (unlike linked list), insert, and delete (unlike array)
 
-## Binary Search Trees
+### Implementation
+
+```js
+class Node {
+    constructor(data, left, right){
+        this.data = data;
+        this.left = left;
+        this.right = right;
+    }
+    show(){
+        return this.data;
+    }
+}
+```
+
+### Binary Search Trees
+
+#### Components
+
+* Left node / Right node - Lesser values in the left node, greater values in the right node
+* In-Order Traversal - Visit all of the nodes in the BST in ascending order of the node key values
+* Pre-Order Traversal - Visit the root node first, followed by the nodes in the sub-trees under the left child of the root node, followed by the nodes in the subtrees under the right child of the root node
+* Post-Order Traversal - Visit all of the children of the left subtree up to the root, then all of the children of the right subtree up to the root
+
+#### Implementation
+
+```js
+class Node {
+    constructor(data, left, right){
+        this.data = data;
+        this.left = left;
+        this.right = right;
+    }
+    show(){
+        return this.data;
+    }
+}
+```
+
+```js
+class BinarySearchTree {
+    constructor(){
+        this.root = null;
+    }
+    insert(data){
+        var node = new Node(data, null, null);
+        if (this.root == null){
+            this.root = node;
+        } else {
+            var currentNode = this.root;
+            var parentNode;
+            while (true){
+                parentNode = currentNode;
+                if (data < current.data){
+                    currentNode = currentNode.left;
+                    if (currentNode == null){
+                        parentNode.left = node;
+                        break;
+                    }
+                } else {
+                    currentNode = currentNode.right;
+                    if (currentNode == null){
+                        parentNode.right = node;
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    inOrder(node){
+        if (!(node == null)){
+            inOrder(node.left);
+            console.log(node.show());
+            inOrder(node.right);
+        }
+    }
+    preOrder(){
+        if (!(node == null)){
+            console.log(node.show());
+            inOrder(node.left);
+            inOrder(node.right);
+        }
+    }
+    postOrder(){
+        if (!(node == null)){
+            inOrder(node.left);
+            inOrder(node.right);
+            console.log(node.show());
+        }
+    }
+    getMinimum(){
+        // Travels down left edge
+        var currentNode = this.root;
+        while(!(current.left == null)){
+            currentNode = current.left;
+        }
+        return currentNode.data;
+    }
+    getMaximum(){
+        // Travels down right edge
+        var currentNode = this.root;
+        while(!(current.right == null)){
+            currentNode = current.right;
+        }
+        return currentNode.data;
+    }
+    find(data){
+        var currentNode = this.root;
+        while (currentNode.data != data){
+            if (data < currentNode.data){
+                currentNode = currentNode.left;
+            } else {
+                currentNode = currentNode.right;
+            }
+
+            if (currentNode == null){
+                return null;
+            }
+        }
+        return current;
+    }
+    remove(data){
+        removeNode(this.root, data);
+    }
+    removeNode(node, data){
+        if (node == null){
+            return null;
+        }
+        if (data == node.data){
+            // node has no children
+            if (node.left == null && node.right == null){
+                return null
+            }
+            // node has no left child
+            if (node.left == null) {
+                return node.right;
+            }
+            // node has no right child
+            if (node.right == null) {
+                return node.left;
+            }
+            // node has two children
+            var temporaryNode = getSmallest(node.right);
+            node.data = temporaryNode.data;
+            node.right = removeNode(node.right,  temporaryNode.data);
+            return node;
+        } else if (data < node.data){
+            node.left = removeNode(node.left, data);
+            return node;
+        } else {
+            node.right = removeNode(node.right, data);
+            return node;
+        }
+    }
+}
+```
 
 ## Graphs
+
+A network.
+
+* Looks kind of like a tree, but using nodes to represent vertices can be inefficient
+* Represent edge of graph with an "adjacency list"- have an array member for each vertex and store a list of all adjacent vertices
+    * Can also use an "adjacency matrix"- 2D array that indicates whether there's a connection between two vertices
+
+### Components
+
+* Vertex - Connection point on a graph. Can have weight (cost).
+* Edge - A pair of vertices
+* Directed Graph (Digraph)- Edges are ordered
+* Path - Sequences of vertices such that all verticies are connected by edges. The length of a path is the number of edges from the first vertex to the last vertex. A loop has a length of 0.
+* Cycle - ?
+* Strongly connected - There is a path from the first vertex to the second vertex, and vice-versa.
+
+### Used For:
+
+* Traffic flow
+* Any kind of transportation system
+* Computer networks
+
+### Implementation
+
+```js
+class Vertex {
+    constructor(label){
+        this.label = label;
+    }
+}
+```
+
+```js
+class Graph {
+    constructor(vertexCount){
+        this.vertexCount = vertexCount;
+        this.edges = 0;
+        this.adjacencyList = [];
+        this.marked = [];
+        for (let i = 0; i < this.vertexCount; ++i){
+            this.adjacencyList[i] = [];
+            this.adjacencyList[i].push("");
+            this.marked[i] = false;
+        }
+    }
+    addEdge(firstVertex, secondVertex){
+        this.adjacencyList[firstVertex].push(secondVertex);
+        this.adjacencyList[secondVertex].push(firstVertex);
+        this.edges++;
+    }
+    showGraph(){
+        for (let i = 0; i < this.vertexCount; ++i){
+            console.log(`${i} -> `);
+            for (let j; j < this.vertexCount; ++j){
+                if (this.adjacencyList[i][j]){
+                    console.log(`${this.adjacencyList[i][j]}`);
+                }
+            }
+        }
+    }
+    depthFirstSearch(vertex){
+        this.marked[vertex] = true;
+        for each (let nextVertex in this.adjacencyList[vertex]){
+            if (!this.marked[nextVertex]){
+                this.depthFirstSearch(nextVertex);
+            }
+        }
+    }
+    breadthFirstSearch(vertex){
+        var queue = [];
+        this.marked[vertex] = true;
+        queue.push(vertex);
+        //
+    }
+}
+
+```

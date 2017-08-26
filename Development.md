@@ -86,6 +86,8 @@
 ## Computer Science
 
 * [[Data Structures]]
+* [[Sorting Algorithms]]
+* [[Search Algorithms]]
 
 ## Productivity
 
