@@ -1,3 +1,5 @@
+* [Visualization](https://www.toptal.com/developers/sorting-algorithms/)
+
 ## Topological Sort
 
 * Used with graphs
