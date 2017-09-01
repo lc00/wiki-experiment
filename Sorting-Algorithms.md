@@ -121,6 +121,40 @@ function insertionSort(array){
 
 ## Shellsort
 
+* Named after Donald Shell
+* Based on insertion sort
+* Works by comparing distant elements rather than close ones, decreasing the distance each time
+* Finishes with a standard insertion sort
+* Gets efficiency by loosely pre-sorting the list
+
+### Components
+
+* Ciura's sequence (optimal average gaps) - [701, 301, 132, 57, 23, 10, 4, 1]
+* Sedgewick's algorithm - Dynamically determine the size of gaps
+
+### Implementation
+
+```js
+function shellSort(list){
+    // Initial gap value
+    var gap = 1;
+    while (gap < list.length / 3){
+        gap = 3 * gap + 1;
+    }
+
+    while (gap >= 1){
+        // Iterate from the gap to the max
+        for (let i = gap; i < list.length; i++){
+            // Compare the 
+            for (let j = i; j >= gap && list[j] < list[j - gap]; j -= gap){
+                swap(list, j, j - gap);
+            }
+        }
+        gap = (gap - 1) / 3;
+    }
+}
+```
+
 ## Mergesort
 
 ### Top-down
