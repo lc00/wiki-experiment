@@ -1,4 +1,6 @@
 * [Visualization](https://www.toptal.com/developers/sorting-algorithms/)
+* k Sorted - A partially sorted array, where each element is no more than `k` positions away from it's fully-sorted position
+* Stable algorithms preserve element order when the sort value is the same
 
 ## Topological Sort
 
@@ -10,6 +12,7 @@
 * Slow, but easy to implement. Generally only used for education.
 * May be practical if the elements are already almost sorted, but not better than insertion sort
 * Helps tell you how well a list is sorted
+* Stable
 
 ### Complexity
 
@@ -47,6 +50,7 @@ function bubbleSort(array){
 ## Selection Sort
 
 * Works by incrementally sorting the list from start to finish
+* Not stable
 
 ### Complexity
 
@@ -56,7 +60,7 @@ function bubbleSort(array){
 
 ### Space
 
-* `O(n^2)`
+* `O(1)`
 
 ### Implementation
 
@@ -91,6 +95,7 @@ function selectionSort(array){
 * Works by gradually building a sorted list, and figuring out where each successive element belongs in that list
 * Natural sort
 * Efficient for small data sets
+* Stable
 
 ### Complexity
 
@@ -102,7 +107,7 @@ function selectionSort(array){
 
 #### Space
 
-`O(n)`
+`O(1)`
 
 ### Implementation
 
@@ -124,13 +129,27 @@ function insertionSort(array){
 * Named after Donald Shell
 * Based on insertion sort
 * Works by comparing distant elements rather than close ones, decreasing the distance each time
-* Finishes with a standard insertion sort
+* Basically an insertion sort of every nth element
 * Gets efficiency by loosely pre-sorting the list
+* After each iteration, the list is k-sorted by the gap number
+* Not stable
 
 ### Components
 
 * Ciura's sequence (optimal average gaps) - [701, 301, 132, 57, 23, 10, 4, 1]
 * Sedgewick's algorithm - Dynamically determine the size of gaps
+
+### Complexity
+
+### Time
+
+* Heavily dependent on which gaps are used
+* Worst-case: `O(n^2)` with a bad gap sequence, `O(n log n)` with a good gap sequence
+* Best-case: `O(n log n)`
+
+### Space
+
+* `O(n)`
 
 ### Implementation
 
@@ -143,13 +162,17 @@ function shellSort(list){
     }
 
     while (gap >= 1){
-        // Iterate from the gap to the max
-        for (let i = gap; i < list.length; i++){
-            // Compare the 
-            for (let j = i; j >= gap && list[j] < list[j - gap]; j -= gap){
-                swap(list, j, j - gap);
+        // Iterate from the gap number (4) to end of the list (10)
+        for (let currentPosition = gap; position < list.length; i++){
+            // From the current position, recursively swap position/gap pairs until they aren't out of order
+            for (let j = currentPosition; j >= gap && list[j] < list[j - gap]; j -= gap){
+                // Swap
+                let temporary = list[j];
+                list[j] = list[j - gap];
+                list[j - gap] = temporary;
             }
         }
+        // Update gap value
         gap = (gap - 1) / 3;
     }
 }
@@ -157,8 +180,44 @@ function shellSort(list){
 
 ## Mergesort
 
+* Divide the list into sublists, starting with a size of 1, then Repeatedly merge sublists until there is only one left
+* In its worse case, it does significantly better than quicksort's average case
+* Highly parallelizable
+* Stable
+
+### Complexity
+
+#### Time
+
+* Best case: `O(n log n)`
+* Average case: `O(n log n)`
+* Worst case: `O(n log n)`
+
+#### Space
+
+* `O(1)` - In place
+* `O(n)` - Parallel
+
 ### Top-down
 
 ### Bottom-up
 
+## Heapsort
+
 ## Quicksort
+
+* Ideally runs 2-3 times faster than mergesort and heapsort
+* Not stable
+
+### Complexity
+
+#### Time
+
+* Best case: `O(n log n)`
+* Average case: `O(n log n)`
+* Worst case: `O(n^2)`
+
+#### Space
+
+* Worst-case: `O(n)`
+* Average-case: `O(log n)`
