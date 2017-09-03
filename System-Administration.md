@@ -1,6 +1,6 @@
 ## System monitoring
 
-* `free -h` - Current RAM and swap usage
+* `watch free -h` - Current RAM and swap usage continuously
 * `du -h /` - Disk usage of current disk
 * `df -h --max-depth=1 ~` - Disk usage of home folder
 * `top` - Look at running processes
