@@ -181,9 +181,14 @@ function shellSort(list){
 ## Mergesort
 
 * Divide the list into sublists, starting with a size of 1, then Repeatedly merge sublists until there is only one left
+* Top-down (recursive) in JavaScript risks a stack overflow
 * In its worse case, it does significantly better than quicksort's average case
 * Highly parallelizable
 * Stable
+
+### Components
+
+* Sentinel value - Use something like `Infinity` to indicate the end of the array
 
 ### Complexity
 
@@ -198,9 +203,65 @@ function shellSort(list){
 * `O(1)` - In place
 * `O(n)` - Parallel
 
-### Top-down
+### Implementation
 
-### Bottom-up
+#### Bottom-Up
+
+```js
+function mergeSort(list){
+    if (list.length < 2){
+        return list;
+    }
+    var step = 1, left, right;
+
+    while (step < list.length){
+        left = 0;
+        right = step;
+        while (right + step <= list.length){
+            mergeArrays(list, left, left + step, right, right + step);
+            left = right + step;
+            right = left + step;
+        }
+        if (right < list.length){
+            mergeArrays(list, left, left + step, right, list.length);
+        }
+        step *= 2;
+    }
+}
+
+function mergeArrays(list, startLeft, stopLeft, startRight, stopRight){
+    var rightArray = new Array(stopRight - startRight + 1);
+    var leftArray = new Array(stopLeft - startLeft + 1);
+
+    var k = startRight;
+    for (let i = 0; i < (rightArray.length - 1); ++i){
+        rightArray[i] = list[k];
+        ++k;
+    }
+
+    k = startLeft;
+    for (let i = 0; i < (left.length - 1); ++i){
+        rightArray[i] = list[k];
+        ++k;
+    }
+
+    rightArray[rightArray.length - 1] = Infinity;
+    leftArray[leftArray.length - 1] = Infinity;
+
+    var m = 0;
+    var n = 0;
+
+    for (var k = startLeft; k < stopRight; ++k){
+        if (leftArray[m] <= rightArray[n]){
+            list[k] = leftArray[m];
+            m++;
+        } else {
+            list[k] = rightArray[n];
+            n++;
+        }
+    }
+}
+```
 
 ## Heapsort
 
