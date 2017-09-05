@@ -143,7 +143,7 @@ Observation & feedback weekly drive teacher development.
             * Can be changed in 1 week
             * Can be noticed in 10 seconds
             * Connected to broader goals
-        * Use TLAC skills
+            * Use TLAC skills
         1. Practice the action step out loud
         1. Plan when you're going to implement it next together
         1. Set timeline
