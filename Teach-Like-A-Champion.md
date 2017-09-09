@@ -3,6 +3,13 @@
 * Standards are meaningless without assessments
 * Use data to inform instruction
 * Time is your most precious commodity
+* Change the physical layout of the room to match the activity
+    * 3 columns, 2 seats each for listening to instructors
+    * Pods for discussion and group work
+    * Think about aisles and alleys for easy observation
+    * Use tape on the floor to indicate layouts
+* Make sure the environment (such as the walls) are uncluttered and undistracting
+* Direct instruction is not bad- it's an essential ingredient. Make them engaging, and no more than 15 minutes without having students practice what they're learning.
 
 ## Check For Understanding
 
@@ -114,48 +121,151 @@
 
 ## Academic Ethos
 
+Create a culture of "better."
+
 ### Setting High Academic Expectations
 
 #### No Opt-Out
 
-* You provide the answer, student repeats
-* Another student provides the answer, student repeats
-* You provide a cue, student uses it to provide the answer
-* Another student provides a cue, student uses it to provide the answer
+* Students don't get to not answer questions or just say "I don't know"
+* Techniques:
+    * You provide the answer, student repeats
+    * Another student provides the answer, student repeats
+    * You provide a cue, student uses it to provide the answer
+    * Another student provides a cue, student uses it to provide the answer
+* "It's ok to not know, but it's not OK not to try."    
+* Show that success wasn't a fluke- get them to answer several similar questions in a row or explain the answer more thoroughly
+    * Add another at bat
+    * Add a stretch
+    * Add an error analysis - think through how you came to that result
+    * Add a "star" - positive reinforce the behavior you were looking for
+* Technqiues that require thought are more rigorous than techniques that require repeating, but rigor takes time. Be more rigorous the closer you are to your learning objective.
 
 #### Right Is Right
 
-* "Almost right" is not good enough. Don't "round up" an answer.
+* "Almost right" is not good enough. Don't "round up" an answer- make them get all the way there themselves
+* Hold them to the appropriate level of rigor
+* It's hard to hold out for "all the way right" if you don't know what that is beforehand- script your questions and your answers
+* Be wary of "I know what she was trying to say"
+* Things students will do to get away from right-is-right answers:
+    * "The Kitchen Sink" - Say everything you know about the topic until the teacher stops you
+    * "Bait and Switch" - Answer the question you wish you were asked
+    * "Heartfelt Topic" - Say something sincere and obvious about the topic
+    * "Vague Vagaries" - Use imprecise language
+* Be careful about a student who anticipates and answers the next questions ahead of time- _they_ got there, but the class didn't
+* Techniques:
+    * Hold out for all-the-way right (don't round up)
+    * Answer my question (make your students be disciplined)
+    * Right answer, right time (don't reward rushing ahead)
+    * Specific vocabulary (lock in the precise words)
 
 #### Stretch It
 
+* Reward correct answers with harder questions
+* Ask a diversity of types of questions
+    * Ask how or why
+    * Ask for another way to answer
+    * Ask for a better word or more precise explanation
+    * Ask for evidence
+    * Ask students to integrate a related skill
+    * Ask students to apply the same skill in a new setting
+    * Use a non-directive prompt:
+        * "Say more"
+        * "Keep going"
+        * "Develop"
+        * _Keep going gesture_
+        * _Head nod_
+        * _Raised eyebrows_
+* Build a culture around the idea that learning is never done
+    * "When I overcome a challenge, I look forward to the next"
+* Follow-up questions are more expensive, but also more targeted than prompts
+* Students can know how stretch-it works- you can be transparent
+
+#### Format Matters
+
+* Hold students to a high standard of delivery, not just ideas
+* Grammar, complete sentences, and voice all matter
+* There's different language for different settings
+* Techniques:
+    * Interrogative- Repeat the mistake back to them
+    * Begin the correction - Start the correction and let them finish
+    * Prompt them- "Who can answer like a scholar?"
+    * If not loud enough- "Voice please"
+
 #### Without Apology
+
+* Embrace rigorous content, challenge and hard work
+* Don't assume something will be boring ("Let's just try to get through this")
+* Don't blame the content ("They say we have to do this")
+* Don't try to make it more accessible by dulling it down
+* Don't make excuses for students
 
 ### Planning For Success
 
+These happen before you come to class. Don't crowd out high-value planning tasks with low-value ones.
+
 #### Begin With The End
+
+* Work background from unit planning to lesson planning
+* Define the objective, how you'll assess, and then choose activities
+* Instead of figuring out what you're going to do tomorrow, figure out what you want students to _learn_ tomorrow
+* The question to ask when choosing activities- is it the fastest way to reach my goal?
 
 #### 4 M's
 
+* Lesson objectives should be manageable, measurable, made first, and most important
+    * Manageable - Can be taught in a single lesson
+    * Measurable - Be able to assess how successful you were by the end of the lesson
+    * Made First- Don't justify a topic or an activity with an objective. An objective is the tool you're using to push a class forward, based on data.
+    * Most Important - The next step up the mountain
+
 #### Post It
 
+* Display your objectives where everyone can see them
+* Same location every time
+
 #### Double-Plan
+
+* As you plan, plan what students will be doing at each step
+* Lesson packets are things that students use to follow along during a lesson
+    * Keep everything in one place during the lesson to minimize disruption
+    * Put notes in the margins of the packets for pacing, questions, "stage notes", etc.
+    * Keep making notes during the lesson for revisions and notes based on captured data, pacing notes, performance data, etc.
+    * Packets reduce transaction costs with switching topics, activities, pacing, etc. ("Flip to the yellow section")
+    * Packets keep students and instructors accountable
+    * Include rubrics and tips
+    * Embed adapatibility- include more than you need to
+
 
 ### Lesson Structure
 
 #### Do Now
 
+* Short warm-up that the students can do without instruction or direction to start the day
+
 #### Name the Steps
+
+* Break down complex tasks into discrete, repeatable steps
 
 #### Board = Paper
 
+* Model how students should be taking notes to capture the information
+
 #### Control the Game
+
+* Ask students to read out loud frequently, but actively manage the process
 
 #### Circulate
 
+* Move strategically around the room
+
 #### At Bats
 
+* Give lots of practice- succeeding once or twice isn't mastery
+
 #### Exit Ticket
+
+* End each class with an assessment of your objective
 
 ### Pacing
 
@@ -246,4 +356,3 @@
 #### Emotional Constancy
 
 #### Joy Factor
-
