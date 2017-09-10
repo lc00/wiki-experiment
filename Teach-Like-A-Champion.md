@@ -239,13 +239,35 @@ These happen before you come to class. Don't crowd out high-value planning tasks
 
 ### Lesson Structure
 
+* Guided Practice - I do, we do, you do
+    1. I do
+        * Do good showing (modeling) and telling (explaining)
+        * Preteach the pitfalls
+    1. I do, you help
+    1. You do, I help
+        * Get more cognitive work out of the audience
+        * Feigned ignorance
+    1. You do
+    1. You do, and do, and do
+        * Very few students get it on the first or second try
+        * Go until they can do it on their own
+        * Use multiple variations and formats
+        * Have enrichment problems ready to go
+
 #### Do Now
 
 * Short warm-up that the students can do without instruction or direction to start the day
+* Keep it in the same place every day
+* If you have to give directions, it's not independent enough
+* It should be obvious whether or not they've done it
+* It should either preview or review
+* It should be quick to do, and quick to debrief
+* Start the day after the Do-Now
 
 #### Name the Steps
 
 * Break down complex tasks into discrete, repeatable steps
+* Decompose all of the things experts do intuitively into steps
 
 #### Board = Paper
 
