@@ -10,6 +10,11 @@
     * Use tape on the floor to indicate layouts
 * Make sure the environment (such as the walls) are uncluttered and undistracting
 * Direct instruction is not bad- it's an essential ingredient. Make them engaging, and no more than 15 minutes without having students practice what they're learning.
+* All of our activities need to overcome the "hurdle rate" of learning, which is probably based on reading
+* 3-30-30
+    * 3 minutes setting expectations for work product, process, and behavior, then stand sentry (_not_ circulating) to make sure everyone starts working, then start circulating
+    * 30 second burst of checking with an individual
+    * 30 second burst of checking the whole group
 
 ## Check For Understanding
 
@@ -253,6 +258,7 @@ These happen before you come to class. Don't crowd out high-value planning tasks
         * Go until they can do it on their own
         * Use multiple variations and formats
         * Have enrichment problems ready to go
+* Consistent structures reduce the cognitive load on the content
 
 #### Do Now
 
@@ -268,38 +274,91 @@ These happen before you come to class. Don't crowd out high-value planning tasks
 
 * Break down complex tasks into discrete, repeatable steps
 * Decompose all of the things experts do intuitively into steps
+* Needs to be fewer than 7
+* You can teach corner-cases and complexity, but keep the actual steps simple
+* Name the steps and use mnemonics to make them "sticky"
+* Two stairways- Work on problems in the abstract and specific at the same time
 
 #### Board = Paper
 
 * Model how students should be taking notes to capture the information
+* Students often need help learning to be students as much as they do learning the content
+* "Make your paper look like mine"
 
 #### Control the Game
 
 * Ask students to read out loud frequently, but actively manage the process
+* Reading is critical to success, but not _just_ silent reading
+    * Independent reading is hard to hold people accountable for
+    * You can combine these with a task- "Read the next paragraph, write a summary of it, then we'll pick up again together"
+* When one student is reading aloud, the other students need to be reading too
+* Reading aloud gives you a chance to catch and correct reading issues
+* Their inflection and tone gives you some sense of how well they understand it
+* Technique:
+    * Vary the time so that students don't know when their turn will be
+    * Keep the durations generally short
+    * Don't make the next reader predictable
+    * Keep the transaction costs low
+    * Use yourself as a "bridge"- model expressiveness, etc.
+        * Spot-check/Oral Cloze- make students finish your sentence to get them back on track
+    * When you want them to focus on you, have them hold their place and close their books
 
 #### Circulate
 
 * Move strategically around the room
+* "Break the plane"- get out from the desk to add energy
+    * This should happen during the first 5 minutes of any lesson
+    * It's your room, and you need to norm being able to be in any part of it
+* You need full access to everyone, or you'll have places that are easy to hide in
+* Types of interactions:
+    * Simple walk-by, slowly monitoring
+    * Non-verbal- thumbs up, keep going, pat on the shoulder
+    * Read and review- Non-invasive
+    * Pick-up read- you interrupt the student to study their work
+* You can "dot" students work to note an error- don't tell them how to fix it, just note it
+* Be systematic to get the whole room, but not predictable
+* Always try to stay facing the class, even as you circulate
 
 #### At Bats
 
 * Give lots of practice- succeeding once or twice isn't mastery
+* Go until they can do it on their own
+* Give them multiple variations and formats
+* Grab opportunities for enrichment and differentiation for students who master it quickly
 
 #### Exit Ticket
 
 * End each class with an assessment of your objective
+* 1-3 questions, multiple formats
+* Designed to yield data
+* Can be used as Do-Nows the following day
+* Reviewing data:
+    * Sort them into yes/no/some- potentially use for groups
+* If comprehension is low across the board, reteach
+* If only a few students are struggling, do a breakout
+* Write the exit ticket first
 
 ### Pacing
 
 #### Change the Pace
 
+* Create fast or slow moments in your class by shifting activity types or formats
+
 #### Brighten Lines
+
+* Make beginnings and endings of activities visible and crisp
 
 #### All Hands
 
+* Leverage hand-raising to help with pacing
+
 #### Work the Clock
 
+* Measure your time intentionally and strategically to shape your experience
+
 #### Every Minute Matters
+
+* Respect student's time by spending every minute productively
 
 ## Ratio
 
