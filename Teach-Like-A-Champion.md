@@ -15,6 +15,9 @@
     * 3 minutes setting expectations for work product, process, and behavior, then stand sentry (_not_ circulating) to make sure everyone starts working, then start circulating
     * 30 second burst of checking with an individual
     * 30 second burst of checking the whole group
+* Make the students look forward to upcoming activities to build energy
+* You can only think deeply if you know a lot- otherwise they just trade empty ideas and unfounded speculation
+* Knowledge that's in your long-term memory doesn't diminish your processing capacity- knowledge that's in your short-term memory _does_
 
 ## Check For Understanding
 
@@ -340,39 +343,122 @@ These happen before you come to class. Don't crowd out high-value planning tasks
 
 ### Pacing
 
+* Pacing isn't the speed, it's the perception of speed
+* "Don't do anything for more than 10 minutes"
+* Too _much_ perception of speed, and the energy can get out of control, you need to balance
+
 #### Change the Pace
 
 * Create fast or slow moments in your class by shifting activity types or formats
+* 5 kinds of activties:
+    * Knowledge assimilation - Via direct instruction or reading
+    * Guided practice or guided questioning
+    * Independent practice (doing, not reading)
+    * Reflecting (quietly and deeply, idea generation, brainstorming)
+    * Discussion and developing with classmates
+* Knowledge assimilation has to precede the others
+* You don't need to change the activities every 10 minutes, sometimes just the delivery of the same activity
+* Celebrate mile markers to give the illusion of speed
 
 #### Brighten Lines
 
 * Make beginnings and endings of activities visible and crisp
+* Start everyone at once
+    * Creates strong social incentives
+    * Use tone to convey exactly what they should do
+        * "Go!" - Hustle
+        * "Begin." - Be contemplative
+* End an activity cleanly _together_
+    * Make sure that the transition is efficient to save time
+* You can make them interactive- have them say "Go!" or do a particular signal at the end of a countdown
 
 #### All Hands
 
 * Leverage hand-raising to help with pacing
+* Raising your hand is powerful- it means "I want to participate"
+* Each question/answer is a different event, and responses should build on each other
+* Don't let students keep their hands up while someone else is talking- help them build the habit
+* Occasionally limit the number of people who can raise their hands (by part of the room, table, demographics, etc.)
+* Unbundle big questions into smaller ones to increase participation
+* Ask follow-on questions to help build a discussion instead of just having a disconnected set of comments
+* Cut off ramblers with "pause- " and then redirect them
 
 #### Work the Clock
 
 * Measure your time intentionally and strategically to shape your experience
+* Showing the clock helps build a time-sensitive culture
+* Clocks help keep your students and you accountable to your goals
+* Use odd time intervals- round numbers have an implied "around..." in front of them
+* You want to create the highest value in the least amount of time, it should not be a rush
+* You control the clock, not the students- don't let their behavior dictate how firm you are
+* Have them wrap up activities and transition very quickly
 
 #### Every Minute Matters
 
 * Respect student's time by spending every minute productively
+* Pay attention to squandered moments- minutes at the end of class, etc.
+* Have back pocket activities ready to go:
+    * Reviews
+    * Challenge activities
+    * Quiz and vocab questions
+    * Reading activities
+    * You can literally write them and keep them in your back pocket
+* If something is bombing, figure out how quickly you can switch to something of value
 
 ## Ratio
 
 ### Building Ratio Through Questioning
 
+* The workout belongs to the student
+* You need high engagement _and_ high rigor
+* You need a high "think ratio" and a high "participation ratio"
+    * You may have to prioritize one over the other occasionally
+    * High-ratio activities where students don't know enough facts are not meaningful
+    * You need to make an investment in teaching facts first
+
 #### Wait Time
+
+* Allow students time to think before answering a question
+* Help narrate them toward being more productive
+* Benefits:
+    * Allows more hands to go up
+    * Enabling a wider range of people to engage
+    * Supporting better, more rigorous answers
+    * Prompting more cognitive work during the "wait"
+    * Decreasing the number of students who can't answer
+    * Increasing use of evidence in answers
+1. Wait time is ineffective if you don't have a culture where everyone wants to answer
+    * You may have to reset the expectation if you see blank faces
+    * You can count the hands- "One hand, two hands, three..."
+    * "Hands down- I want you all to take 15 seconds to locate the answer"
+1. Prompt them with thinking skills
+    * "I'm seeing lots of note-taking and furrowed brows- I like that"
+    * "I'm giving lots of time because this is tricky- your first answer may not be your best"
+1. Be silent- don't interrupt their thinking
+1. Tell them how much time they'll have and how much depth you want
 
 #### Cold Call
 
+* Call on students regardless of whether they've raised their hands
+* Purpose:
+    1. CFU - Helps you be systematic about who you're calling on
+    1. Engagement & Accountability - Shows that the students don't control their level of participation
+    1. Pacing - Begging students to answer slows the pace and takes up too much time
+    1. Ratio - Makes students use things like wait time more effectively
+* Keys to effective cold-calling:
+    * Predictable - That it might be coming is what brings up ratio
+
 #### Call and Response
+
+* Ask your class to answer questions in unison from time to time to build energy and engagement
 
 #### Break It Down
 
+* When a student makes an error, provide just enough help unblock them
+
 #### Pepper
+
+* A fast-paced vocal review to build energy
 
 ### Building Ratio Through Writing
 
