@@ -16,6 +16,7 @@
 ## Testing
 
 * [[Testing]]
+* [[Developer Testing]] - Alexander Tarlinder
 
 ## Ember
 
@@ -99,7 +100,6 @@
 
 * [[Functional JavaScript]] - Fogus
 * [[Think Like A Programmer]] - Anton Spraul
-* [[Developer Testing]] - Alexander Tarlinder
 * [[Joel On Software]] - Joel Spolsky
 * [[Data Structures and Algorithms with JavaScript]]
 * [[HTML5 Hacks]] - Cravens & Burtoft
