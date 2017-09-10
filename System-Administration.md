@@ -1,3 +1,19 @@
+## File System Structure
+
+* `/bin` - Essential commands for running the system
+* `/etc` - Configuration files
+* `/home` - User files
+* `/lib` - Shared libraries
+* `/media` - System-mounted removable media
+* `/mnt` - Manually-mounted removable media
+* `/sbin` - Sysadmin commands (sudo)
+* `/var` - Variable files (logs, etc.)
+* `/tmp` - Temporary files (might be deleted between program invocations)
+* `/root` - Root user's home directory
+* `/usr` - Secondary file system, has user-installed commands
+* `/dev` - Device drivers and files
+* `/proc` - Any currently running processes as text files
+
 ## System monitoring
 
 * `watch free -h` - Current RAM and swap usage continuously
