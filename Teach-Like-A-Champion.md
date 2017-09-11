@@ -19,6 +19,8 @@
 * You can only think deeply if you know a lot- otherwise they just trade empty ideas and unfounded speculation
 * Knowledge that's in your long-term memory doesn't diminish your processing capacity- knowledge that's in your short-term memory _does_
 * If something has to get squeezed out of a lesson for time, it should not be the writing.
+* The goal is for students to be constantly on their toes, answering questions, drawing on or developing their knowledge base, and refining their ideas
+* The question isn't whether an activity is "good," but if it's the best- for that moment, that group of students, and that lesson
 
 ## Check For Understanding
 
@@ -568,35 +570,89 @@ The amount and quality of writing students do are the most important thing stude
 
 ### Building Ratio Through Discussion
 
+* Discussions are not people restating their opinions to each other
+    * You need to react to the things being said
+* Spend less time steering the content of a discussion, and more time steering the format
+
 #### Habits of Discussion
 
 * Normalize a set of ground rules to make your discussions more productive
+* Parts:
+    1. Fundamentals: Voice, tracking, and names
+        * Loud enough to be heard
+        * Look at the person you're talking to
+        * Use their name
+    1. Follow-on / Follow-on Prompting
+        * Cold-call students to respond to the previous statement
+    1. Sentence-starters
+        * Their first sentence should show the relationship between the present and the previous sentence in some respectful way
+        * You can post them on the wall for students to refer to until they get the hang of it
+        * "I understand why you'd say that, but..."
+        * "Another example of that is..."
+        * "Thing that doesn't take into account is..."
+    1. Managing the meta
+        * Try to keep discussions "inside the box"- focused and reflective, rather than too divergent
+        * "How does that relate to what we were just talking about?"
+        * Move a topic on when it stops being productive
 
 #### Turn and Talk
 
 * Have short pair discussions to help students formulate their thoughts
+* Almost always an early-or-middle stage activity
+* Assign pairs ahead of time and have them sit next to each other- looking for a partner is a waste of time
+* Manage the turns- "Short hair to long hair" is a way of saying the person with the shorter hair starts first, and you may prompt them to switch at some point
+* Prompt them to wind it down to avoid cutting someone off
+* End a turn and talk when the ideas are bustling the hardest, not when they're tapering- this keeps the energy high
+* Be precise with the time you'll afford them, so they know how deep to go with their point
+* Ask them to present their partner's viewpoint
+* Don't let discussions spread low-quality or erroneous ideas
+    * On its own, turn and talk is low rigor and should be followed up with a higher rigor activity
+    * Do a whole-class analysis of the discussions
+    * Lead into a whole-class analysis
+    * Lead into a writing activity where they have to reflect on the discussions
+    * Whole group discussion into a writing activity
 
 #### Batch Process
 
 * Give students autonomy and ownership by allowing them to have unmediated discussions
+* Sometimes callled a socratic discussion, a socratic seminar, or a fishbowl
+* Works better with smaller groups (<12)
+* Timebox it to something short (2 minutes)
+* Have them generate topics- "What's worthy of analysis in this?"
 
 ## Five Principles of Classroom Culture
 
+1. Discipline
+1. Managemnet
+1. Control
+1. Influence
+1. Engagement
 
 ### Systems and Routines
 
 #### Threshold
 
+* Meet students at the door, setting the standard for behavior right away
+
 #### Strong Start
 
-#### Star/Slant
+* Design and establish efficent routines for students to enter the classroom and begin class
+
+#### STAR/SLANT
+
+* Teach students baseline behaviors by using memorable acronyms
 
 #### Engineer Efficiency
 
+* Teach students the simplest and fastest procedure for evaluating key classroom tasks and make them routines
+
 #### Strategic Investment: From Procedure To Routine
+
+* Rehearse and reinforce routines until excellence becomes habitual
 
 #### Do It Again
 
+* Give students more practice when they're not up to speed
 
 ### High Behavioral Expectations
 
