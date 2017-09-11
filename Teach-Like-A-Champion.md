@@ -18,6 +18,7 @@
 * Make the students look forward to upcoming activities to build energy
 * You can only think deeply if you know a lot- otherwise they just trade empty ideas and unfounded speculation
 * Knowledge that's in your long-term memory doesn't diminish your processing capacity- knowledge that's in your short-term memory _does_
+* If something has to get squeezed out of a lesson for time, it should not be the writing.
 
 ## Check For Understanding
 
@@ -447,40 +448,140 @@ These happen before you come to class. Don't crowd out high-value planning tasks
     1. Ratio - Makes students use things like wait time more effectively
 * Keys to effective cold-calling:
     * Predictable - That it might be coming is what brings up ratio
+    * Systematic - Not meant to single anyone out
+    * Positive - Not a "gotcha"- who wouldn't want to participate?
+    * Unbundle - Break it up into small pieces to increase participation
+* Variants:
+    * Hands-up / Hands-down - You can also allow students to volunteer or not
+    * Follow-on / Follow-up - Ask students to develop on each other's ideas
+    * Name timing - Calling the name last is higher ratio, calling the name first increases their chance of getting a win
+    * Slow call - Use it as an opportunity to increase wait time
+    * Turn and talk, followed by a cold call
+    * Data drive cold calls- Script them ahead of time, and indicate which part of the sample you want to target them to
 
 #### Call and Response
 
 * Ask your class to answer questions in unison from time to time to build energy and engagement
+* Benefits:
+    * Academic review and reinforcement- everyone gets the answer
+    * High-energy fun
+    * Behavioral reinforcement- increases compliance
+* Types of call and response:
+    * Repeat - Fill in the blank
+    * Report - "Give me your answer on 3"
+    * Reinforce - Make everyone repeat a student's exemplar answer
+    * Review - Multiple questions asked quickly
+    * Solve - Take time to answer the question- needs to be a clear answer that everyone should get
+* Needs a strong cue to get everyone to respond, to differentiate from a different kind of question
+* Stretchable - make them say more of the phrase on repeat
 
 #### Break It Down
 
 * When a student makes an error, provide just enough help unblock them
+* This is very hard, and easy to destroy the rigor
+* Ways to do it:
+    * Provide an example
+    * Provide context
+    * Provide a rule
+    * Provide a missing (or first) step
+    * Roll back - Repeat their response to them and emphasize the part they got wrong
+    * Eliminate false choices
+* Make sure you connect it back to the rigor of the original question
 
 #### Pepper
 
 * A fast-paced vocal review to build energy
+* Doesn't build new skills, just helps build energy
+* No discussion, just action
+* Fast-paced, unpredictable review
+* Good for warm-ups
+* Should feel like a game
+* Can pick student names randomly (or at least appear like you do)
 
 ### Building Ratio Through Writing
 
+The amount and quality of writing students do are the most important thing students can do. Writing is ideal for summary and synthesis.
+
 #### Everybody Writes
+
+* Give them the chance to reflect in writing before you ask them to discuss
+* Writing helps turn a notion into an idea, which is a good entry ticket to a discussion
+* The first person to raise their hand or talk just had the fastest idea, which is rarely the best idea
+* You can use this as an opportunity to "hunt and gather" for good starting points in your discussion
+* Can be the basis for good cold-calling
+* Writing increases ratio and retention
 
 #### Art of the Sentence
 
+* Synthesize a complex idea into a single well-crafted sentence
+* Give them a sentence starter:
+    * "Growing exponentially, ..."
+    * "The relationship between..."
+    * "In the long run..."
+* You can give your sentences parameters:
+    * Include a word or phrase
+    * Address multiple things
+    * With a length limit
+* Good at the end of a lesson, because it helps summarize
+* Good as an exit ticket
+
 #### Show Call
+
+* Increase the effort that goes into writing by publicly showcasing and revising work, without volunteers
+* A visual form of cold calll
+* Helps students learn how to edit
+* You can ask their permission ahead of time
+* Three questions for a show call:
+    1. What kind of work? Can be:
+        * Exemplary- show how to achieve success
+        * A common error- opportunity to correct something common
+        * A blend of strengths and weaknesses- Show how to take something from good to great
+    1. When? Can be:
+        * After writing is complete
+        * After revising is complete - To hold students accountable for learning something
+        * During writing - If it's a longer prompt, gives a mile marker
+    1. How many?
+        * Deep with one
+        * Coverage with multiple
+* Accountable revision techniques
+    1. Check or change- Either affirm that an answer is correct or fix it, but everyone has to write
+    1. Offline revision- After a show call, make everyone do the revisions they learned and then show call again
+    1. Live edit- During a show call, everyone fixes their work in place
+* Two key moments during a show call:
+    1. The take - Try to be emotionless or positive when you take their work
+    1. The reveal - Do you keep it anonymous? Read it out loud or have everyone read it silently? Do you tell them what to look for?
 
 #### Build Stamina
 
+* Gradually increase writing time to build stamina for longer writing
+* Start small and build up
+* "I should see all pencils moving" - Might not be a best practice for all writing, but helps build the stamina
+* Prime the pump - Come up with some ideas before the session starts
+* Valorize student writing- savor it, read it out loud, and show pride in it
+
 #### Front the Writing
+
+* Put writing closer to the front of the lesson to ensure students think rigorously
+* It's very easy to get false-positives in mastery by having discussions or writing at the end
+* Put the writing up front to avoid students "piggy-backing"
+* Format should be: Read-Write-Discuss-Revise
 
 ### Building Ratio Through Discussion
 
 #### Habits of Discussion
 
+* Normalize a set of ground rules to make your discussions more productive
+
 #### Turn and Talk
+
+* Have short pair discussions to help students formulate their thoughts
 
 #### Batch Process
 
+* Give students autonomy and ownership by allowing them to have unmediated discussions
+
 ## Five Principles of Classroom Culture
+
 
 ### Systems and Routines
 
@@ -495,6 +596,7 @@ These happen before you come to class. Don't crowd out high-value planning tasks
 #### Strategic Investment: From Procedure To Routine
 
 #### Do It Again
+
 
 ### High Behavioral Expectations
 
@@ -511,6 +613,7 @@ These happen before you come to class. Don't crowd out high-value planning tasks
 #### Strong Voice
 
 #### What to Do
+
 
 ### Building Character and Trust
 
