@@ -3,11 +3,15 @@
 ```bash
 [Loop Header]
 do
-    # Loop Body
+    # Loop Body, reference iterator with $i
 done
 ```
 
 ## Loop Headers
+
+```bash
+for i in *
+```
 
 ```bash
 for i in $(ls -l)
