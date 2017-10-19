@@ -5,5 +5,4 @@
 * [[Learning Agile]]
 * [[Scrum Shortcuts]]
 * [[The Agile Samurai]]
-* [[Sprint]] - Jake Knapp
 * [[User Stories Applied]] - Kent Beck
