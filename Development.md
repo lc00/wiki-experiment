@@ -78,6 +78,7 @@
 
 ## Security
 
+* [[Authentication]]
 * [[Encryption]]
 * [[Hashing]]
 * [[HTTPS]]

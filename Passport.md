@@ -122,6 +122,7 @@ function(jwt, done){
 
 ## Authenticating a Route
 
+* Authenticated users return `true` for `request.isAuthenticated()`
 * Basic Auth on an API:
 ```js
 app.get("/authed",
@@ -202,4 +203,13 @@ User profiles from OAuth get normalized to this format:
         value: "imageurl.com"
     }]
 }
+```
+
+## Logout
+
+```js
+router.get("/logout", (request, response) => {
+    request.logout();
+    request.redirect("/login");
+});
 ```
