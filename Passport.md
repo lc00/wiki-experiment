@@ -8,6 +8,7 @@
     * `require("passport-oauth").OAuth2Strategy`
     * `require("passport-facebook").Strategy;`
     * `require("passport-jwt").Strategy;`
+    * `require("passport-slack").Strategy;`
 1. `passport.use(new Strategy(options, verify));`
 1. Set the right `options` for that strategy
 1. Implement the `verify` function
@@ -64,6 +65,15 @@ passport.use(new JwtStrategy({
     secretOrKey = "secret",
     issuer = "accounts.examplesoft.com",
     audience = "yoursite.net"
+}, verify));
+```
+
+* Slack:
+```js
+passport.use(new SlackStrategy({
+   clientID: "CLIENT_ID_HERE",
+   clientSecret: "CLIENT_SECRET_HERE",
+   callbackURL: "http://localhost:3000/auth/slack/callback"
 }, verify));
 ```
 
@@ -151,13 +161,23 @@ app.get("/auth/provider/callback", passport.authenticate("provider", {
 ## Session Serialization
 
 ```js
-passport.serializeUser((user, done) => {
-    done(null, user.id);
+passport.serializeUser((user, next) => {
+    next(null, user.id);
+});
+passport.deserializeUser((id, next) => {
+    next(null, findUserById(id));
 });
 
-passport.deserializeUser((id, done) => {
-    done(null, findUserById(id));
-});
+const session = require("express-session");
+app.use(session({
+    cookie: {
+        //secure: true
+    },
+    resave: false,
+    saveUnitialized: false,
+    secret: "SECRET CODE HERE"
+}));
+app.use(passport.session());
 ```
 
 ## OAuth Profile Normalization
