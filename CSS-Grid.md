@@ -45,4 +45,6 @@
 ## Responsive Grids
 
 * Use named areas to assign content to areas, and then redefine the shape of the grid using the media queries.
-* You can hack `repeat` with `repeat(autofill, minmax(smallest, largest))`
+* You can hack `repeat` with `repeat(autofill, minmax(smallest, largest))`. They start at the min size, but grow up to the max size if the content allows
+* You can allow rows to be automatically generated and sized with `grid-auto-rows: some-size;`
+    * If you pass this more than one, it will create a pattern
