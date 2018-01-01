@@ -55,6 +55,7 @@
 * [UNIX Loops](UNIX-Loops)
 * [UNIX Conditionals](UNIX-Conditionals)
 * [UNIX Text Tools](Unix-Text-Tools)
+* [[Unix Remotes]]
 * [[Video Editing]]
 
 ## Vim
