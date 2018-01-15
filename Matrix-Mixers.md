@@ -1,0 +1,1 @@
+Every tab is a mixer for a pair of outputs. You can include a blend of software outputs and hardware inputs.
