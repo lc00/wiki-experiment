@@ -59,11 +59,25 @@
 
 ### Analyze The Game
 
+* Identify top performers and analyze top performance
+* Break down skills, understand the role they play, prioritize, and rank them
+* Describe those skills for others who want to replicate them
+
 ### Isolate The Skill
+
+* Break down learning into bite-size chunks
+* Don't practice writing books while holding the pencil the wrong way
+* Look for people compensating for lacking a fundamental skill
 
 ### Name It
 
+* Name your key skills to give your team a common language
+* Monitor usage of the names to ensure consistent and correct usage
+
 ### Integrate the Skills
+
+* Game-like scenarios: isolate some realistic section of the game
+* Matching: Choosing the correct in
 
 ### Make a Plan
 
