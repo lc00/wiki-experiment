@@ -1,3 +1,7 @@
+## Layout
+
+* [[Design School Layout]] - Richard Poulin
+
 ## Typography
 
 * [[Typography]]
