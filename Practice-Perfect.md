@@ -76,12 +76,25 @@
 
 ### Integrate the Skills
 
-* Game-like scenarios: isolate some realistic section of the game
-* Matching: Choosing the correct in
+* Game-like scenarios: Isolate some realistic section of the game
+* Matching: Choosing the correct (least invasive) tool given several options
+* Game environment: Practice in the same environment the game is played in
 
 ### Make a Plan
 
+* What do you need to practice? Use data
+* Plan each minute
+* Rehearse and revise the plan- spend more time planning the practice than you do actually practicing
+* Record and reflect on practice
+
 ### Make Each Minute Matter
+
+* Use strong signals ("clap once if you can hear me") to bring people together, not narrative
+* Use timers for breaks
+* Have "back of the pocket" activities
+* Have different ways to combine people quickly (attendance numbers)
+* Name your drills
+* Use self-interrupts to cut people off
 
 ## Using Modeling
 
