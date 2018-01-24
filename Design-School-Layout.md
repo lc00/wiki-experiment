@@ -53,6 +53,44 @@ Alley - Where two pages meet
 
 ## Grid Systems
 
+* Grid systems are either symmetrical and static, or asymmetrical and dynamic
+
+### Manuscript Grid
+
+* Single area for text in symmetrical
+* Smaller area for secondary content in assymetrical
+* Secondary areas in the header and footer
+* Wide inner margins
+
+### Symmetrical Grid
+
+* Inner and outer margins are equal
+* Single column is good for books and essays, max 60 characters per line
+* Multi-column aids in scanning, 40-50 characters per line
+* Wider margins == more stability, narrower margins == more tension
+* Margins that are wider than the gutters force the eye inward- establish a proportional relationship between them to make that clear
+
+### Modular Grid
+
+* Multi-column grid with multiple flowlines
+* Size and proportion of a module can be related to the size of an average paragraph, or of a typical image
+* Used in multi-faceted narrative and visual content- Newspapers, event programs, data visualizations and tables, websites
+* Combine, or "activate" various modules to create spatial areas
+
+### Asymmetrical Grid
+
+* Where the left and right pages aren't the same, introducing a bias to one side (usually left)
+* Smaller margins create tension, which is what biases the eye
+* Can be done with columns or modular grids
+
+### Baseline Grid
+
+### Marber Grid
+
+### Hierarchical Grid
+
+### Compound Grid
+
 ## Compositional Principles
 
 ## Layout Characteristics
