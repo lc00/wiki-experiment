@@ -85,14 +85,76 @@ Alley - Where two pages meet
 
 ### Baseline Grid
 
-### Marber Grid
+* Goes within a text area in another grid, used for aligning type
+* The baseline spacing stays consistent, regardless of type size
+* Larger type can take up more than one row
 
 ### Hierarchical Grid
 
+* More fluid than a typical grid
+* Good for web
+* Grid is based on content, which is unique to that page
+
+### Marber Grid
+
+* Top third is information, bottom two thirds is art
+* Lines are all geometrically derived
+
 ### Compound Grid
+
+* Combining multiple multi-column grids
+* Unity is achieved by having some shared element, eg. margins, gutter size
+* A 3-column grid on top of a 2-column grid allows you to use either one
 
 ## Compositional Principles
 
-## Layout Characteristics
+### Balance
 
-## Layout in Practice
+Unrelated to symmetry, it refers to elements balancing each other through various means. You can use design elements to create balance while maintaining energy in a piece:
+
+| Element     | Light     | Heavy     |
+| ----------- | --------- | --------- |
+| Value       | Light     | Dark      |
+| Color       | Netural   | Saturated |
+| Shape       | Simple    | Intricate |
+| Texture     | Smooth    | Rough     |
+| Size        | Small     | Big       |
+| Location    | Near      | Far       |
+| Direction   | Still     | Active    |
+
+### Movement
+
+Movement guides a reader through and around a visual message.You can achieve it in a design with lines, shapes, forms, colors, perspective, and repetition.
+
+### Symmetry
+
+Symmetry conveys stabilty, permanence. It also automatically provides focus to anything in the center. Symmetrical forms are generally seen as figure, rather than ground. You can also create symmetry radially, which also puts an extreme focus on the center. Asymmetry creates interest and motion. Asymmetrical compositions often have one primary element that is offset by multiple lighter elements. Asymmetry is more difficult to balance.
+
+### Tension
+
+Tension is used to get attention. It is created by combining opposites:
+
+* Small vs. large
+* Irregular spacing
+* Uneven placement
+* Inconsistent orientation
+* Different shapes
+* Misalignment
+* Different proportions
+* Rough texture
+
+When elements touch, they make a new form. When a shape splits, it becomes two new forms. Tension between forces makes something feel real.
+
+### Contrast
+
+Contrast is when things are distinguished from each other- it's the opposite of harmony. It draws attention, creates a mood, and creates emphasis and hierarchy. Contrasting elements exaggerates their differences, which can be used to highlight something.
+
+### Figure-Ground
+
+Figure-ground is the relationship between foreground and background. The figure is what the viewer pays attention to, the ground is the negative space the figure sits on. Figure ground relationships can be:
+
+* Simple - Active figure, inactive ground
+* Reversal - Active ground, inactive figure (this has bounds, which simple relationships do not)
+* Ambiguous - Unclear (like the kissing vase)
+
+## Layout Characteristics
