@@ -158,3 +158,54 @@ Figure-ground is the relationship between foreground and background. The figure 
 * Ambiguous - Unclear (like the kissing vase)
 
 ## Layout Characteristics
+
+* Pacing and sequencing - Maintaining or breaking a rhythm to create comfort or excitement
+
+### Patterns
+
+* Simple - Stripes, zig-zags, polka dots, checkers
+* Intricate - Spheres, nests, arabesques, lattices, polyhedra, spirals, helixes, volutes, meanders, branching, circulation, waves, symmetry, fractals, moires
+
+### Form
+
+A form is a shape with volume. You can illustrate this in 2 dimensions by projecting it. In projections, all vertical lines stay vertical, and all parallel lines stay parallel. It can be isometric (equal emphasis) or axonometric (skewed). You can also illustrate it with shade, tone, and texture.
+
+### Rhythm
+
+Rhythm creates a sense of visual movement. Aural rhythm is the alternating of sound and silence; visual rhythm is the alternating of form and space. Rhythm can be either regular, flowing, or progressive.
+
+### Space
+
+You can create the illusion of depth by playing with:
+* Size (larger elements appear closer)
+* Making elements overlap
+* Position (top feels like background, bottom feels like foreground)
+* Adding atmosphere (washing out or blurring an element)
+* Color (cool colors recede, warm colors come forward)
+* 1-Point Perspective (creating a horizon, one perspective)
+* 2-Point Persepctive (creating a horizon, focus on an element)
+
+### Alignment
+
+* Flush left - Asymmetrical, easy to identify beginning of line
+* Flush right - Asymmetrical, not easy to identify beginning of line
+* Justified - Symmetrical, uneven spacing
+* Centered - Symmetrical, even spacing, has emphasis
+
+### Emphasis
+
+Emphasize something with:
+
+* Scale - Relative
+* Size - Absolute
+* Contrast
+* Centering
+* Color
+* Position
+* White space
+* Type
+    * A new typeface
+    * Font weight
+    * Italics
+    * Uppercase and Small Caps
+    * Visual cues (indents, line spacing, type style, weight variations, type size, color)
