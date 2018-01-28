@@ -1,2 +1,6 @@
 * [[Matrix Mixers]]
 * [[Harrison MixBus]]
+* [[EQ]]
+* [[Compression]]
+* [[Reverb]]
+* [[Plug-Ins]]

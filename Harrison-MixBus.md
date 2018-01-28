@@ -27,6 +27,7 @@
 
 * Audio busses are for things like external FX and headphones, not mixing
 * Double-click control to reset it
+* Hover over a knob and use the mouse wheel to set it
 * Adjust with mouse, fine with `ctrl`, super-fine with `shift+ctrl`
 * `Ctrl+Shift Click`: Apply to all channels
 * `Middle`: Non-latching mute/solo
@@ -100,6 +101,7 @@
 * Each track has a horizontal fader on its label also
 * The range tool has a beat-detective tool called Rhythm Ferrett
 * You can automatically align the polarity of channels with the range tool
+* `Shift+6` for clip volume up, `Shift+7` for clip volume down
 
 ## Transport
 
