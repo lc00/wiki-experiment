@@ -1,9 +1,9 @@
 | Command | Effect |
 | :------ | :----- |
-| `cat` | merge text files |
-| `tac` | output text files in reverse |
-| `head` | Output the first lines of a file |
-| `tail` | Output the last lines of a file |
+| `cat`   | merge text files |
+| `tac`   | output text files in reverse |
+| `head`  | Output the first lines of a file |
+| `tail`  | Output the last lines of a file |
 | `cut` | Output parts of rows |
 | `awk` | Output parts of a line |
 | `grep` | Search pipes and text files |
