@@ -1,6 +1,7 @@
 ## Statistics
 
 * [[Business Statistics]]
+* [[Statistics Done Wrong]] - Reinhart
 
 ## Visualization
 
@@ -11,4 +12,3 @@
 * [[The Truthful Art]]
 * [[The Visual Display of Quantitative Information]] - Edward Tufte
 * [[Data Points]] - Tau
-* [[Statistics Done Wrong]] - Reinhart

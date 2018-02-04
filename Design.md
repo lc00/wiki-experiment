@@ -1,3 +1,7 @@
+## General Design
+
+* [[Graphic Design - The New Basics]] - Lupton / Phillips
+
 ## Layout
 
 * [[Design School Layout]] - Richard Poulin
@@ -9,7 +13,6 @@
 ## To Finish
 
 * [[Web Style Guide]] - Patrick Lynch & Sarah Horton
-* [[Graphic Design - The New Basics]] - Lupton / Phillips
 * [[Fonts & Typefaces]] - David Woodward
 * [[Microinteractions]] - Saffer
 * [[Interface Design For Learning]] - Peters
