@@ -7,6 +7,7 @@
 * [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
 * [[WebSockets]]
 * [[Bower]]
+* [[Vue]]
 
 ## Express
 
