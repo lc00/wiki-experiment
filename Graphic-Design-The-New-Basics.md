@@ -10,6 +10,36 @@
 
 ## Color
 
+* When two colors are close in value, the lighter one starts to glow
+* Strong value differences create contrast
+* Having warm and cool hues creates visual completeness
+* Opposites create contrast
+* Analagous colors feel more natural
+
+### Categories
+
+* Primary Colors - Red / Yellow / Blue
+* Secondary Colors - Orange / Purple /  Green
+* Tertiary Colors - Primary + Secondary color
+* Analagous Colors - Nearby colors
+* Complement - Opposites / Near-Opposites
+    * One is cool, other is warm
+
+### Aspects of Color
+
+* Hue
+* Value (Shade + Tint) - Amount of black or white mixed with it
+* Saturation / Chroma - Purity of color as it blends to gray
+    * Colors don't all reach peak saturation at the same place
+
+### Color Models / Color Spaces
+
+Systems for indexing colors
+
+* CMYK - Subtractive, blending, print
+    * Overlapping dots, optical color mixing
+* RGB - Additive, based on light
+
 ## Gestalt Principles
 
 ## Framing
