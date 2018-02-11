@@ -25,6 +25,7 @@ Use it like this:
 ```html
 <h1 v-if="visible" v-bind:title="hover">{{header}}</h1>
 <button v-on:click="hideHeader">Hide header</button>
+<input placeholder="Change the title" v-model="header" />
 ```
 
 ## Components
@@ -61,46 +62,6 @@ const app = new Vue({
             id: 2,
             text: "Oi!"
         }],
-    }
-});
-```
-
-```js
-Vue.component("todo-item", {
-    props: ["message"],
-    template: "<p>{{message.text}}</p>"
-});
-Vue.component("announcement-container", {
-    props: ["announcement"],
-    template: "<p>{{announcement.text}}</p>"
-});
-
-const app = new Vue({
-    el: "header",
-    data: {
-        header: "This is a header",
-        hover: "This is hovering",
-        visible: true,
-        list: [{
-            message: "One"
-        },{
-            message: "Two"
-        }],
-        messages: [{
-            id: 1,
-            text: "Hi!"
-        },{
-            id: 2,
-            text: "Oi!"
-        }],
-        announcement: {
-            text: "Announcement!"
-        }
-    },
-    methods: {
-        hideSubheader(){
-            this.visible = false;
-        }
     }
 });
 ```
