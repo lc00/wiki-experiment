@@ -100,53 +100,162 @@
 
 ### Model _and_ Describe
 
+* Describe for the learner in no uncertain terms what the skill involves, what it looks like, and how to do it
+* Modeling helps them replicate, description helps them understand
+
 ### Call Your Shots
+
+* When modeling, be explicit about what you're doing
+* Tell people what to watch for
 
 ### Make Models Believable
 
+* It takes away excuses for not learning
+* Keep the context as close as possible to how learners perform
+* In-person is more believable than video
+
 ### Try Supermodeling
+
+* Staff / professional development meetings are an opportunity to model the techniques you want to see
+* Model any other skills you want the learner to develop
 
 ### Insist They "Walk _This_ Way"
 
+* The learner should replicate it exactly
+* Don't let them put their own spin on it
+
 ### Model Skinny Parts
+
+* Don't model too many steps at once before letting them practice
+* Stay on the part until they can do it with the prompt only
 
 ### Model the Path
 
+* When modeling, make sure learners know the work that _led_ to the end result
+* Model the major steps and imperfections that lead to greatness
+
 ### Get Ready for Your Close-up
+
+* Use video as a model
+* Enables rewatches, slow-downs, etc.
 
 ## Feedback
 
 ### Practice _Using_ Feedback (Not Just Getting It)
 
+* People get very practiced at ignoring or deflecting feedback
+* You need to become coachable
+* Force yourself out of autopilot
+* Try for a few minutes, get 1 postive / 1 delta feedback, go back and try again
+* Lots of quick at-bats applying feedback
+* You need a tight loop to see whether the feedback works
+
 ### Apply First, Then Reflect
+
+* Don't analyze the feedback first- try applying it
+* People often use earnest conversation and reflection as a way to avoid practice
+    * "Whose turn is it?" can interrupt this
+* The practice cycle is:
+    1. Practice
+    1. Feedback
+    1. Do over with the feedback
+    1. Repeat
+    1. Reflect
+* What people usually do is:
+    1. Practice
+    1. Feedback
+    1. Reflect and discuss
+    1. Possibly do over
 
 ### Shorten the Feedback Loop
 
+* Short, imperfect, frequent feedback is more effective than in-depth feedback later on
+* Have them practice in their head first
+
 ### Use the Power of Positive
+
+* Focusing on improving your strengths
+* Positive coaching tools:
+    1. Statement of identification - What did they do right?
+    1. Statement of application - Apply their skill in a new way
+    1. Statement of replication - Help them do it again
 
 ### Limit Yourself
 
+* Don't give all of the feedback you could possibly give - 1 or 2 things only
+* If they're getting feedback from multiple sources, use a tracker to make sure that the feedback isn't overwhelming
+
 ### Make It an Everyday Thing
+
+* Feedback shouldn't just be linked to mistakes, make it normal
+* Use sentence starters:
+    * "One thing I thought was really effective was..."
+    * "What if you tried..."
 
 ### Describe the Solution (Not the Problem)
 
+* Tell people what you want them to do and why, not what you want them to stop doing
+* Develop abbreviated ways of saying them so you can do them quickly
+
 ### Lock It In
+
+* People don't always apply feedback correctly
+* Tools:
+    1. Summarize Feedback - Have them summarize and repeat back to you. "Let's both check our understanding here"
+    1. Prioritize Feedback - Have them identify and commitment to the two most important things
+    1. Next Action - Have them identify the next thing they're going to do
 
 ## Culture of Practice
 
+* Culture is the things that people take for granted in an organization
+* Is your classroom set up for practice or observation?
+
 ### Normalize Error
+
+* If you don't fall, you aren't trying hard enough. Do the things you're afraid of.
+* Failure rate and level of skill are independent of each other
+* Work on fixing errors before they become too ingrained
+* "Get past nice" and don't apologize for correcting someone
 
 ### Break Down the Barriers to Practice
 
+* People will look for ways to avoid practice because it's scary to feel dumb, so they'll put up barriers to doing the work- "I don't believe in...", "This isn't realistic...", "We're working on something else..."
+* Being on topic and being on task are not the same thing
+* Name the barriers call them out
+* Break down tough students by practicing with them one one one until their demeanor changes
+
 ### Make It Fun to Practice
+
+* Make games and competitions out of the boring parts
+* Make sure to maintain the objective
+* The team should cheer for people in practice, not just at the game
 
 ### Everybody Does It
 
+* Don't let leaders observe other people take risks
+* If you're nervous about not doing a perfect model, tell them you're going to model a B+ version and use it as an opportunity to model the feedback process
+* Show people that you're willing to take risks too
+* Shift the language from "Any volunteers?" to "Who's going to try first?" or "Who wants in?"
+
 ### Leverage Peer-to-Peer Accountability
+
+* Make people accountable to each other, not to a big, anonymous organization
+* A "school teacher" is preferable to a "classroom teacher"
+* "Together, we are all the teachers of the students of this school"
 
 ### Hire for Practice
 
+* Have teachers teach a sample lesson, and gauge how they respond to, and incorporate feedback
+* Have them teach again to the instructors, incorporating their feedback
+* Assume you're hiring people for at least 5 years
+* Are they receptive to feedback from a subordinate?
+* Hire for the things that don't improve through practice
+
 ### Praise the Work
+
+* Praise actions, not traits- traits aren't in a student's control
+* Thank people for behavior that meets expectations- praise people for behavior that exceeds it
+* It needs to be public and genuine
 
 ## Post-Practice: Making New Skills Stick
 
