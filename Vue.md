@@ -247,3 +247,44 @@ export default new Router({
     }]
 })
 ```
+
+## State Management / Vuex
+
+```
+const store = new Vuex.Store({
+    state: {
+        someKey: "someValue",
+        someValues: [1, 2, 3]
+    },
+    mutations: { // Have to be synchronous
+        setSomeKey(state, value){
+            state.someKey = someValue;
+        }
+    },
+    getters: {
+        filterValues(state){
+            return state.someValues.filter(value => value < 2);
+        }
+    },
+    actions: { // Don't have to be synchronous
+        setSomeKey({commit}){
+            commit("setSomeKey");
+        }
+    }
+});
+
+const vm = new Vue({
+    el: "body",
+    store
+});
+
+const component = new Vue.Component({
+    methods: {
+        doSomething(){
+            this.$store.dispatch("setSomeKey");
+        }
+    },
+});
+
+// this.$store.state.someKey
+```
