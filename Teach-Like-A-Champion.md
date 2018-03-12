@@ -677,6 +677,14 @@ The amount and quality of writing students do are the most important thing stude
 
 #### Precise Praise
 
+* Reinforce actions, not traits
+* Align to objectives
+* Differentiate acknowledgement from praise:
+    * Acknowledgement is meeting objectives- Neutral tone, no judgments
+    * Praise is exceeding expectations- Judgmental language
+    * Praising someone for meeting objectives communicates that your standards for excellence are low
+* Public and private praise both serve a function- private is more likely to be perceived as genuine, public is more easy for others to replicate
+
 #### Warm/Strict
 
 #### Emotional Constancy
