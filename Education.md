@@ -1,6 +1,7 @@
 ## Philosophies
 
 * [Blended Learning](Blended-Learning)
+* [[One World Schoolhouse]] - Salman Khan
 
 ## Technique
 
