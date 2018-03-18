@@ -259,12 +259,46 @@
 
 ## Post-Practice: Making New Skills Stick
 
+Drive-by trainings don't work.
+
 ### Look for the Right Things
+
+* If you want to get something done, measure it. Easiest way to measure is to observe.
+* Tell the instructor what you'll be observing for ahead of time
+* Can be done with video
+* Ask students to set their own goals
 
 ### Coach During the Game (Don't Teach)
 
+* You can't learn and perform at the same time- you remind people of what they've already learned during the game
+* Remind people with signals and short reminders
+* You can do real-time coaching in the classroom- in-ear devices?
+
 ### Keep Talking
+
+* Name the skills and call them out as shorthand
+* Reduce the transaction cost for an idea (and build culture)
 
 ### Walk the Line (Between Support and Demand)
 
+* Be transparent about your role as an evaluator
+* You need to balance being supportive with demanding excellence, and consequences for not meeting the standard
+* Echo the mission of the organization
+* It's not advice- it's required to improve performance
+
 ### Measure Success
+
+* Measure 2 things:
+    * The effectiveness of your practice
+    * Whether you are practicing the right things
+* Instead of looking at a lesson purely subjectively, look at it as a series of data points
+* Use multiple methods to gather the data- self-report, observation, performance metrics)
+
+## Monday Morning
+
+These are the techniques that are the easiest to remember and implement immediately:
+
+* Practice the 20 - What are the highest impact skills?
+* Isolate the skill - How can you isolate a skill to be practiced?
+* Name it - Name your most important skills
+* Call your shots - Tell the team what you're working on
