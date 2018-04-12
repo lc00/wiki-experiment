@@ -1,6 +1,6 @@
 ## Modes
 
-* `i`, `a` - Insert mode
+* `i`, `a`, `A` - Insert mode
 * `s` - Substitutes and inserts
 * `<esc>`, `<ctrl> + [` - Normal mode
 * `Q` - Go to ex mode
@@ -165,9 +165,13 @@ These can all be used with the other vim commands (eg, change, delete)
 
 ## Undo/Repeat
 
-* `u` - Undo last change
+* `u` - Undo last change (a change is normal -> insert -> normal)
 * `U` - Undo all changes on this line
-* `.` - Repeat last command
+* `.` - Repeat last change
+* `;`/`,` - Repeat same-line search
+* `n`/`N` - Repeat document search
+* `@:` - Repeat Ex command, macro
+* `&` - Repeat last substitute command
 
 ## CLI
 
