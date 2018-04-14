@@ -2,9 +2,20 @@
 
 * `i`, `a`, `A` - Insert mode
 * `s` - Substitutes and inserts
+* `R` - Replace (overwrite) mode (`r` for one-shot)
 * `<esc>`, `<ctrl> + [` - Normal mode
 * `Q` - Go to ex mode
 * `visual` - To vim from ex mode`
+* Operator-pending mode - After you enter a command, it waits for an operator to execute it
+* `Ctrl+o` - Insert-Normal mode, one-shot normal command then back to insert
+* `Ctrl+g` in Visual mode - Switches to select mode, which works the same as GUI text editors
+* Visual mode
+    * `v` for character-wise
+    * `V` for line-wise
+    * `Ctrl+v` for block-wise
+    * `gv` to highlight the previous visual area
+    * `o` - Toggle which end of a visual selection is fixed
+    * `I` and `A` allow you to insert- `i`/`a` are for text objects
 
 ## CLI Commands
 
@@ -76,7 +87,7 @@
 * `ctrl + y` - One line forward
 * `ctrl + e` - One line backward
 * `z <enter>` - Cursor to top and recenter
-* `z .` - Recenter screen
+* `z .`, `zz` - Recenter screen
 * `z -` - Cursor to bottom and recenter
 * `<num>z` - Center on a specific line
 * `H` - "home", top line of screen
@@ -145,6 +156,11 @@ These can all be used with the other vim commands (eg, change, delete)
 * `"<buffer name><command>` - delete into named buffer
 * `x` - Delete character under cursor
 * `X` - Delete character behind cursor
+* Insert mode deletes:
+    * `Ctrl + h` - Character
+    * `Ctrl + w` - Word
+    * `Ctrl + u` - Changes in line`
+    * These also work in bash and ex
 
 ## Copy/Paste Commands
 
@@ -156,12 +172,20 @@ These can all be used with the other vim commands (eg, change, delete)
     * `.` increments the number
 * `"<buffer name>p` - Paste named buffer
 * Yank and delete share number buffers. Yank can also use named buffers.
+* `Ctrl-r0` - From insert mode- Paste the last buffer
+* `Ctrl-r={expression}` - Insert an expression, such as basic math
+* `Ctrl-k{character}{character}` - Add a digraph to the page, like ½ and ⅔. Look up the list of digraphs with `:h digraph-table`
+* `Ctrl-v{character-code}` - Insert a character code
 
 ## Edit
 
 * `J` - Join current and next line
     * Accepts numeric argument
 * `~` - Change case of letter
+* `>` / `<` - Change indentation
+* `gu` / `gU` - Chase case
+* `=` - Autoindent
+* Repeating a character makes it operate on the whole line (`dd`, `yy`, `cc`, `>>`, `<<`, `==`, `gUU`, `guu`
 
 ## Undo/Repeat
 
@@ -172,6 +196,15 @@ These can all be used with the other vim commands (eg, change, delete)
 * `n`/`N` - Repeat document search
 * `@:` - Repeat Ex command, macro
 * `&` - Repeat last substitute command
+
+## Text Objects
+
+* `a` - Around
+* `i` - Inside
+
+## Increment/Decremnet
+
+* `{count}Ctrl+a` / `{count}Ctrl+x` - Increment/Decrement next number on line
 
 ## CLI
 
@@ -233,3 +266,8 @@ These can all be used with the other vim commands (eg, change, delete)
 * `<number><command><text>` is the same as `<command><number><text>`
 * `Ctrl + G` - Show page stats at the bottom of the screen`
 * The leader key is a prefix for custom hotkeys
+* `ga` tells you information about the character under your cursor
+
+## Vim philosophy
+
+* Lean heavily on `.`- prefer it to counts. It undos/redos better.
