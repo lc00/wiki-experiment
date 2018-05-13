@@ -2,6 +2,7 @@
 
 * [Blended Learning](Blended-Learning)
 * [[One World Schoolhouse]] - Salman Khan
+* [[To Know As We Are Known]] - Parker Palmer
 
 ## Technique
 
