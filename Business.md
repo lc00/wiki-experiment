@@ -16,6 +16,7 @@
 * [[Authentic Leadership]] - The University of Colorado
 * [[Wooden]] - Coach John Wooden
 * [[Drive]] - Daniel Pink
+* [[The Remedy]] - Pascal Dennis
 
 ## To Finish
 
