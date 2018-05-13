@@ -16,6 +16,8 @@
     * `gv` to highlight the previous visual area
     * `o` - Toggle which end of a visual selection is fixed
     * `I` and `A` allow you to insert- `i`/`a` are for text objects
+    * `:` to enter `ex` mode with that range selected
+* `q:` - In normal mode, open a buffer with your command history- searchable, editable
 
 ## CLI Commands
 
@@ -192,8 +194,6 @@ These can all be used with the other vim commands (eg, change, delete)
 * `u` - Undo last change (a change is normal -> insert -> normal)
 * `U` - Undo all changes on this line
 * `.` - Repeat last change
-* `;`/`,` - Repeat same-line search
-* `n`/`N` - Repeat document search
 * `@:` - Repeat Ex command, macro
 * `&` - Repeat last substitute command
 
@@ -209,15 +209,24 @@ These can all be used with the other vim commands (eg, change, delete)
 ## CLI
 
 * `:!<command>` - Execute a unix command
+    * `%` references the current file name
 * `:sh` - Temporarily switch to a console
-    * Ctrl+D to switch back
+    * `Ctrl+D` or `exit` to switch back
+    * `Ctrl+z` / `fg` is usually quicker
 
 ## Ex Commands
 
 * Ex takes a line address, a command, and a return.
 * `|` - Execute multiple ex commands
 * `:<address>r !<some unix command>` - Insert result of a unix command
-* Can use ex as STDIN to unix command, `:r access STDOUT`
+* `:w !ls` - Write to STDIN
+* `:r !ls` - Read from STDOUT
+* `:{range}!ls` - Filter (write/read) through command
+* `:t` - Copy (eg. :5,6t 9)
+* `:m` - Move
+* `:normal` - Execute a normal command across a range (better than a simple macro, good for repeating)
+* `Ctrl+d` list options
+* `Ctrl+r Ctrl+w` - Paste in currently highlighted word to ex
 
 ### Line addresses
 
@@ -260,6 +269,12 @@ These can all be used with the other vim commands (eg, change, delete)
 * `number`
 * `list`
 * `autowrite`
+
+## Vim Scripts
+
+* Save ex commands in a file with a `.vim` extension
+* Run it with `:source`
+* Open multiple files, and then use `:argdo source batch.vim`
 
 ## Miscellaneous
 
