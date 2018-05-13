@@ -15,6 +15,7 @@
 * [Leading Others](Leading-Others) - The University of Colorado
 * [[Authentic Leadership]] - The University of Colorado
 * [[Wooden]] - Coach John Wooden
+* [[Drive]] - Daniel Pink
 
 ## To Finish
 
@@ -23,6 +24,5 @@
 * [[Four Steps To The Epiphany]] - Steve Blank
 * [[What Got You Here Won't Get You There]] - Marshall Goldsmith
 * [[Leaders Eat Last]] - Simon Sinek
-* [[Drive]] - Daniel Pink
 * [[Zero To One]] - Peter Thiel
 * [[The Mindset of Success]] - Jo Owen
