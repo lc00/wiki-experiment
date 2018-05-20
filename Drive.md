@@ -54,10 +54,12 @@ Self-determination theory: when our need for competence, autonomy, and relatedne
 * Type I behavior is a renewable resource
 * Type I behavior promotes physical and mental well-being
 
-People aren't human resources, they're your partners in achieving your vision
+## Autonomy
 
+* People aren't human resources, they're your partners in achieving your vision
+* In a "Results-only work environment" (ROWE), people are much less likely to leave for an extra $20k
 * Management is an 1850's technology- autonomy is our basic human nature.
-* We all have the capacity to self direct in the long run
+* We all have the capacity to self direct in the long run. We're not inert, waiting to be prodded into action. We're active by default.
 * Innovation is inexpensive
 * Mediocrity is expensive
 * Instead of categorizing extrinsic or intrinsic, categorize as controlling or autonomous
@@ -65,7 +67,26 @@ People aren't human resources, they're your partners in achieving your vision
 * Empowerment presumes that the organization has power and benevolently ladled some of it into the waiting bowls of grateful employees
 * Type I behavior emerges when people have autonomy over the 4 Ts
     * Task
+        * McKnight (3M) - "Hire good people, and leave them alone"
+        * 20% time (100% time?)
     * Time
     * Technique
     * Team
-* William McKnight- great manager 3M, 1940s
+
+* If the rewards come from time, time is what firms will get
+* Billable hours have no place in motivation 3.0 because there's no direct link between time input and quality of output
+
+## Mastery
+
+* Control leads to compliance, autonomy leads to engagement. Only engagement can produce mastery.
+* Flow comes from having clear goals and fast feedback
+* 3 laws of mastery
+    * Mastery is a mindset. It relies on learning goals, not performance goals.
+    * mastery is a pain- showing up on the days you don't want to show up.
+    * Mastery is an asymptote. You need to always reach for it even though you'll never get there.
+
+## Purpose
+
+* Purpose maximization over profit maximization
+* It shouldn't be box-checking- that extinguishes intrinsic motivation
+* Begin with purpose and use profit as a way to get there
