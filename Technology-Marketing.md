@@ -32,6 +32,8 @@
     * Look out for two-sided markets
     * Who is your beach-head market?
 * You need to be 30% better on _some_ attribute.
+* "Leap-frogging" (skipping a version)- this can prevent your ability to price skim
+* Your supply chain: Supplier -> Manufacturer/OEM -> Channel members -> Customers
 
 ## Types of Marketing
 
@@ -159,3 +161,303 @@ Primary research:
 
 * Determining strategy: Ask open-ended questions, use focus groups, walk in their shoes
 * Determining tactics:  Ask close-ended question, "Which do you prefer?", surveys
+
+## Market-Oriented & Cross-Functional Marketing
+
+* Must excel at opportunity identification, product & process improvement, and product commercialization
+* Same as customer-focused
+* Using market information to guide strategic decision-making
+* Intelligence generation -> Intelligence dissemination -> Intelligence integration -> Coordinated action
+
+### Intelligence generation
+
+* Purchase secondary market intelligence
+* Expressed needs aren't everything
+* Marketing myopia, the tyranny of the served market
+* Responsive vs. proactive market orientation
+    * "Market-driving" is a subset of this
+* "Bifocal vision"- Present & future customers
+
+### Intelligence dissemination
+
+* Boundary-less organization
+* Meetings, conferences, newsletters, databases, hall talk
+* Prevent hoarding
+
+### Intelligence Integration
+
+* Explicit vs. tacit knowledge
+* Knowledge management
+
+### Coordinated Action
+
+* If someone was a part of a decision, they're more committed to applying it
+* "Coopetition": Competing for scarce resources
+
+Facilitating conditions:
+
+* Prioritize information gathering
+* Top management commitment
+* Decentralized org. structure
+* Market-based compensation
+
+### Product Development & Marketing - R&D Interaction
+
+* Marketing is boundary-spanning
+* Cross-functional product-dev
+* Need communication, use of information, conflict management
+* Team-orientation
+* Reward systems - Team & group
+* Breakthrough vs. incremental innovations
+* Know your customer, use to resolve early questions
+* "Cooptation": Informal collaboration & consensus-building
+* Cooperation- colocate and embed
+
+Teams must have:
+
+* Commitment of senior management
+* Clear and stable vision
+* Improvisation
+* Information exchange
+* Collaboration under pressure
+
+Barriers:
+
+* Dominant engineering culture
+* Different values, education, personalities
+* Different locations
+* Rivalry
+
+### Business Models
+
+Pick one:
+
+* Consulting
+* Content provider
+* Installation & maintenance
+* Manufacturer
+* Research & technology
+
+### Revenue Model
+
+* Regular Recurring
+* One-time
+
+### Decision-making Units
+
+* Who buys, who uses, who might be the champion
+    * Champion: Who wants the customer to purchase
+    * By an ally to your champion, not a salesperson
+* Consumer products vs. commercial products
+* National infrastructure
+* Primary economic buyer: who controls the budget
+* Primary, secondary influencers: Magazines & the dumb buddy
+* Who has veto power?
+* Purchasing departments
+* Learn about the DMUs for your personas
+
+### Total Addressable Market
+
+* An estimate of the market size- amount of annual revenue if you got 100% market share
+* Find the "beachhead market" to make your way in
+* "Count noses," look at trends- how much will each spend per year?
+* A $5M TAM is too small, $20M-$100M is good, >$1B is bad
+
+### Lifecycle Use Cases
+
+* How, why, when, where your product is used
+* How does the customer use, service, and dispose of your product?
+* Resistance and barriers to adoption
+* Should all be from the customer's view
+* Should be a visual
+
+### Pain Points
+
+* Are you solving a pain point, or introducing a new one?
+* Is your product enough to change customer behavior? If possible, rely on their existing behavior.
+
+## Market Research
+
+Gathering information:
+
+* Market research is between 0.1% and 0.8% of revenue and uses between 5 and 50 people
+* Standard methods are good for incremental innovation, otherwise intuition drives breakthroughs. In between those, check in with your customers, use prototypes, and tap into your "lead users"
+
+### Tools
+
+* Concept testing
+* Conjoint analysis (breaking a product into value per feature)
+* Customer visits with a cross-functional team
+* Empathetic design: getting inside a user's world, finding pain points, offering customizations
+* Finding "lead users"
+* Quality function deployment
+    * Map customer needs into design requirements
+    * Kano model
+* Prototyping
+* Beta testing
+* Customer-driven innovation- open source, modding
+* Biomimicry
+
+### Forecasting
+
+Qualitative tools:
+
+* Delphi Method: Separate experts, look for consensus
+* Analagous data
+
+Quantitative tools:
+
+* Bass model (S-curve)
+
+| Incremental           | Breakthrough     |
+| --------------------- | ---------------- |
+| Time-series           | Delphi technique |
+| Moving average        | Analagous data   |
+| Exponential smoothing | Bass model       |
+
+## Understanding High-Tech Customers
+
+### The Customer Purchase Decision Process
+
+1. Problem Recognition
+2. Information Search
+3. Evaluate Alternatives
+4. Purchase Decision
+5. Post-purchase Evaluation
+
+Design:
+
+* Functional + Aesthetics
+* Design thinking: Human + business + technology factors
+
+Factors affecting the adoption of innovation
+
+* Relative advantage
+* Compatibility
+* Complexity
+* Trialability
+* Ability to communicate product benefits
+* Observability
+
+Tech adopters:
+
+Innovators | Early Adopters | The Chasm | Early Majority | Late Majority | Laggards
+
+To cross the chasm:
+
+1. Choose a "beach head" customer
+    * They should have a single "must-have" reason to buy
+    * They should be adjacent to related segments:
+        * Adjacent areas have word-of-mouth
+        * Similar needs
+        * Capturable in a short period of time
+2. Develop the "whole product"
+3. Have competition, and be better than them 
+4. Enter the "bowling alley" - your beachhead customer should be the lead pin that helps you capture other niche markets. This is easy to skip, but these are the alliances you'll need to go mass-market.
+5. Enter the "tornado." The current market leader will propelled into a tornado by the pragmatist buyers who fight to choose a "winner," and companies will show triple-digit growth. There is typically one winner, one smaller player, and everyone else takes scraps. Market leaders here tend to stay the market leaders, unless they do something like fail to keep up with falling price points or forcing the market to adopt an innovation they don't want. This transition is hard because the bowling alley and the tornado require opposite strategies. The bowling alley is won by references, customization, and niche positioning. The tornado is won by mass markets, increased distribution, generic products, attacking the competition, and commoditizing your product.
+6. Enter "main street." There are no new customers, so you sell customization and target niches again.
+
+### Segmentation, targeting, and positioning
+
+* Divide possible customers into groups
+* A "vertical" is an industry
+* A "horizontal" is a function
+* Profile your customers
+* Evaluate and select a target market based on:
+    * Size
+    * Growth
+    * Level of competition
+    * Your capability to serve this segment
+* Position your product within the segment (based on perception and competition)
+* Multi-attribute model: customer ranks importance of performance on attributes
+* Perceptual map
+
+### The Customer Paradoxical Relationship
+
+Positive benefits of a technology may be outweighed by their negative consequences. Eg. ATMs at banks hurt relationships between customers and tellers.
+
+* Control vs. chaos
+* Assimilation vs. isolation
+* Intelligence vs. stupidity
+* Freedom vs. enslavement
+* Engagement vs. disengagement
+* Efficiency vs. inefficiency
+* Fulfilling needs vs. creating needs
+* New vs. obselete
+
+Customer attitudes toward technology:
+
+* Techtopian
+* "Work machine"
+* Green/luddite
+* Techspressive
+
+## Venture Metrics
+
+Cash is king!
+
+* Breakeven volume
+* Burn rate (rate at which you spend cash)
+* Cost of acquiring new customers
+* Gross margin
+* Lifetime value of a customer
+* Net margin
+* Next product purchase rate
+* Product cost
+* Retention rate
+* Sales, admin, R&D, and legal (SARL)
+* Time to cash out (how soon you will run out of cash)
+* Time to cash-flow positive (when investors start getting paid)
+
+## Pro-Formas
+
+Model the first 12-24 months, then do quarterly for years 3 and 4. Model for different scenarios.
+
+* P&L, Balance Sheet, and Statement of Cash Flows
+* EBITDA approximates cash flow
+* Target numbers: Top-down guess, based on experience (+/- 20%)
+* Forecast numbers: Supported by analysis (+/- 10%)
+* Planning numbers: Bottom-up commitments (+/- 5%)
+* Use real numbers, not conservative guesses
+
+## Revenue Projections
+
+You need to forecast revenues:
+
+* Per product/service
+* Over 3-5 years of time
+* Including # of units and average net price/unit
+
+Use net units and prices. Time 0 = when you start the clock.
+
+## Target Costing
+
+If you can't cover your costs, you're out of business. The cost is locked in at the design stage, so work backward to establish a target cost.
+
+* Accounting costs
+* Societal costs
+* Fixed costs
+* Variable costs
+* Direct vs. indirect costs
+* Total costs = fixed + variable costs
+* Dock price
+* Markup is added to cost to get pricce
+* Margin is percentage that price exceeds cost
+* Net margin uses total costs
+* Gross margin = Revenue - COGS
+    * COGS = Direct material + direct labor + manufacturing overhead
+    * Tech companies should shoot for >50% gross margin
+    * Services use "cost of services rendered"
+* Breakeven volume = $0 profit
+
+Steps to target costing:
+
+1. Start w/ price and estimate of sales #s
+2. Backtrack through distribution channel to dock price
+3. Include required profits
+4. Target costs = forecasted revenues - target profits
+5. Allocate target costs by department
+6. Reality check, reiterate
+7. Use these as budgets
+
+
