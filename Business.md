@@ -10,6 +10,10 @@
 * [[Performance-Reviews]]
 * [[Lean and Agile Management]] - The University of Colorado
 
+## Accounting & Finance
+
+* [[Accounting and Finance]] - The University of Colorado
+
 ## Marketing
 
 * [[Technology Marketing]] - The University of Colorado
