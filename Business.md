@@ -8,6 +8,7 @@
 * [4 Disciplines of Execution](4-Disciplines-Of-Execution) - Sean Covey
 * [[Burnout]]
 * [[Performance-Reviews]]
+* [[Lean and Agile Management]] - The University of Colorado
 
 ## Marketing
 
