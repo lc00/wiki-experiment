@@ -8,7 +8,11 @@
 * [4 Disciplines of Execution](4-Disciplines-Of-Execution) - Sean Covey
 * [[Burnout]]
 * [[Performance-Reviews]]
+
+## Project Management
+
 * [[Lean and Agile Management]] - The University of Colorado
+* [[User Stories Applied]] - Mike Cohn
 
 ## Accounting & Finance
 
