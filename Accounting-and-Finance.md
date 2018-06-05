@@ -413,7 +413,7 @@ Yield curves:
 * And the 1 year rate is `y`
 * You should be able to estimate next year's interest rate:o
 
-`y` = 1 * 1.05 * 1 + `x`
+`y = 1 * 1.05 * 1 + x`
 
 ### Macroeconomic Factors
 
