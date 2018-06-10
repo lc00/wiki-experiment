@@ -8,6 +8,7 @@
 * [[WebSockets]]
 * [[Bower]]
 * [[Vue]]
+* [[Async Await]]
 
 ## Express
 
