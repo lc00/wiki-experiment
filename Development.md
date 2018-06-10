@@ -1,7 +1,6 @@
 ## JavaScript
 
 * [[JavaScript]]
-* [[Node.js]]
 * [[ES2015]]
 * [Refactoring JavaScript](Refactoring-JavaScript) - Evan Burchard
 * [JavaScript Performance](JavaScript-Performance-Prall) - DenverScript talk by Chandler Prall
@@ -10,10 +9,12 @@
 * [[Vue]]
 * [[Async Await]]
 
-## Express
+## Node
 
+* [[Node.js]]
 * [[Express]]
 * [[Passport]]
+* [[Feathers]]
 
 ## Testing
 
