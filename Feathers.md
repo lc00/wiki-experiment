@@ -262,6 +262,10 @@ createAndList();
 ## CLI
 
 * Setup with `npm i -S @feathersjs/cli -g`
+* New app - `feathers generate app`
+* New service - `feathers generate service`
+    * Creates service file, hooks file, model, and test
+* Setup auth- `feathers generate authentication`
 
 ### Configure functions
 
