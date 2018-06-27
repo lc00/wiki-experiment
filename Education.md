@@ -13,6 +13,10 @@
 
 * [[Leverage Leadership]] - Paul Bambrick-Santoyo
 
+## Cognitive Science
+
+* [[Brain Matters]] - Patricia Wolfe
+
 ## To Finish
 
 * [[Blended]] - Michael Horn, Heather Staker
