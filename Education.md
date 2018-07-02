@@ -17,6 +17,7 @@
 ## Cognitive Science
 
 * [[Brain Matters]] - Patricia Wolfe
+* [[How People Learn]] - Brain, Mind, Experience, and School
 
 ## To Finish
 
