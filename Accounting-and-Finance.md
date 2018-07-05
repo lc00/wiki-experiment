@@ -461,4 +461,22 @@ Bonds are issued to raise debt capital. They require regular interest payments.
 
 ### Bond Valuations
 
+* `rd` = Market interest rate (not coupon rate, although sometimes they are equal)
+* `N` = Years to maturity
+* `INT` = Dollars interest paid each year
+* `M` = Maturity value (par)
+
+Bond Value:
+
+Sum of `t = 1` through `N`:
+
+`INT / (1 + rd)^t` + `M / (1 + rd)^N`
+
+If the going interest rate:
+
+* Rises, bond is cheaper than par, and is a discount bond
+* Falls, bond is more expensive than par, and is a premium bond
+
 ### Bond Yields
+
+
