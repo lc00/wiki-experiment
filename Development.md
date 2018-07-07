@@ -21,6 +21,7 @@
 
 * [[Testing]]
 * [[Developer Testing]] - Alexander Tarlinder
+* [[The Way of the Web Tester]] - Jonathan Rasmusson
 
 ## Ember
 
