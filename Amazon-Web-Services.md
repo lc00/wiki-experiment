@@ -75,3 +75,35 @@ Types:
 6. Open up traffic on your RDS security group to allow only your EC2 to talk to it
     * Open up port 3306 (MySQL) or 5432 (Postgres) to inbound traffic from the security group
     * Start typing `sg` and you'll be prompted with all of the security groups you have
+
+## Route 53
+
+Handles 4 related services:
+
+* Domain registration
+* DNS management
+* Traffic management - Simliar to ELB, chainable
+    * Simple routing policy - Matches the record set
+    * Weighted routing policy - Directs proportion of traffic to different places
+    * Latency routing policy - Matches the server with the lowest latency for a user
+    * Failure routing policy - Redirects traffic away from a failing server
+    * Geolocation routing policy - Directs user to a server that it's in the nearest availability zone to them
+* Availability monitoring (Health Checks)
+    * Notifies you in the event of a failure. Give it a URL or IP and a path, and it will email you in the event of a failure.
+
+Hosted zone: Records related to a specific domain
+TTL: Time to live, how often your records are refreshed. Lower is faster, but more expensive.
+
+### Record Sets
+
+Default records:
+
+* SOA: Start of Authority. Basic DNS configuration information.
+* NS: Authoritative name servers that can be queried about your domain. These are public services.
+
+Other record sets:
+
+* A record: Maps a domain name to an IP address
+    * Don't associate something to your EC2 public IP address- it could easily change. Instead, add an elastic IP to your EC2 from the dashboard, and use that.
+* ALIAS record: Redirects a domain to another domain, can be used at the apex
+* CNAME record: Redirects a domain to another domain, cannot be used at the apex
