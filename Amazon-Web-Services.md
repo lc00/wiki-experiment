@@ -107,3 +107,17 @@ Other record sets:
     * Don't associate something to your EC2 public IP address- it could easily change. Instead, add an elastic IP to your EC2 from the dashboard, and use that.
 * ALIAS record: Redirects a domain to another domain, can be used at the apex
 * CNAME record: Redirects a domain to another domain, cannot be used at the apex
+
+## S3
+
+Cheap file storage, organized into buckets of objects. You can also configure a bucket as a static site.
+
+### Options
+
+* You can enable versioning to make S3 keep track of all versions of an object
+* You can enable logging to see all access to your bucket
+* You can have different levels of access for different users
+* You can set different levels of access frequency for a bucket, and different levels of redundancy
+* You can encrypt your files or not
+
+Files have to be public to be read directly by the web. You can use this to host websites, at a cost of about $0.03/GB/Month for storage and $0.09/GB/Month for transfer.
