@@ -71,6 +71,8 @@
 
 ## Infrastructure
 
+* [[Amazon Web Services]] - David Clinton
+* [[Continuous Delivery]] - Jez Humble & David Farley
 * [Design vs. Infrastructure](Design-Vs-Infrastructure) - Talk from Boulder Startup Week
 * [[Jekyll]]
 * [[Networking]]
@@ -79,10 +81,15 @@
 * [[System Administration]]
 * [[Route 53]]
 * [[S3]]
+* [[LAMP]]
 
 ## DevOps
 
 * [[Docker]]
+
+## CMS
+
+* [[WordPress]]
 
 ## Security
 
