@@ -11,6 +11,10 @@
 * Customer is responsible for their data, application and data encryption, OS and Network access control
 * AWS is responsible for the computing, storage, database, networking, regions, availability zones, and edge locations
 
+### [Total Cost of Onwership Calculator](https://awstcocalculator.com/)
+
+Generates estimated monthly cost, and a schematic of the architecture at a URL you can send someone. It also helps you compare those costs to on-premises expenses.
+
 ## EC2
 
 * EC2 is the compute power, not the hard drive (that's the attached EBS)
@@ -173,6 +177,32 @@ Concepts:
 * Groups: A combination of policies you can apply to users
 * Roles: Permissions owned by objects
 * Access Keys: CLI/API access
+
+## Resource Tags
+
+Key-value pairs for identifying your resources as your infrastructure grows.
+
+* `Name` will show up in your dashboard
+* Helps with tagging newly created resources
+* Use information systems / hierarchy best practices when coming up with naming schemes for your app
+* Search for tagged resources under `Resource Groups -> Tag Editor`
+* Resource groups combine sets of tags, and can give you custom dashboards for that group
+* You can track costs by resource group
+
+## CloudWatch
+
+* Tracks resource utilization minute-by-minute
+* `Alarms -> Billing -> Create Alarm`
+* Much more fine-grained than AWS Budgets
+* Measure utilization too
+    * `VolumeIdleTime` - How much time an EBS volume spends being idle
+    * `CPUUtilization` - How hard a server is working
+
+### Budgets
+
+* General admin accounts can't set budgets
+* `Your name -> Billing Dashboard -> Budgets`
+* Setup alerts for when different usage or cost thresholds are reached
 
 ## AWS CLI
 
