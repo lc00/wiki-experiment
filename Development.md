@@ -72,6 +72,12 @@
 ## Infrastructure
 
 * [[Amazon Web Services]] - David Clinton
+    * [[EC2]]
+    * [[RDS]]
+    * [[Route 53]]
+    * [[S3]]
+    * [[IAM]]
+    * [[CloudWatch]]
 * [[Continuous Delivery]] - Jez Humble & David Farley
 * [Design vs. Infrastructure](Design-Vs-Infrastructure) - Talk from Boulder Startup Week
 * [[Jekyll]]
@@ -79,8 +85,6 @@
 * [[Nginx]]
 * [[Raspberry Pi]]
 * [[System Administration]]
-* [[Route 53]]
-* [[S3]]
 * [[LAMP]]
 
 ## DevOps
