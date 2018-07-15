@@ -6,6 +6,11 @@
 * S3: Storage and backup
 * EBS Volume: Hard drive for a compute resource
 
+### Shared Responsibility Model
+
+* Customer is responsible for their data, application and data encryption, OS and Network access control
+* AWS is responsible for the computing, storage, database, networking, regions, availability zones, and edge locations
+
 ## EC2
 
 * EC2 is the compute power, not the hard drive (that's the attached EBS)
@@ -121,3 +126,46 @@ Cheap file storage, organized into buckets of objects. You can also configure a 
 * You can encrypt your files or not
 
 Files have to be public to be read directly by the web. You can use this to host websites, at a cost of about $0.03/GB/Month for storage and $0.09/GB/Month for transfer.
+
+### Snapshots of EBS Volumes
+
+The goal is to take a snapshot of the EBS at a known point, then provision a new EC2 and attach that EBS in the case of a failure.
+
+Backup:
+
+1. Stop the instance
+2. Elastic Block Store -> Volumes -> Create Snapshot
+3. Label snapshot
+4. Elastic Block Store -> Snapshots -> Actions -> Create Image
+    * Defaults are fine, but make sure to change virtualization type from paravirtual to hardware-assisted virtualization
+5. Restart the instance
+
+Recovery:
+
+1. Images -> AMIs -> Launch
+
+### OS Backups
+
+Backup:
+
+1. `tar czf backup.tar.gz /etc /var /home`
+2. `aws s3 cp backup.tar.gz s3://BucketNameHere`
+
+Recovery:
+
+1. Dowload backup file
+2. Copy results over your directories
+
+## AWS CLI
+
+### Setup
+
+```
+sudo apt update && sudo apt install python unzip
+curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
+unzip awscli-bundle.zip
+sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+aws configure
+```
+
+Get access keys from the AWS console with `Your Name -> Security Credentials -> Access Keys -> Create New Access Key`
