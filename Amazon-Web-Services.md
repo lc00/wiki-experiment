@@ -1,10 +1,20 @@
 ## Intro
 
 * Virtual Private Cloud (VPC): Virtual network that allows fast communication between resources, while limiting communication from the outside
-* Security Group: Manages communication between your VPC and the internet
+    * Can have public and private subnets
+* Security Group:
+    * Manages communication between your VPC and the internet
+    * Manages communication between AWS resources
 * Amazon Machine Image (AMI): Template for creating environments
 * S3: Storage and backup
 * EBS Volume: Hard drive for a compute resource
+
+## Elasticity vs. Scalability
+
+* Elasticity implies that something stretches to accomodate increased demand, and then returns back to its previous level
+* Scalability that the pieces are stackable by design
+    * Horizontal scaling: Adding more lightweight nodes
+    * Vertical scaling: Adding more computing power to your existing resources
 
 ## Shared Responsibility Model
 
@@ -63,6 +73,12 @@ Config:
 ### General Use
 
 * Man pages: `aws help`, `aws s3 help`, `aws iam add-user-to-group help`
+
+## High Availability
+
+High availability: System is up for ~100% of the time
+
+* Achieved through redundancy, replication, failover protocols, monitoring, and load balancing
 
 ## [[EC2]]
 
