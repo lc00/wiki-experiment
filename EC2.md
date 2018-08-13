@@ -44,3 +44,7 @@ Instance types:
 * List instances: `aws ec2 describe-instances`
 * Creating an instance: `aws ec2 run-instances --security-group-ids sg-0448c212 --image-id ami-12b5f758 --instance-type t2.nano --count 1 --subnet-id subnet-bc4621db`
 * Terminating instances: `aws ec2 terminate-instances --instance-ids i-01d26164507118d30`
+
+## Multiple Availability Zones
+
+* When deploying, you can select a subnet for a different availability zone within the same VPC
