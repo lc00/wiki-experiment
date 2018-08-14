@@ -13,3 +13,8 @@ Concepts:
 * Groups: A combination of policies you can apply to users
 * Roles: Permissions owned by objects
 * Access Keys: CLI/API access
+
+## Service Roles
+
+* Created in IAM
+* Allow one AWS service to talk to another
