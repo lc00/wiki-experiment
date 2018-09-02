@@ -9,6 +9,7 @@
 * [[Vue]]
 * [[Async Await]]
 * [[Webpack]]
+* [[Functional JavaScript]] - Fogus
 
 ## Node
 
@@ -123,7 +124,6 @@
 
 ## To Finish
 
-* [[Functional JavaScript]] - Fogus
 * [[Think Like A Programmer]] - Anton Spraul
 * [[Joel On Software]] - Joel Spolsky
 * [[Data Structures and Algorithms with JavaScript]]
