@@ -52,3 +52,25 @@ function isGreater(x, y){
 * Function scope vs. Block scope
 * Free variable - Closed-over variable referenced in an inner-scope
 * Shadowing - Overwriting a variable in an inner scope
+
+## Higher-Order Functions
+
+Given a collection of people, finds the oldest person:
+
+```js
+finder(plucker("age"), Math.max, people);
+```
+
+* For: Use functions for iterating somemthing a specific number of times (`repeatedly`)
+* While: `function iterateUntil(fn, test, initialValue)`
+* Static values are often represented with `k`
+* Combinator: Lambda with no free variables
+* Currying: Returning a function from a function
+* Use a free variable to have shared state between multiple calls to the same function (incrementor)- this isn't pure and makes a function stateful though
+* Referential transparency: Only reliant on input to produce output, no free variables
+* Return a function with a bound parameter is a way to "configure" an object
+* You can attach metadata to a function as a property, like an error message, and return it in a higher-order function
+
+## Functional Composition
+
+Snapping together functions like legos.
