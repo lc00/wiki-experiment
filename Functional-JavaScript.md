@@ -74,3 +74,77 @@ finder(plucker("age"), Math.max, people);
 ## Functional Composition
 
 Snapping together functions like legos.
+
+* Dispatching: Try each of these functions in order until one of them returns a value
+* You can use a chain of functions to replace a switch statement. Each function takes a test function and a function that will be invoked if the test passes. If the function returns undefined, it tries the next function.
+* Mutation is a low-level operation - hide it as far down as you can.
+
+```js
+const someDataTransformation = dispatch(
+    isA("notify", notifyUser),
+    isA("join", joinUser),
+    alertUser, // default
+);
+```
+
+### Currying
+
+Create a function that returns other functions, applying the arguments from the first
+
+* Used to create fluent interfaces and build new functions
+* Can be done from the right or left
+* `curry1`, `curry2`, `curry3` - If the number of parameters is arbitrary, use partial application instead
+
+```js
+function outside(variable1){
+    return function inside(variable2){
+        return variable1 * variable2;
+    };
+}
+```
+
+### Partial Application
+
+Currying builds a function that has access to free variables, partial application progressively binds arguments to functions
+
+```js
+function outside(variable1){
+    return inside.bind(null, variable1);
+}
+```
+
+```js
+function square(number){
+    return number * number;
+}
+
+// `condition` accepts validators, and returns errors if validations fail or applies the bound function otherwise
+const squarePostConditions = condition(
+    validator("Needs to be greater than 0", greaterThan(0)),
+);
+const squarePreconditions = condition(
+    validator("Must a number", isNumber),
+);
+
+// `partial` calls the first function, and binds the second function as its first argument
+const validatedResult = partial(squarePostConditions, identity);
+const validatedSquare = partial(squarePreconditions, square);
+
+// Evaluates right to left
+const safeSquare = compose(
+    validatedResult,
+    validatedSquare,
+);
+
+safeSquare(2);
+```
+
+This code:
+
+* Passes 2 to the `safeSquare` function
+* The 2 is passed into the `validatedSquare` function
+* `validatedSquare` applies the preconditions to 2
+    * If there are no errors, it passes 2 to the square function, which was bound as its first argument
+* 4 is passed to the `validatedResult` function
+* `validatedResult` passes 4 to the `squarePostConditions` function
+    * If there are no errors, it passes 4 to the identity function, which was bound as its first argument
