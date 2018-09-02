@@ -48,3 +48,60 @@ For feedback to be useful:
 * Done means released
 * Everybody is responsible for the delivery process- DevOps
 * Continuous improvement
+
+## Configuration Management
+
+Configuration management is the process for storing, retrieving, and modifying all of the artifacts for your project.
+
+If you're doing it well, all of these should be true:
+
+* [ ] You can exactly reproduce any environment- OS, network configuration, software stack, applications, app config, etc.
+* [ ] You incrementally change any of those and deploy them to any or all environments
+* [ ] You can see all changes in all environments and trace them back to who changed them and when
+* [ ] You can satisfy all of your compliance obligations
+* [ ] Can every member of the team get the information they need and make the changes they need to make
+
+### Version Control
+
+Keep everything in version control:
+
+* App code
+* Documentation
+* Environment configuration information
+* Requirements
+* Test scripts
+
+All of this helps easily recreate any version of the application and get anyone new to the team up and running quickly.
+
+Changes need to be checked into master quickly and regularly
+    * Run your tests before check-in to reduce chance of conflicts
+    * Should ideally be several times a day
+    * Commit messages should be long and detailed, include an overview and links to tickets
+
+It's useful to have copies of external libraries stored somewhere, and split your application into components with separate pipelines and clean interfaces between each other.
+
+Configuration information is even more risky to change than source code because it throws such unclear errors, which is why it should be versioned so carefully.
+
+Types of configuration:
+
+* Pulled into binaries at build time
+* Pulled into packages at packaging time
+* Pulled into an installation at deployment time
+* Fetched into the application at run time
+
+It's ideal to push configuration as late as possible, to keep your application code universal.
+
+You can store configurations in a database, or a key-value store like Redis. You can have your application access them through an interface to isolate them from how they are being stored and to make them injectable for tests. You may need to store the keys in version control separately from the values (passwords, things that change on a different cycle than the app). Keep binaries separate from configuration information, and keep all configuration information in one place.
+
+Your configuration depends on:
+
+* The application
+* The version of the application
+* The environment it's running in
+
+Testing configuration:
+
+* Test that your external dependencies are still functioning
+* Write smoke tests for your application that depend on it being configured correctly
+
+Production environments should be completely locked down- no one should be able to modify them directly.
