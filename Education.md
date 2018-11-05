@@ -1,9 +1,11 @@
 ## Philosophies
 
-* [Blended Learning](Blended-Learning)
+* [[Blended Learning]]
+* [[Blended]] - Horn & Staker
 * [[One World Schoolhouse]] - Salman Khan
 * [[To Know As We Are Known]] - Parker Palmer
 * [[Why Johnny Can't Add]] - Morris Kline
+* [[What Education Is]]
 
 ## Technique
 
