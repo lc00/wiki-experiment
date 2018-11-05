@@ -1,6 +1,5 @@
 ## Philosophies
 
-* [[Blended Learning]]
 * [[Blended]] - Horn & Staker
 * [[One World Schoolhouse]] - Salman Khan
 * [[To Know As We Are Known]] - Parker Palmer
