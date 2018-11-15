@@ -14,7 +14,9 @@
 * `(this|that)` - Or
 * `$` - Must be the end of the line
 * `\` - Escape
+* `-` - Range (a-z, A-Z, 0-9)
 * `[<characters>]` - Sets and options
+    * A character set will match any individual item in it
 * `\s` - Whitespace
 * `\S` - Non-whitespace
 * `\d` - Digit
@@ -42,3 +44,7 @@
 * [:graph:]
 * [:space:]
 * [:cntrl:]
+
+## In JS
+
+* Use the literal by default, use the constructor if you need to use variables
