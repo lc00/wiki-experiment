@@ -89,12 +89,10 @@
 
 * `escape`, `escapeRegExp` 
 * `startCase`, `camelCase`, `capitalize`, `kebabCase`, `lowerCase`, `lowerFirst`, `upperFirst`, `snakeCase`, `toLower`, `toUpper`, `upperCase`
-* `replace`
+* `replace`, `template`
 * `repeat`
 * `pad`, `padEnd`, `padStart`, `trim`, `trimStart`, `trimEnd`
 * `parseInt`, `split`
-* `split`
-* `template`
 * `deburr` - Remove diacritical marks
 
 ## Transform Between
