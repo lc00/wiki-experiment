@@ -10,6 +10,7 @@
 * [[Async Await]]
 * [[Webpack]]
 * [[Functional JavaScript]] - Fogus
+* [[lodash]]
 
 ## Node
 
