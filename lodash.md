@@ -31,6 +31,7 @@
     * `takeRightWhile` - Get elements from the end until condition is met
 * `findKey` - Get key of matching object
     * `findLastKey` - Get key of last matching object
+* `endsWith` - Checks if a string ends with a string
 
 ### Transform Collection
 
@@ -78,11 +79,27 @@
     * `invertBy` - Swap keys and values with a supplied transformation
 * `castArray` - Converts to a collection
 
-### Organize
+## Transform Number
 
-* `shuffle` - Randomize the order of a collection
-* `sortBy` - Sorts a collection by a property
-* `orderBy` - Sort, specificying sort direction
+* `clamp` - Constrain number with upper and lower bounds
+* `min`, `max`, `minBy`, `maxBy`, `ceil`, `floor`, `sum`, `sumBy`, `mean`, `meanBy`, `round`
+* `add`, `subtract`, `divide`, `multiply`
+
+## Transform String
+
+* `escape`, `escapeRegExp` 
+* `startCase`, `camelCase`, `capitalize`, `kebabCase`, `lowerCase`, `lowerFirst`, `upperFirst`, `snakeCase`, `toLower`, `toUpper`, `upperCase`
+* `replace`
+* `repeat`
+* `pad`, `padEnd`, `padStart`, `trim`, `trimStart`, `trimEnd`
+* `parseInt`, `split`
+* `split`
+* `template`
+* `deburr` - Remove diacritical marks
+
+## Transform Between
+
+* `toArray`, `toFinite`, `toInteger`, `toLength`, `toNumber`, `toPlainObject`, `toSafeInteger`, `toString`
 
 ### Filtering
 
@@ -108,6 +125,23 @@
     * `dropRight` - Drops elements from end
     * `dropRightWhile` - Drops elements from end until condition is met
 
+### Predicates
+
+* `every` - Returns true if all elements in the collection return true for predicate
+* `includes` - Returns true if a collection contains a match
+* `some` - Returns true if at least one of the elements is truthy for the predicate
+* `eq`, `gt`, `lt`, `gte`, `lte`
+* `isEmpty`
+* `conformsTo` - Checks if properties conform to rules
+* `isArray`, `isArrayLike`, `isArrayBuffer`, `isArrayLikeObject`
+* `isBoolean`, `isNan`, `isFinite`, `isInteger`, `isFunction`, `isLength`, `isMap`, `isNative`, `isNil`, `isNull`, `isNumber`, `isObject`, `isObjectLike`, `isPlainObject`, `isRegExp`, `isSafeInteger`, `isSet`, `isString`, `isTypedArray`, `isUndefined`, `isWeakMap`, `isWeakSet`
+* `isMatch` - Partial comparison
+    * `isMatchWith` - Partial comparison, custom comparer
+* `eq` - Compares values
+    * `isEqual` - Deep comparison
+    * `isEqualWith` - Custom comparison
+* `inRange` - Checks if a number is in range
+
 ### Set Operations
 
 * `difference` - Get values from one array that aren't in others
@@ -123,6 +157,12 @@
     * `xorBy` - Accepts a property or function returning the string to compare with
     * `xorWith` - Accepts a comparator
 
+### Organize
+
+* `shuffle` - Randomize the order of a collection
+* `sortBy` - Sorts a collection by a property
+* `orderBy` - Sort, specificying sort direction
+
 ### Iteration
 
 * `each` / `forEach` - Standard loop, early exit by returning false
@@ -133,14 +173,8 @@
     * `forOwnRight` - Objects, no inherited properties in reverse
 * `forIn` - Objects, also inherited properties
     * `forInRight` - Objects, also inherited properties in reverse
-
-### Predicates
-
-* `every` - Returns true if all elements in the collection return true for predicate
-* `includes` - Returns true if a collection contains a match
-* `some` - Returns true if at least one of the elements is truthy for the predicate
-* `eq`, `gt`, `lt`, `gte`, `lte`
-* `isEmpty`
+* `range` - Make an array with a range of numbers
+    * `rangeRight` - Reverse
 
 ### Analyze
 
@@ -148,6 +182,7 @@
 * `size` - Get the size of a collection
 * `sample` - Get a random element
     * `sampleSize` - Get random elements
+* `random` - Generate a random number
 
 ### Build Object
 
