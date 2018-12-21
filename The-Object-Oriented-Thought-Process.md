@@ -6,7 +6,9 @@
 * Accessors: Getters & Setters
     * Methods allow you to check for permission, etc.
 * You can wrap non-portable or legacy code in a wrapper to change its interface
+* Contracts are abstract classes and interfaces
 * Abstract classes can include code that can be inherited, interfaces cannot
+    * You can also use multiple interfaces, but only inherit from one abstract class
 
 ## UML
 
@@ -20,10 +22,15 @@
 * May be based on behaviors (`BarkingDog` / `YodelingDog` then breed)
 * May include cardinatlity
 * Weakens encapsulation because changes in superclasses can affect the behavior of subclasses that depend on it
+* Classical inheritance means that you're actually working with a parent class that has all of the state and behavior of its children
 
 ## Composition
 
+* Composition makes parts interchangeable
 * Aggregation & Association
+* Aggregation means an object composed of other objects
+* Association means an object uses another object
+* If an association is optional, you need to check for null
 
 ## Encapsulation
 
@@ -51,6 +58,47 @@
 * Abstract out non-portable code (platform-specific)
 * Classes should be responsible for themselves
 * Highly-coupled classes mean that a change in the system means a change in the implementation
+
+### Design Patterns
+
+A pattern is a:
+
+* Name
+* Problem
+* Solution
+* Consequences
+
+#### Creational Patterns
+
+* Abstract factory
+* Builder
+* Factory method
+* Prototype
+* Singleton - Global state
+
+#### Structural Patterns
+
+* Adapter - Wraps a class to give it a new interface
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Flyweight
+* Proxy
+
+#### Behavioral Patterns
+
+* Chain of response
+* Command
+* Interpreter
+* Iterator - Abstract out a loop
+* Mediator
+* Memento
+* Observer
+* State
+* Strategy
+* Template Method
+* Visitor
 
 ## Construtors
 
