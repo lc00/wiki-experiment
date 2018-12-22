@@ -148,3 +148,28 @@ This code:
 * 4 is passed to the `validatedResult` function
 * `validatedResult` passes 4 to the `squarePostConditions` function
     * If there are no errors, it passes 4 to the identity function, which was bound as its first argument
+
+## Recursion
+
+Reasons to use recursion:
+
+* One abstraction that's applied to progressively smaller subsets
+* Recursion can hide mutable state
+* Can process lazily and work with infinitely large lists
+
+How to write a self-recursive function:
+
+1. Know when to stop
+2. Decide how to take one step
+3. Break the problem into that step and a smaller problem
+
+* Can be used to walk a graph. Can keep memory of visited nodes, passing those in to each call as well
+* A tail-recursive call is one that makes the recursive call as its last step. Some languages use this to clean up resources used by intermediate steps- otherwise you'll blow the call stack with large data.
+* Conjoin and disjoin: Using recursion to make `and` and `or` with short-circuits
+* Can be used to deep clone
+* Codependent functions (mutually recursive) are functions that call each other
+* Can be used to flatten arrays
+
+Trampolining is where nested calls are flattened out, thus getting around call-stack limitations. Each call returns a partially applied function. Instead of calling it once, the trampoline calls every successive function until they're done. This transfers the problem from the call stack to the heap, which is much larger.
+
+To work with infinite data, split the data into the head and the tail.
