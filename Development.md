@@ -11,6 +11,7 @@
 * [[Webpack]]
 * [[Functional JavaScript]] - Fogus
 * [[lodash]]
+* [[TypeScript]]
 
 ## Node
 
