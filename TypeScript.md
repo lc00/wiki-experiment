@@ -69,3 +69,13 @@ let aStringLength = (<string>aString).length;
 `tsc`
 
 * `--strictNullChecks` - Saves a lot of headaches
+
+## Miscellaneous
+
+* When importing modules, use `npm i -D @types/package-name` to use prebuilt type definitions
+    * If it doesn't exist, put the following in a file to declare it as `any`:
+
+```ts
+// package-name.d.ts
+declare module "package-name";
+```
