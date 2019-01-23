@@ -24,6 +24,11 @@
 
 * [[Python]]
 
+## Ruby
+
+* [[Ruby]]
+* [[Rails]]
+
 ## Testing
 
 * [[Testing]]
