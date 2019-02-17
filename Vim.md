@@ -80,6 +80,20 @@
 * `' <marker name>` - Jump to beginning of marker’s name
 * `` `<marker name>`` - Jump to marker
 
+## Registers
+
+`"<character><command>`
+
+* `"ayy` - Yank line into register `a`
+* `"ap` - Paste register `a`
+* `"1p` - Paste the last yanked thing
+* `"9p` - Paste the thing that was yanked 9 things ago
+* `""yy` - Yank into the unnamed register (what yank uses)
+* `"+yG` - Yank until the end of the file into the system register
+    * Vim must be compiled with clipboard support
+* `"+p` - Paste the system register and keep formatting intact
+* Macros use the same registers, and can be edited and yanked into
+
 ## Screen Commands
 
 * `ctrl + f` - Page forward
