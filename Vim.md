@@ -196,7 +196,7 @@ These can all be used with the other vim commands (eg, change, delete)
 
 ## QuickFix
 
-`:Grep` / `make` generate a list that can be navigated
+`:Grep <pattern> <files>` / `make` generate a list that can be navigated
 
 * `:copen` - OPen quickfix list
 * `:cn` / `:cp` - Next/previous line on the quickfix list
