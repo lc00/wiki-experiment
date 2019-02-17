@@ -194,6 +194,14 @@ These can all be used with the other vim commands (eg, change, delete)
 * `Ctrl-k{character}{character}` - Add a digraph to the page, like ½ and ⅔. Look up the list of digraphs with `:h digraph-table`
 * `Ctrl-v{character-code}` - Insert a character code
 
+## QuickFix
+
+`:Grep` / `make` generate a list that can be navigated
+
+* `:copen` - OPen quickfix list
+* `:cn` / `:cp` - Next/previous line on the quickfix list
+* `:ccl` - Close quickfix list
+
 ## Edit
 
 * `J` - Join current and next line
