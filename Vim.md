@@ -93,6 +93,7 @@
     * Vim must be compiled with clipboard support
 * `"+p` - Paste the system register and keep formatting intact
 * Macros use the same registers, and can be edited and yanked into
+* `Ctrl+r a` - Paste register `a` in insert mode
 
 ## Screen Commands
 
