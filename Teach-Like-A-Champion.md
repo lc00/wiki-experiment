@@ -22,7 +22,7 @@
 * The goal is for students to be constantly on their toes, answering questions, drawing on or developing their knowledge base, and refining their ideas
 * The question isn't whether an activity is "good," but if it's the best- for that moment, that group of students, and that lesson
 
-## Check For Understanding
+## Check For Understanding (CFU)
 
 ### Gathering Data on Student Mastery
 
