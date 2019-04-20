@@ -8,6 +8,7 @@
 * [4 Disciplines of Execution](4-Disciplines-Of-Execution) - Sean Covey
 * [[Burnout]]
 * [[Performance-Reviews]]
+* [[Deep Work]] - Cal Newport
 
 ## Project Management
 
@@ -30,6 +31,7 @@
 * [[Wooden]] - Coach John Wooden
 * [[Drive]] - Daniel Pink
 * [[The Remedy]] - Pascal Dennis
+* [[Tattoos On The Heart]] - Greg Boyle
 
 ## To Finish
 

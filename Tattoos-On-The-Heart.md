@@ -1,0 +1,3 @@
+* Everyone you see is god. Is that how you would talk to or treat god? Your heart should break for something that breaks God's heart.
+* You don't end slavery by strategy, you do it by standing with slaves and getting enough other people to do it that slavery can't stand. You might get to the result faster using evidence based outcomes, but none "soaked with more fidelity". The power won't accept change until they can see it.
+* Success and failure aren't appropriate measures. As Christians, if we measure ourselves by success instead of fidelity, we'll only choose easy work. Founders fund success, not effort. Maybe Jesus wouldn't have.
