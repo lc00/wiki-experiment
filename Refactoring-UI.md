@@ -122,26 +122,15 @@ Don't let lightness kill your saturation- You need more saturation at the lighte
 
 ## Creating Depth
 
-### Emulate a light source
-### Use Shadows to convey elevation
-### Shadows can have two parts
-### Even flat designs can have depth
-### Overlap elements to create layers
-
+Emulate a light source- light comes from above. Decide whether the element should be raised or inset, and how much. Choose the shadow color by hand instead of just using white, or you'll suck the saturation out of the underlying color.A couple of pixels is plenty, and should have a pretty sharp edge. Text input and boxes are often inset. Use Shadows to convey elevation- lots of blur on a large shadow is high, not much blur on a small shadow is low. Small shadows are good for being noticeable but not dominate like buttons, medium shadows are good for dropdowns, large shadows are good for modals. Create 5 shadows- start with largest and smallest. Shadows are great for interaction, like drag and drop, where the element should feel like it was lifted off the page. You can also make something feel like it was pressed by manipulating or removing the shadow. Shadows can have two parts: The first is large and soft and is the shadow from direct light, the second is small, tight, and dark, and comes from indirect light. As something lifts off your page, the direct light should get bigger, and the indirect light should eventually disappear. Even flat designs can have depth- dark colors feel "back", and light colors feel "front." You can also use solid shadows. Overlap elements to create layers, which also transitions between two areas. You can join or overflow. When overlapping images, consider putting a small border that matches the background around it to prevent clashing.
 ## Working with Images
 
-### Use good photos
-### Text needs consistent contrast
-### Everything has an intended size
-### Beware user-uploaded content
+Use good photos- professional, stock, or unsplash. Text needs consistent contrast- reduce the contrast of the background image by making it lighter, darker, lower contrast, or washed in a color. To colorize an image, lower its contrast, desaturate it, and add a solid fill with the "multiply" blend mode. This can also help tie it in with brand colors. A wide, blurred, non-offset shadow makes the text sit on top too. Everything has an intended size- even if it's a vector, it will have too much or too little detail at the wrong size. Don't shrink screenshots, because it will make your content too hard to read. Use a mobile view, use a screenshot of small area, or remove all the detail. Simplify icons for favicons. Beware user-uploaded content. Control the size and shape of their images, center/cover them, use subtle inner box shadows or transparent borders to help them stand out from the background
 
 ## Finishing Touches
 
-### Supercharge the defaults
-### Add color with accent borders
-### Decorate your backgrounds
-### Don't overlook empty states
-### Use fewer borders
-### Think outside the box
+Supercharge the defaults- replace bullets with icons, styled quotes for testimonials, different colors/weights/underlines for links, custom checkboxes and radio buttons with the brand color. Add color with accent borders to make a bland element have some life. You can put accent borders across the top of a card, under an active navigation item, on the side of an alert message, as a short accent under a headline, or across the top of the entire layout. Decorate your backgrounds by changing the color (especially good for emphasizing a particular panel), adding a slight gradient (2 hues that are no more than 30 degrees apart), a repeating pattern (across the entire background, across a single edge) with low contrast, or by adding simple shapes and illustrations (with low contrast). Don't overlook empty states- these are opportunities to grab attention, explain, and promote. Create a call-to-action to encourage them to take the next step. Don't have options and chrome for a bunch of actions a user can't take yet. Use fewer borders- they make a layout very busy and cluttered. Box shadows often accomplish the same thing in a more subtle way, or by giving them different background colors, or adding more space. Dropdown menus and tables don't have to just be a dry list of links- you can use multiple columns, supporting text, and colorful icons. Cells in tables can have hierarchy, color, and images. Radio buttons can be selectable cards.
 
 ## Leveling Up
+
+Look for decisions on sites you wouldn't have made yourself. Rebuild your favorite interfaces.
