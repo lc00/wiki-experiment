@@ -1,6 +1,7 @@
 ## General Design
 
 * [[Graphic Design - The New Basics]] - Lupton / Phillips
+* [[Refactoring UI]] - Wathan / Schoger
 
 ## Layout
 
