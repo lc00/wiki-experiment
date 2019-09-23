@@ -35,6 +35,7 @@
 * [[Developer Testing]] - Alexander Tarlinder
 * [[The Way of the Web Tester]] - Jonathan Rasmusson
 * [[Chai]]
+* [[BDD]]
 
 ## OOP
 
