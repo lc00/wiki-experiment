@@ -32,6 +32,7 @@
 * [[Drive]] - Daniel Pink
 * [[The Remedy]] - Pascal Dennis
 * [[Tattoos On The Heart]] - Greg Boyle
+* [[Stoicism]]
 
 ## To Finish
 
