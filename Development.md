@@ -140,16 +140,7 @@
 
 ## To Finish
 
-* [[Think Like A Programmer]] - Anton Spraul
-* [[Joel On Software]] - Joel Spolsky
-* [[Data Structures and Algorithms with JavaScript]]
-* [[HTML5 Hacks]] - Cravens & Burtoft
-* [[The Official Ubuntu Server Book]]
 * [[TDD By Example]]
 * [[ATDD By Example]]
-* [[Ember Run Loop]]
-* [[Functional Programming]]
 * [[How Linux Works]]
 * [[Ubuntu]]
-* [[EmberConf Notes]]
-* [[Ember Testing]]
