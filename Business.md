@@ -36,10 +36,5 @@
 
 ## To Finish
 
-* [[The Fifth Discipline]] - Peter Senge
-* [[The Contrarian's Guide To Leadership]] - Steven Sample
-* [[Four Steps To The Epiphany]] - Steve Blank
-* [[What Got You Here Won't Get You There]] - Marshall Goldsmith
 * [[Leaders Eat Last]] - Simon Sinek
 * [[Zero To One]] - Peter Thiel
-* [[The Mindset of Success]] - Jo Owen
