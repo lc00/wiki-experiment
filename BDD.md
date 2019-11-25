@@ -9,6 +9,8 @@ Superior to TDD because it marks actual progress in the development of the syste
 * `describe` is for features, `context` is for different setups for that feature (scenarios).
 * Find the entities, then figure out which actions the entities can take. Each action needs a feature. Display information is a feature too. Each feature has a different setup or input data which should result in a different output- these are scenarios, and each needs a separate test.
 * Extract fixture creation to factories
+* Name your test files `role`-`action`-`entity`, eg. "customer-displays-order"
+* Features are present tense, test titles are future tense, eg. "It will show no order items"
 
 ```js
 describe("A feature", () => {
@@ -37,3 +39,31 @@ describe("A feature", () => {
     * Cover edge cases
 * Parameterized test: Wrapping the `it` in a function that gets called with multiple inputs
 * Scenario: Different execution path for the same feature
+
+### Discovering Scenarios
+
+Would the outcome of the user operation be different if:
+
+* The system is in a different state 
+* If some of the systems you need to interact with
+    * Don't respond quickly or return an error
+    * Return different valid responses
+* If the user
+    * Performs a different action before the current one
+    * Has different credentials
+    * Enters incorrect information
+
+For each each feature, there should only be one action that is the same across scenarios.
+
+### Discovering Tests Within a Scenario
+
+* What's the new state of the system
+* What's the response of the system to the user
+* Which set of actions are available to the user in the new state
+* What possible interactions are there with other systems
+* Other side-effects
+
+### Sinon
+
+* `.callsArgWithAsync(indexOfCallbackFunction, argument1ToSendToCallback, argument2ToSendToCallback)`
+* `chai-as-promised` adds `.eventually` to test for promises
