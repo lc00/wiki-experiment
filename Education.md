@@ -19,6 +19,7 @@
 
 * [[Brain Matters]] - Patricia Wolfe
 * [[How People Learn]] - Brain, Mind, Experience, and School
+* [[Pragmatic Thinking and Learning]] - Andy Hunt
 
 ## To Finish
 
