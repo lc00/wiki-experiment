@@ -1,4 +1,5 @@
 * [[Matrix Mixers]]
+* [[Mixing]]
 * [[Harrison MixBus]]
 * [[EQ]]
 * [[Compression]]
