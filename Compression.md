@@ -1,5 +1,10 @@
+* You've compressed too much when it has too much detail, gets smaller, loses tone. Use automation or clip gain instead.
+
+## Controls
+
 * Fast attack cuts off transient, slow attack is more punchy
 * Fast release sounds more real, slow release sounds more compressed
+* Auto-release will choose slow or fast based on the transients
 
 ## Process
 
@@ -7,6 +12,13 @@
 1. Set the ratio to the desired amount
 1. Set the makeup gain to match the uncompressed sound
 1. Adjust the attack and release
+
+## Types
+
+* Opto. Uses a lightbulb and a photocell. Fat, smooth. Naturally slow attack and release because of the time it takes change the bulb's intensity. Bass, vocals, synthesizers.
+* Vari-Mu. Uses a series of tubes and alters their bias. Naturally slow attack. Big low-end, fat and smooth. Good for bus compression.
+* FET. Colored. Fast. Good for drums, punching through the mix. Aggressive, punchy.
+* VCA. Uses voltage-controlled amplifier. Lots of control. Glueing together. Very versatile, most transparent.
 
 ## Harrison Leveler
 
