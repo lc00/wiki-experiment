@@ -5,3 +5,4 @@
 * [[Compression]]
 * [[Reverb]]
 * [[Plug-Ins]]
+* [[Synthesizers]]
