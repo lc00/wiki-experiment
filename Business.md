@@ -13,6 +13,7 @@
 * [[Performance-Reviews]]
 * [[Deep Work]] - Cal Newport
 * [[Exit Interviews]]
+* [[How to Preempt Team Conflict]]
 
 ## Project Management
 
