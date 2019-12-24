@@ -7,3 +7,7 @@
     * Defensible - Hard for a competitor to replicate
     * Reinforcable - Better over time for free
 * Output-based metrics favor traditional execution. Measure things that favor long-term strategy.
+
+Spontaneous private deregulation = Platforms ignoring laws (eg. Uber, AirBnb). Incumbents are at risk if:
+* The consumers are unnecessarily being protected
+* Your business practices can be codified or computer assisted

@@ -2,13 +2,17 @@
 
 * [[Innovation]]
 * [[Reorgs]]
+* [[Scaling]]
+* [[Platforms]]
 
 ## Management
 
+* [[Management]]
 * [4 Disciplines of Execution](4-Disciplines-Of-Execution) - Sean Covey
 * [[Burnout]]
 * [[Performance-Reviews]]
 * [[Deep Work]] - Cal Newport
+* [[Exit Interviews]]
 
 ## Project Management
 
@@ -22,6 +26,7 @@
 ## Marketing
 
 * [[Technology Marketing]] - The University of Colorado
+* [[Marketing]]
 
 ## Leadership
 
