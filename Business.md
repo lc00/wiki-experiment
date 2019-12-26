@@ -14,6 +14,7 @@
 * [[Deep Work]] - Cal Newport
 * [[Exit Interviews]]
 * [[How to Preempt Team Conflict]]
+* [[Holocracy]]
 
 ## Project Management
 
@@ -31,6 +32,7 @@
 
 ## Leadership
 
+* [[Leadership]]
 * [Start With Why](Start-With-Why) - Simon Sinek
 * [Leading Others](Leading-Others) - The University of Colorado
 * [[Authentic Leadership]] - The University of Colorado
