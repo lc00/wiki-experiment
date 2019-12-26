@@ -6,6 +6,7 @@
 ## Visualization
 
 * [[d3]]
+* [[Data Visualization]]
 
 ## To Finish
 
