@@ -42,6 +42,10 @@
 * [[Tattoos On The Heart]] - Greg Boyle
 * [[Stoicism]]
 
+## Career Advice
+
+* [[Career Advice]]
+
 ## To Finish
 
 * [[Leaders Eat Last]] - Simon Sinek

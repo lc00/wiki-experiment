@@ -11,3 +11,5 @@
 Spontaneous private deregulation = Platforms ignoring laws (eg. Uber, AirBnb). Incumbents are at risk if:
 * The consumers are unnecessarily being protected
 * Your business practices can be codified or computer assisted
+
+You can create temporary organizations staffed with consultants and contractors so you don't have to lay people off if it doesn't work

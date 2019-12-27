@@ -44,3 +44,7 @@ For big data, complex, or dynamic things.
 For simple, low-volume data. Line charts, bar charts, pies, and scatterplots.
 
 * Communicate a single idea
+
+---
+
+* Busy charts only communicate that the person who made them was busy.
