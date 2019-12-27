@@ -13,8 +13,10 @@
 * [[Performance-Reviews]]
 * [[Deep Work]] - Cal Newport
 * [[Exit Interviews]]
-* [[How to Preempt Team Conflict]]
+* [[How to Preempt Team Conflict]] - HBR
 * [[Holocracy]]
+* [[Diversity]]
+* [[Negotiating With Liars]] - HBR
 
 ## Project Management
 
