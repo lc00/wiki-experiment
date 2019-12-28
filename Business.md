@@ -16,7 +16,7 @@
 * [[How to Preempt Team Conflict]] - HBR
 * [[Holocracy]]
 * [[Diversity]]
-* [[Negotiating With Liars]] - HBR
+* [[Negotiation]] - HBR
 
 ## Project Management
 
@@ -31,6 +31,7 @@
 
 * [[Technology Marketing]] - The University of Colorado
 * [[Marketing]]
+* [[Elements of Value]] - HBR
 
 ## Leadership
 
