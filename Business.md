@@ -16,7 +16,10 @@
 * [[How to Preempt Team Conflict]] - HBR
 * [[Holocracy]]
 * [[Diversity]]
-* [[Negotiation]] - HBR
+* [[Negotiation]]
+* [[Resignations]]
+* [[Noise]] - HBR
+* [[Training]]
 
 ## Project Management
 
