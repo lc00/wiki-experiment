@@ -34,6 +34,10 @@ When human capital was plentiful, firms focused on which people to let go, which
 * Identifying poor performers (the traditional system is also bad at this)
 * Too much feedback
 
+## Quotes
+
+>The idea of a merit rating is alluring. The sound of the words captivates the imagination: pay for what you get; get what you pay for; motivate people to do their best, for their own good. The effect is exactly the opposite of what the words promise. Everyone propels himself forward, or tries to, for his own good, on his own life preserver. The organization is the loser. The merit rating rewards people that conform to the system. It does not reward attempts to improve the system. Don’t rock the boat. - Deming
+
 ## My boilerplate against performance reviews:
 
 For Q3 reviews, I responded to each of their goals. If it involved reading a book, we talked about their takeaways from the book. If it involved running a workshop, we talked about the challenges of doing it, the impact it had, and how we can reuse those skills elsewhere. If it involved making something, we talked about what they learned how it changed their perspective on development. If the goal didn’t get accomplished, we talked about why and how we could do it differently next time- it was never a surprise, since we talk about them every week or so.
