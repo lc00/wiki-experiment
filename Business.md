@@ -1,3 +1,5 @@
+[[Business Manifesto]]
+
 ## Strategy
 
 * [[Innovation]]

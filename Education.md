@@ -5,6 +5,7 @@
 * [[To Know As We Are Known]] - Parker Palmer
 * [[Why Johnny Can't Add]] - Morris Kline
 * [[What Education Is]]
+* [[Education Manifesto]]
 
 ## Technique
 
