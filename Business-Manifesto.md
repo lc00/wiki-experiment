@@ -18,3 +18,4 @@
 * Write things to remember them, not to communicate them
 * People aren't things - don't score or sort them
 * People want to work and be good at what they do
+* Results are a consequence, not a goal
