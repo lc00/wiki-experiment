@@ -1,14 +1,9 @@
 ## Values
 
-* Prefer flow to batch 
+* Prefer flow to batch
 * Prefer purpose to profits
 * Prefer output to time
-* Prefer cross-functional self-organized teams to top-down functional silos
-
-## Heuristics
-
-* If you can easily measure something, it probably doesn't tell you very much
-* If you can describe something as a rule, it probably should be done by a computer
+* Prefer self-organized cross-functional teams to top-down functional silos
 
 ## Beliefs
 
@@ -19,3 +14,5 @@
 * People aren't things - don't score or sort them
 * People want to work and be good at what they do
 * Results are a consequence, not a goal
+* The things that matter are difficult or impossible to measure
+* Robots should do robot work, people should people work
