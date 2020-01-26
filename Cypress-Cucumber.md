@@ -7,7 +7,8 @@
 ```
     "scripts": {
         "test": "npx cypress open",
-        "ci": "npx cypress run --spec **/*.features"
+        "test:ci": "npx cypress run --spec **/*.features",
+        "test:tags": "npx cypress-tags run -e TAGS=$TAGS"
     },
     "cypress-cucumber-preprocessor": {
         "nonGlobalStepDefinitions": true,
@@ -70,6 +71,11 @@ cypress
 
 * Feature: A small, concrete action that the user can perform on the system; this will change the state of the system and/or make the system perform actions on other systems
 * Scenario: Different execution path for the same feature
+* Given: The state the system should be in (not the actions the user took to get there)
+* When: An action a user takes
+* Then: An assertion about the new state of the system
+* And: Follows a Given/When/Then (and matches the same type of step)
+* But: Something not happening
 
 ```gherkin
 Feature: The description of the feature goes here
@@ -138,5 +144,8 @@ Then("the page displays {string}", word => {
 
 Then("the page displays {string}", title => {
     theFirst("main-heading").should("have.text", title)
+})
+
+Then(/^These can also be regexes$/, () => {
 })
 ```
