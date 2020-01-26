@@ -106,6 +106,7 @@ Feature: The description of the feature goes here
         | apple      | apple juice      |
         | pineapple  | pineapple juice  |
         | strawberry | strawberry juice |
+```
 
 ### Specs
 
