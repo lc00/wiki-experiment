@@ -60,6 +60,7 @@ Feature: The description of the feature goes here
 * The Cardinal Rule of BDD: One Scenario, One Behavior!
 * Write in third-person
 * Givens should always use present or present perfect tense, and Whens and Thens should always use present tense.
+* If the feature is just automating browser behavior, use `*` instead of one of the step keywords (it matches `Given()`)
 
 ```gherkin
 Feature: Google Searching

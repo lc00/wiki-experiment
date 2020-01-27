@@ -102,6 +102,11 @@ Feature: The description of the feature goes here
             | 1         | 2         |
         Then the page displays "AB12"
 
+    Scenario: Just browser automation
+        * Step 1 # Matches `given("Step 1")`
+        * Step 2
+        * Step 3
+
     Scenario Outline: Use juicer with <fruit>
         Given I put "<fruit>" in a juicer
         When I switch it on
