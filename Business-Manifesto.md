@@ -15,5 +15,5 @@
 * People want to work and be good at what they do
 * Results are a consequence, not a goal
 * The things that matter are difficult or impossible to measure
-* Robots should do robot work, people should people work
+* Automate computers, not people
 * Limit work in progress
