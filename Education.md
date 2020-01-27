@@ -29,3 +29,4 @@
 * [[Thinking Fast and Slow]] - Daniel Kahneman
 * [[The Aims of Education]] - Whitehead
 * [[Why the Professor Can't Teach]] - Morris Kline
+* [[Freedom to Learn]] - Carl Rogers

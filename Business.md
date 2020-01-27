@@ -27,6 +27,7 @@
 
 * [[Lean and Agile Management]] - The University of Colorado
 * [[User Stories Applied]] - Mike Cohn
+* [[Definition of Done]]
 
 ## Accounting & Finance
 

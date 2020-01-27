@@ -16,3 +16,4 @@
 * Results are a consequence, not a goal
 * The things that matter are difficult or impossible to measure
 * Robots should do robot work, people should people work
+* Limit work in progress
