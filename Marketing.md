@@ -33,3 +33,45 @@ Monetization levers away from time:
 * Outcome-based pricing: Used when analytics provide better outcomes
 
 Monetization goes from inputs (time), to throughputs (transactions), to outputs (outcomes)
+
+## Customer Loyalty is Overrated
+
+[Original article](https://hbr.org/2017/01/customer-loyalty-is-overrated)
+
+Cumulative Advantage: Each time you choose a product, its advantages over unchosen alternatives accumulates
+
+* Brains prefer automaticity to choice
+* Build purchasing habits in your users
+* Design for habit
+* Lean on your branding
+* When new tech makes new habits possible, they change quickly
+
+## Branding
+
+* Brains don't ask "what is this", they ask "what is this like?"
+* You want a brand to get to someone in "one note"
+* On a shelf, people identify (in order) by:
+    1. Placement
+    2. Color
+    3. Shape
+    4. Spatial orientation
+
+## Are You Solving The Right Problems?
+
+[Original Article](https://hbr.org/2017/01/are-you-solving-the-right-problems)
+
+* "The slow elevator problem": People complained about slow elevators, and rather than make the elevators faster, they installed mirrors so people had something to do while waiting for the elevator. An easier solution was found by reframing the problem.
+
+How to reframe:
+
+1) Establish legitimacy by sharing this article, and telling the elevator problem story. It's hard to do this if you're the only one who understands the method.
+2) Bring in outsiders- people who know your world, but aren't in. They'll speak freely. Get input from them, not solutions.
+3) Get definitions of the problem up front in writing. It will sensitize everyone to the different angles on the problem.
+4) Ask what's missing in the problem statement- what are people leaving out?
+5) Consider multiple categories
+    * Incentive problem?
+    * Expectations problem?
+    * Attitude problem?
+    * Feelings?
+6) Analyze positive exceptions- When does the problem not occur?
+7) Question the objective- Do people actually want different things?
