@@ -109,7 +109,6 @@ Feature: The description of the feature goes here
         * "search"
         * "select"
 
-
 ```gherkin
 Feature: Google Searching
 
@@ -291,3 +290,49 @@ And the user fills in "test" for "#login-password"
 And the user clicks on button "submit"
 Then the page should display in logged in state
 ```
+
+## Menu
+
+* Passive: Every user
+* Active: Specific personas
+
+### Given
+
+* is displayed
+* are shown
+
+#### Active
+
+* is on
+* has a
+* logs in
+
+### When
+
+* is entered
+* is clicked
+* is pushed
+* is logged in
+* is filled out
+* is submitted
+
+#### Active
+
+* enters
+* clicks
+* pushes
+* logs in
+* fills out
+* submits
+
+### Then
+
+* is added
+* are shown
+* is displayed
+
+#### Active
+
+* sees a
+* has a
+* displays
