@@ -43,3 +43,32 @@ Guide development vs. critique the product
 
 ## Testability
 A program element can be put in a known state, acted on, and then observed. Observing direct output can be difficult, because adding logs and “observation points” in a method can affect its implementation. In OOP, that may mean relaxing visibility (private to package-scoped), or just test the public API.
+
+## Test Data
+
+* Use as little data as you can
+
+Types:
+
+### Test Case Values
+
+Inputs and outputs for tests.
+
+* Put them in the scenario as parameters or examples
+* Key:value lookup for urls and techy details- pass in "home", return "/"
+* Data files are good for large amounts of data, hide in the automation tool
+
+### Configuration Data
+
+Different values (like API endpoints) that change with environments. Changes to other good values shouldn't break tests.
+
+* Never hardcode environment data, like dev and production URLs, username/password
+* Tests should pass in any environment
+* Test automation should read in config values in before hooks
+
+### Ready State
+
+User accounts, database tables, app settings. Stuff that should be reset between tests.
+
+* Seeding
+* Deleting created records and files

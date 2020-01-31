@@ -1,19 +1,31 @@
+* Behavior: An operation with inputs, actions, and outcomes
+* Feature: Desired product functionality, often involving multiple behaviors
+    * What the customer expects to receive
+    * It solves a problem
+
 ## Keywords
 
-* Feature: A small, concrete action that the user can perform on the system; this will change the state of the system and/or make the system perform actions on other systems
-* Scenario: Different execution path for the same feature
+* Scenario: Specification of a behavior using formal steps and examples
 * Given: The state the system should be in (not the actions the user took to get there)
 * When: An action a user takes
 * Then: An assertion about the new state of the system
 * And: Follows a Given/When/Then (and matches the same type of step)
-* But: Something not happening
-
-## Scenario Outlines
-
-* Each row should represent an equivalence class
-* Do you need to cover every combination?
-* Do columns actually represent seperate behaviors (are they always run together?)
-* Does the reader need all this data?
+* But: Same as And
+* Background: Shared givens and ands
+* | Step tables |:
+    * Used for structuring data
+    * Passed into a step
+    * First row is headers
+    * Specific to that step
+* """: Fence for long strings
+* Scenario Outline:
+    * Given a table of Examples
+    * Examples tables provide input parameterization for the entire scenario
+    * Each row should represent an equivalence class
+    * Do you need to cover every combination?
+    * Do columns actually represent seperate behaviors (are they always run together?)
+    * Does the reader need all this data?
+@tag: Groups tests
 
 ## Examples
 
@@ -59,8 +71,44 @@ Feature: The description of the feature goes here
 * The Golden Gherkin Rule: Treat other readers as you would want to be treated. Write Gherkin so that people who don’t know the feature will understand it.
 * The Cardinal Rule of BDD: One Scenario, One Behavior!
 * Write in third-person
-* Givens should always use present or present perfect tense, and Whens and Thens should always use present tense.
+* Givens should always use present or present perfect tense and active voice, and Whens and Thens should always use present tense and passive voice
 * If the feature is just automating browser behavior, use `*` instead of one of the step keywords (it matches `Given()`)
+* Given is active voice, When and Then are passive voice
+* Describe what action should happen, not how to do it
+* Third-person, first person doesn't give you a sense of what the person's motivations or privileges are
+* Less than a dozen scenarios per feature
+* Steps that use text blocks should end with "the text:"
+* No step-by-step instructions
+* Don't test data- a change in the underlying data shouldn't make the test fail
+* Data isn't test data, it's examples of correct usage
+* Hide data that doesn't need to be exposed to a non-technical user
+* Scenarios should have a single-digit step count
+* Separate scenarios by 2 blank lines
+* Tags are lowercase hypen-separated
+* Automation code can look hairy, but Gherkin should be elegant
+* A feature documents the acceptance criteria for the feature, as well being requirements doc and descriptions
+* As a/I want/So that is for features, Given/when/then is for acceptance critera
+* Scenario titles should be:
+    * Concise one-liners
+    * Capitalize first letter
+    * Describe what the behavior is, not why or how it's accomplished
+    * No:
+        * "and"
+        * "or"
+        * "but"
+        * "because"
+        * "since"
+        * "so"
+        * "should"
+        * "verify"
+        * "assert"
+    * Use:
+        * "receive"
+        * "click"
+        * "submit"
+        * "search"
+        * "select"
+
 
 ```gherkin
 Feature: Google Searching
@@ -132,6 +180,30 @@ Feature: Subscribers see different sets of stock images based on their subscript
 Given "test-user" navigates to page "landing-page"
 When the user logs in
 Then the page should display in logged in state
+```
+
+```gherkin
+Scenario: The user logs in and sees the Home page
+    Given the "Log In" page is displayed
+    When the correct user credentials are entered
+    And the "Login" button is pressed
+    Then the "Home" page is displayed
+    And the user details are displayed in the "Profile" section
+```
+
+```gherkin
+# Improvement over specifying every form field- instead showing types of behaviors
+Scenario Outline: Address entry
+  Given the profile edit page is displayed
+  When the user enters the "<address-type>" address
+  And the user clicks the save button
+  Then ...
+
+  Examples: Addresses
+    | address-type |
+    | basic        |
+    | two-line     |
+    | foreign      |
 ```
 
 ## Bad Gherkin

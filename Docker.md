@@ -60,3 +60,28 @@ ENV NAME World
 # Run app.py when the container launches
 CMD ["python", "app.py"]
 ```
+
+## Example
+
+### Me
+
+* `./Dockerfile`:
+
+```docker
+FROM node
+WORKDIR /home
+ADD . /home
+RUN npm i
+EXPOSE 8080
+CMD npm run serve
+```
+
+* `sudo docker build -t my-image`
+* `sudo docker tag my-image kylecoberly/my-image`
+* `sudo docker push kylecoberly/my-image`
+
+### Collaborator
+
+* `git clone kylecoberly/my-image`
+* `sudo docker pull kylecoberly/my-image`
+* `sudo docker run -p 8080:8080 kylecoberly/my-image`
