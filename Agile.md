@@ -1,3 +1,8 @@
+* [[Lean and Agile Management]] - The University of Colorado
+* [[User Stories Applied]] - Mike Cohn
+* [[Definition of Done]]
+* [[The Agile Samurai]]
+
 ## To Finish
 
 * [[A Practical Guide To Large-Scale Agile Development]]
@@ -5,5 +10,3 @@
 * [[Sprint]] - Jake Knapp
 * [[Learning Agile]]
 * [[Scrum Shortcuts]]
-* [[The Agile Samurai]]
-* [[User Stories Applied]] - Kent Beck
