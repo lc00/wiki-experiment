@@ -6,6 +6,7 @@
 * [[Reorgs]]
 * [[Scaling]]
 * [[Platforms]]
+* [[Red Ocean Traps]] - Kim & Mauborgne
 
 ## Management
 
