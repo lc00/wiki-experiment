@@ -44,7 +44,7 @@ module.exports = on => on("file:preprocessor", cucumber())
 Cypress.Commands.add("the", testSelector => cy.get(`[data-test-${testSelector}]`))
 Cypress.Commands.add("theFirst", testSelector => cy.get(`[data-test-${testSelector}]`).eq(0))
 Cypress.Commands.add("clickThe", testSelector => cy.get(`[data-test-${testSelector}]`).eq(0).click())
-Cypress.Commands.add("fillOut", testSelector => {
+Cypress.Commands.add("fillOutThe", testSelector => {
   return {
     with(formData){
       cy.get(`[data-test-${testSelector}]`).as("form")
