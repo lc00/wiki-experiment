@@ -10,15 +10,18 @@
         "test:ci": "npx cypress run --spec **/*.features",
         "test:tags": "npx cypress-tags run -e TAGS=$TAGS"
     },
-    "cypress-cucumber-preprocessor": {
-        "nonGlobalStepDefinitions": true,
-        "cucumberJson": {
-            "generate": true,
-            "outputFolder": "cypress/cucumber-json",
-            "filePrefix": "",
-            "fileSuffix": ".cucumber"
-        }
-    },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "tests/e2e/specs",
+    "commonPath": "tests/e2e/common",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "tests/e2e/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+
 ```
 
 ### `cypress.json`
