@@ -7,6 +7,7 @@
 * [[Scaling]]
 * [[Platforms]]
 * [[Red Ocean Traps]] - Kim & Mauborgne
+* [[Zero To One]] - Peter Thiel
 
 ## Management
 
@@ -53,4 +54,3 @@
 ## To Finish
 
 * [[Leaders Eat Last]] - Simon Sinek
-* [[Zero To One]] - Peter Thiel
