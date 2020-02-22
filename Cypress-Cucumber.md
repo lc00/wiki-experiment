@@ -10,15 +10,18 @@
         "test:ci": "npx cypress run --spec **/*.features",
         "test:tags": "npx cypress-tags run -e TAGS=$TAGS"
     },
-    "cypress-cucumber-preprocessor": {
-        "nonGlobalStepDefinitions": true,
-        "cucumberJson": {
-            "generate": true,
-            "outputFolder": "cypress/cucumber-json",
-            "filePrefix": "",
-            "fileSuffix": ".cucumber"
-        }
-    },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "tests/e2e/specs",
+    "commonPath": "tests/e2e/common",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "tests/e2e/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+
 ```
 
 ### `cypress.json`
@@ -43,6 +46,18 @@ module.exports = on => on("file:preprocessor", cucumber())
 ```
 Cypress.Commands.add("the", testSelector => cy.get(`[data-test-${testSelector}]`))
 Cypress.Commands.add("theFirst", testSelector => cy.get(`[data-test-${testSelector}]`).eq(0))
+Cypress.Commands.add("clickThe", testSelector => cy.get(`[data-test-${testSelector}]`).eq(0).click())
+Cypress.Commands.add("fillOutThe", testSelector => {
+  return {
+    with(formData){
+      cy.get(`[data-test-${testSelector}]`).as("form")
+      Object.keys(formData).forEach(key => {
+        cy.get("@form").find(`[data-test-${key}]`).type(formData[key])
+      })
+      cy.get("@form").submit()
+    }
+  }
+})
 ```
 
 ### `cypress/integration/_all.features`
