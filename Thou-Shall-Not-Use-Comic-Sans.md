@@ -55,3 +55,85 @@
 * Use en-dashes for ranges, em-dashes for conversational breaks
 * Hang quotation marks outside of paragraph margins
 * Add a period to an ellipsis that ends a sentence.
+
+## Layout and Design
+
+* Every page should have a focal point
+* Captions don't have to be aligned with baseline grid
+* Don't have a bunch of whitespace in the middle of a layout
+* Layers are useful for organizing type, color, and imagery
+* 960px is an appropriate maximum width
+* Small adjustments won't fix a bad layout
+* Use borders for purpose, not for decoration
+* Don't make everything on the page the same size
+* Design "above the fold" in both web and print
+* Understand how visual closure works
+
+### Logos
+
+* We remember stuff by shape and color- remember this for logos!
+* Good logos don't describe their products, they describe their values
+* Logos need to be able to be used everywhere
+  * Vectors
+  * No drop shadows or feathering
+* Understand the figure-ground relationships in logos
+
+## Colors
+
+* Different color models serve different purposes, have different gamuts, and can either be for devices or trying to mimic how our eyes perceive light
+* RGB is the gamut screens use, and is very large. CMYK is a small gamut, and can't do eg. rich reds. Pantone is larger because it's mixed with pigments.
+* Colors change based on their surroundings
+* Base color palletes on the natural world
+* Coloring type adds as much emphasis as bolding
+* Color psychology is culturally contextual
+* You should always have a reason for picking a color
+* People like bright things, and brown is not exciting
+* Subtlety won't read on the printed page- less than 7% contrast and it won't be seen
+* Don't print small body text in process colors (cyan, magenta, or yellow) - they're either too intense or two light to be seen.
+* Should the design's color be hot or cold?
+* Use value contrast to draw or divert the user's attention
+* You can use drastic changes in color to create motion and rhythm across a pattern
+* You can use color to create tension (opposite visual ideas, like a receding picture with a warm in-your-face color)
+* Use color to create calm
+* Don't put analogous colors next to each other
+* Don't put high-intensity complementary colors next to each other (blue, red, yellow)
+* When 4-color printing, you can make "rich blacks" by adding CMY colors to the pure black, but no more than 300% total
+* Always print 5% lighter for packaging
+* Color palettes are different for different target ages
+* Research the color palettes of the clients' competitors
+* Design logos in black and white before applying color
+* Color + Time can = Brand
+* There are no bad color combinations- with experience and confidence, you can unlikely combinations seem stunning- you'll make people assume you're right
+
+## Imagery and Graphics
+
+* Use custom photography and illustration when possible
+* Check to see if the perfect custom stock photo might be available, too
+* Try to use the images the client gives you, but show them better alternatives if neccessary
+* Carefully consider the political content of all image choices
+* Print images should always have an effective 300ppi resolution, and should be resampled to that when imported into the document
+* Name image files consistently
+* Use the RAW format for images when possible- it allows you to adjust a lot of camera parameters after the fact
+* Digital cameras have small amounts of noise, and the automatic noise filter is always too conservative, so you'll need to sharpen every picture a little bit
+* Don't crop landscape to digital (and vice versa)
+* Use masking instead of deletion
+* Don't DIY photography if you can outsource it (to save time and energy), but know how to use an SLR so you can if you have to
+* Sepia toning a full-color picture always looks fake and should be avoided
+* Don't scan an image that's been screened- the moire pattern from the halftone printing won't line up with the scanner
+* Images should support the text without repeating it
+* Icons should only contain a single idea
+* Icon types:
+  * **Similar**: Used for literal comparison, common in road signs
+  * **Example**: Communicate a complex idea with a familiar thing (airplane for airport)
+  * **Symbolic**: Use a recongizable shape for an abstract idea (padlock for security)
+  * **Aritrary**: Must be learned, no inherent meaning (radiation symbol)
+* Logos should identify, not describe. Logos that try to describe are never legible, memorable, or accurate. It should be able to be used in a condolensces letterhead and an advertisement.
+* Prefer vectors to pixels
+* Things that are noticeably different tend to be remembered
+* Face-ism: Men usually only show face, and women show more body- be careful about what message you're sending
+
+## The Practice of Design
+
+* Think of the idea before the visual
+* Don't present an option you don't want your client to choose
+* Have a network of writers, illustrators, and photographers
