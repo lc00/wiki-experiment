@@ -76,11 +76,41 @@ Scrum and XP are both timeboxed and iterative. Timeboxing helps users know when 
 
 ## The Agile Principles
 
-Give customers what they need, not what they ask for. Over the course of a long project, there's a high likelihood of the external environment changing and obviating some of your plans. If an ebook reader takes a year and a half to develop, there's a good chance the reader the market needs in a year and a half isn't what you would have come up with at the beginning.
+Give customers what they need, not what they ask for. Over the course of a long project, there's a high likelihood of the external environment changing and obviating some of your plans. If an ebook reader takes a year and a half to develop, there's a good chance the reader the market needs in a year and a half isn't what you would have come up with at the beginning. If you build an architecture than only works with one version of the master plan, you end kludging around any changes.
+
+The principles aren't a menu to choose from- they all work together. It's not just the way you build software, but also how you interact with each other and the rest of the company.
+
+If you're a rock-star developer used to working all alone, this will prevent your perfect designs from getting ruined when the customer changes their mind. You get to ask tough questions up front and throughout the project, you make sure that the only meetings and documentation are the ones that help make better software, and you get a chance to learn from your team by collaborating more closely.
+
+If you're a project manager who is...
+
+* In the weeds, and does lots of schedules and estimates and day-to-day stuff, you should be a scrum master
+* A product expert and analyst, you should be a product owner
+* A supervisor who works with upper management a lot, you should be an agile champion
+
+### Delivering the project
 
 * **Our highest priority is to satisfy the customer through early and continuous delivery of valuable software**: Releasing software early, delivering value continuously, and satisfying the customer are 3 different things that work together. Dealing with customer panic over early versions of software can be dealt with by emphasizing collaboration and flexibility, and by building trust through the continuous delivery.
 * **Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage**. Why are changes to projects so emotionally charged? Until the change, you thought you were doing a good job, and when a customer changes their mind it feels like they're disrespecting your work. But customers didn't intentionally send you down the wrong path. It might even be embarassing for them to admit that. Your deadline might be blown, but so is theirs. You're being asked to read the customer's mind, they're being expected to predict the future. Don't blame, no one's in trouble when something changes, don't sit on changes, don't view changes as mistakes, and use everything to learn.
 * **Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale**: Agile deals with the chaos of changing requirements by working iteratively and delivering frequently. The frequent deadlines allow the team to stay on track and get lots of feedback early.
+
+### Communicating and working together
+
+* **The most efficient and effective method of conveying information to and within a development team is face-to-face conversation**: Conversations lead to deeper understanding and better retention. Teams generally rely on conversations anyway since documentation has always been such a poor communication tool.
+* **Businesspeople and developers must work together daily throughout the project**: The input of business people is important for understanding what the software should do and what parts of it are most valuable. They are critical members of the team.
+* **Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.**: The team needs to know why the project matters. Performance reviews that punish bad code and reward clean code just stop bad code from being found, rewarding bug counts leads to antagonistic relationships, and rewarding the amount of documentation generated leads to bloated docs. Cover-your-ass roles lead to contract negotiation between people rather than collaboration. Developers spend time on protecting themselves and insulating against change.
+
+### Project execution
+
+* **Working software is the primary measaure of progress**: Status reports are vague are don't actually communicate how much has been done very well.
+* **Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.**: The hard-and-fast deadline is the first tool in the command-and-control manager's toolbox. After a week of crunching the team starts doing less work, and all of it is lower quality.
+* **Continuous attention to technical excellence and good design enhances agility**: Avoiding bugs is faster than fixing them.
+
+### Constantly improving the project and the team
+
+* **Simplicity--the art of maximizing the amount of work not done--is essential**: Deleting code is not destructive, like "deleting" a wall in construction is. Getting back an old piece of code from a version control system is not a big deal. Reducing the amount of dependencies a piece of code has makes it stronger because it's another thing that doesn't need to be maintained.
+* **The best architectures, requirements, and designs emerge from self-organizing teams**: Instead of an architect making one big design up front in isolation, the whole team contributes to the architecture. This is harder for architecture specialists, but more rewarding and better for the team. Incremental architecture is a better fit for the project and leads to stronger overall design.
+* **At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly**: This requires having time blocked out to do it, and a willingness to speak freely.
 
 ## Scrum and Self-Organizing Teams
 ## Scrum Planning and Collective Commitment
@@ -92,5 +122,8 @@ Give customers what they need, not what they ask for. Over the course of a long 
 
 * Talk to team members separately and try to understand how their perspectives differ across the different roles.
   * Ask them what they think about each of the values and principles
+  * Find out what frustrates them, what motivates them, and what drives the decisions they make
+  * Find out which agile principles affect them the most (positively or negatively)
 * Find the agile practices the team thinks feel "empty" and are giving them better-than-not-doing-it results
 * Look for values or principles they're already tacitly aligned on
+* Help the team understand that working long hours leads to less code (not more), and the quality is lower too
