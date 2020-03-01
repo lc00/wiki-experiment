@@ -113,6 +113,48 @@ If you're a project manager who is...
 * **At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly**: This requires having time blocked out to do it, and a willingness to speak freely.
 
 ## Scrum and Self-Organizing Teams
+
+> For Scrum to work, the team has to deeply and viscerally understand collective commitment and self-organization. Scrum's theory, practices, and rules are easy to grasp intellectually. But until a group of individuals has made a collective commitment to deliver something tangible in a fixed amount of time, those individuals probably don't get Scrum. When the team members stop acting as many and adopt and commit to a common purpose, the team becomes capable of self-organization and can quickly cut through complexity and produce actionable plans.
+- Ken Schwaber
+
+Everyone on a Scrum team owns the project. It's natural to CYA wash your hands of decisions someone else made, like scheduling and assignments. There isn't a role for someone who "owns the plan." Scrum masters guide the decisions and make sure they're philosophically sound, but doesn't make decisions for the team. Product Owners understand the business value of what's being delivered, and is the voice of the business for the team. The Product Owner gives broad strokes about what's being built during Sprint Planning, but there's not enough time for the level of detail needed during the actual project. The Product Owner needs authority to make decisions, and spends a lot of time working with stakeholders to get questions answered.
+
+Rather than treat estimates like commitments you can nail people to, treat them facts that have yet to be uncovered. In the future, everything will have taken a certain real amount of time- we're trying to get to that truth faster. Don't motivate people with deadlines, or "ratify" estimates, or hold people accountable. It's a team thing. Figuring out who will do what is done throughout the sprint.
+
+### Collective Commitments
+
+Our plans don't commit us, our commitments commit us. You can't make a commitment on behalf of someone else. Is someone assigned to a project and doing what they're told (chicken) or truly committed (pig)? Pigs care more about the success of the project than they care about anything else in their professional life- and sometimes that means blurring roles or using technologies you don't personally like. Chickens matter (eg. a user giving their opinion), but their professional success isn't tied to the success of the project. If someone (like the SM) "owns" the plan or there's a "single wringable neck", it encourages everyone else to be a chicken.
+
+### Mechanics
+
+#### Sprint Planning
+
+A 2-part meeting, each part is time-boxed to 4 hours per 30 day sprint (proportionally shorter for shorter sprints). Beforehand, the Product Owner comes up with a prioritized backlog for the product that the stakeholders and users have bought into. In the first part, the team selects what items they will commit to delivering by the end of the sprint. In the second part of the meeting, the team figures out what tasks are a part of delivering those backlog items, which becomes the sprint backlog.
+
+#### Daily Scrum
+
+All team members must attend. Anyone else may attend, but isn't allowed to participate. Maximum 15 minutes. It's not a status update meeting, and it's a way for a PM to manage the schedule. They help teams make decisions at the last responsible moment.
+
+#### Sprint
+
+No one is allowed to tell the team how to do their jobs. If a sprint is in danger, the team must tell the product owner as soon as possible so that expectations can be reset with stakeholders. More items can be added if the sprint ends early. In the case of catastrophe (eg. staffing problem), the product owner can terminate a sprint. This needs to be rare, or else the stakeholder trust will disappear.
+
+#### Demo
+
+The team demos only items that are done-done (nothing left to do). The team and the stakeholders share opinions and feelings.
+
+#### Retro
+
+What did we do well, what can improve in the future? Scrum Master is responsible for documentating them and adding to the product backlog as non-functional items.
+
+### Scrum Values
+
+* **Courage**: Push back against poor culture and shortcuts
+* **Commitment**: Everyone is committed to the goals, and has authority to make decisions about those goals
+* **Respect**: The teams foster mutual respect for each other, including non-technical team members
+* **Focus**: No distractions or other assignments or committees during a sprint. Switching to other tasks when blocked introduces context switching.
+* **Openness**: Standups, task boards, and retros don't give opportunities for CYA or plausible deniability.
+
 ## Scrum Planning and Collective Commitment
 ## XP and Embracing Change
 ## XP, Simplicity, and Incremental Design
