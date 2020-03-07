@@ -156,6 +156,13 @@ A 2-part meeting, each part is time-boxed to 4 hours per 30 day sprint (proporti
 
 All team members must attend. Anyone else may attend, but isn't allowed to participate. Maximum 15 minutes. It's not a status update meeting, or a way for a PM to get the updates needed to manage the schedule. They help teams inspect the work (which helps maximize its value) and make decisions at the last responsible moment. Even with face-to-face communication, detail gets lost- the scrum gives a chance to sunshine it. Team members become familiar with each other's work, and help make it better ("Empirical process control"). Team members self-assign and negotiate tasks between themselves instead of being given them by a manager. A team will find "bugs" in the schedule in real-time faster than a project manager would be able to find them with an up-front plan. Take bigger discussion "offline." It's not a series of 1:1 conversations with each dev and the project manager, it's team members talking to each other.
 
+Modified questions:
+
+* What did we achieve yesterday on priority 1?
+* What was our contribution to priority 1 worth in story points?
+* What is our plan for completing priority 1 today?
+* What, if anything, is blocking us or has the potential to slow us down today?
+
 #### Sprint
 
 No one is allowed to tell the team how to do their jobs. If a sprint is in danger, the team must tell the product owner as soon as possible so that expectations can be reset with stakeholders. More items can be added if the sprint ends early. In the case of catastrophe (eg. staffing problem), the product owner can terminate a sprint. This needs to be rare, or else the stakeholder trust will disappear. If something isn't done at the end of a sprint, it goes to the top of the backlog- never give the impression you've delivered value that you haven't.
@@ -190,6 +197,52 @@ What did we do well, what can improve in the future? Scrum Master is responsible
 * Help the team follow the rules of scrum and remove any impediments that are stopping them from doing so
 
 ## Scrum Planning and Collective Commitment
+
+* Team members often gold-plate the software (with good intentions), and customers often request features that will never get used because they're incentivized to cram everything in now.
+* GASPs (generally accepted scrum practices) include points, user stories, standing during scrums, etc.
+* Organizations that refuse to fail are the least innovative and least fun.
+* A lot of the tools seem similar to traditional project management tools, but the difference is in how they change, how often they're reexamined
+* Agile teams plan broad strokes first (stories) and details last (tasks), and frees you from "padding" and CYA estimates
+* For non-functional features, still think about how to demo them. What does faster look like?
+* Bugs affect the burndown chart, and require things to get taken out to accomodate for them.
+* Global teams are difficult, but not impossible. Consider colocating scrum teams, and having a scrum-of-scrums to keep them together.
+
+### User Stories
+
+* Effective for fighting gold-plating and feature bloat.
+* Acceptance criteria is on the back of the card so that everyone knows when it's done
+* Break down a story into individual tasks on different colored cards, and attach them to the original story card.
+* If a product owner rejects something, they put it back in the "in progress" column with new task cards
+* Stories that aren't finished in time are put back on the product backlog and reestimated for next sprint
+
+### Story Points
+
+1. Start with the most valuable user stories from the product backlog
+2. Take the smallest story in that list and point it
+3. Discuss how accurate it is- additional challenges nudge it up, reusing and scaling back nudges it down
+4. Repeat until the sprint backlog is filled
+
+Make an average size 3 points, the biggest valuable feature 5 points, the smallest one 1 point.o
+
+Story points work because:
+
+* They're simple to understand
+* They're based on real-life
+* The team controls them
+* They get the team to talk about estimates
+* Developers aren't scared of them
+* They help the team discover the meaning of the story
+* They help the team get committed by seeing how much work they've accomplished and how much they have left to go, as well as a tight feedback loop on underestimating
+
+### Burndowns
+
+* X is days in sprint
+* Y is 120% of the total points for a sprint
+* Draw a straight line from the total points in the sprint and 0 points at the end of the sprint
+* Measure how many points are left every day (including ones that get added mid-sprint)
+* Below the line is good, above the line is bad
+* You may need to remove stories from the backlog before the end of a sprint to get below the line, which gives you an opportunity to communicate in advance with stakeholders
+
 ## XP and Embracing Change
 ## XP, Simplicity, and Incremental Design
 ## Lean, Eliminating Waste, and Seeing The Whole
@@ -205,3 +258,53 @@ What did we do well, what can improve in the future? Scrum Master is responsible
 * Help the team understand that working long hours leads to less code (not more), and the quality is lower too
 * Identify the person with the authority and willingness to be a product owner early- they need to have buy-in from the business
 * If a team is just doing a daily status meeting, help them learn the difference between self-organization and command-and-control
+* Let the team fail. Don't let them drive off a cliff, but use the dozens of opportunities that naturally come up during sprints. Teams that fail and recover together are stronger and faster than ones that are protected. The team may also surprise you by being right.
+* Understanding collective commitment is really hard. Look for places where team members are hesitant to estimate or try to get out of planning.
+* Find team members who have "tunnel vision" about a particular feature, and get them exposure to other features to help make their view more holistic.
+* Make sure all the data (burndown, backlog, etc) is in a visible area
+* You won't solve the politics of a company; focus on helping the team see what the politics are first.
+
+### Barriers to Scrum
+
+If the organization will do scrum practices but not embrace scrum values, they'll get better-than-not-doing it results (but it's not scrum). Don't overpromise the transformation.
+
+Managers and executives spending time with the team is a big barrier to adoption, as is dedicating a product manager to being embedded in the team. They have to have to value the software that's being built enough. It's also very expensive to have a phalanx of BAs and managers to prepare all the documentation for the executives to read.
+
+Is the team and the boss OK with:
+
+#### Commitment
+
+* Relinquishing control of the project to the team
+* Not going off on their own to build something and trying to integrate it at the end
+* Not having a single wringable neck
+* Listening to comments and feedback even if you disagree with them
+* Actually being willing to take responsibility? Everyone on the team?
+
+#### Respect
+
+* Trusting the team to do the right thing and deliver as early as possible, even if that means being late?
+* Giving the team enough time
+* Trusting the team to choose the right tasks for the right people
+* Not being able to say you don't know why the team did something they did
+
+#### Focus
+
+* Never asking someone on the team to do something that's not part of the current sprint
+* Never asking someone on the team to do work that the whole team hasn't agreed on
+* Putting what's most valuable to the company ahead of other concerns
+* Not demanding that tasks be done in a particular order up front
+
+#### Openness
+
+* Listening to what others say and thinking about it
+* Thinking about users and project planning, even if you never have before
+* Thinking about technical details, even if you never have before
+* Thinking about what the person next to you is doing and whether it fits into the overall goal
+* The person next to you thinking the same thing about you
+
+#### Courage
+
+* Not being able to blame lack of planning on the project manager
+* Not being able to to poor requirements on the PO or senior manager
+* Taking the time to really understand your users
+* Building something that isn't perfect because what your users really need is good enough
