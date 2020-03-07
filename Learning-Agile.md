@@ -121,9 +121,30 @@ Everyone on a Scrum team owns the project. It's natural to CYA wash your hands o
 
 Rather than treat estimates like commitments you can nail people to, treat them facts that have yet to be uncovered. In the future, everything will have taken a certain real amount of time- we're trying to get to that truth faster. Don't motivate people with deadlines, or "ratify" estimates, or hold people accountable. It's a team thing. Figuring out who will do what is done throughout the sprint.
 
+Iterative processes make progress through successive refinement. Incremental processes are where something is built and delivered in pieces. Scrum is both.
+
+Don't have an "A team" that writes features and a "B team" that does maintenance and fixes bugs, or allow senior members to dump boring work on junior members. The person who creates bugs is best equipped to fix it, and the extra documentation and communication required to hand it off is waste.
+
+A cruise ship is slow to turn, a team of speedboats is fast to turn but takes more communication and coordination. A team of firefighters pointing a hose at flames looks easy, but it takes practice and coordination to move as one unit.
+
+Gantt charts give people a false sense of security with anticipating dependencies. The estimates and timing are always going to be off (especially since the person giving the estimate was likely overoptimistic and not corrected by anyone). Deal with project dependencies as they come up. Team members are more likely to be acutely aware of dependency problems because they're finding out about them scrum to scrum and identifying them while working on the project, not crystal-ball reading ahead of time.
+
+By deferring planning until the last responsible moment, you're getting the same benefit as doing it up front but with more information.
+
+### Why it's so hard for requirements to get through the chain of command correctly
+
+* The PM scopes out the work with a document
+* Managers sign off on the scope
+* An analyst review the scope then talk to users and other stakeholders to understand their jobs
+* The analyst comes up with use cases and functional requirements
+* Programmers estimate the work
+* The PM takes the requirements and estimates and builds a schedule, and reviews it with stakeholders and managers
+
 ### Collective Commitments
 
-Our plans don't commit us, our commitments commit us. You can't make a commitment on behalf of someone else. Is someone assigned to a project and doing what they're told (chicken) or truly committed (pig)? Pigs care more about the success of the project than they care about anything else in their professional life- and sometimes that means blurring roles or using technologies you don't personally like. Chickens matter (eg. a user giving their opinion), but their professional success isn't tied to the success of the project. If someone (like the SM) "owns" the plan or there's a "single wringable neck", it encourages everyone else to be a chicken.
+Our plans don't commit us, our commitments commit us. You can't make a commitment on behalf of someone else. Is someone assigned to a project and doing what they're told (chicken) or truly committed (pig)? Pigs care more about the success of the project than they care about anything else in their professional life- and sometimes that means blurring roles or using technologies you don't personally like. Chickens matter (eg. a user giving their opinion), but their professional success isn't tied to the success of the project. If someone (like the SM) "owns" the plan or there's a "single wringable neck", it encourages everyone else to be a chicken. The team committing to deliver the software means that you are taking accountability for delivering something even if you didn't personally work on it.
+
+Elevating goals motivates people to want to commit. Digging a ditch isn't motivating; digging a ditch to protect your town from an imminent invasion is. Get people motivated by the impact of the software they write.
 
 ### Mechanics
 
@@ -133,11 +154,11 @@ A 2-part meeting, each part is time-boxed to 4 hours per 30 day sprint (proporti
 
 #### Daily Scrum
 
-All team members must attend. Anyone else may attend, but isn't allowed to participate. Maximum 15 minutes. It's not a status update meeting, and it's a way for a PM to manage the schedule. They help teams make decisions at the last responsible moment.
+All team members must attend. Anyone else may attend, but isn't allowed to participate. Maximum 15 minutes. It's not a status update meeting, or a way for a PM to get the updates needed to manage the schedule. They help teams inspect the work (which helps maximize its value) and make decisions at the last responsible moment. Even with face-to-face communication, detail gets lost- the scrum gives a chance to sunshine it. Team members become familiar with each other's work, and help make it better ("Empirical process control"). Team members self-assign and negotiate tasks between themselves instead of being given them by a manager. A team will find "bugs" in the schedule in real-time faster than a project manager would be able to find them with an up-front plan. Take bigger discussion "offline." It's not a series of 1:1 conversations with each dev and the project manager, it's team members talking to each other.
 
 #### Sprint
 
-No one is allowed to tell the team how to do their jobs. If a sprint is in danger, the team must tell the product owner as soon as possible so that expectations can be reset with stakeholders. More items can be added if the sprint ends early. In the case of catastrophe (eg. staffing problem), the product owner can terminate a sprint. This needs to be rare, or else the stakeholder trust will disappear.
+No one is allowed to tell the team how to do their jobs. If a sprint is in danger, the team must tell the product owner as soon as possible so that expectations can be reset with stakeholders. More items can be added if the sprint ends early. In the case of catastrophe (eg. staffing problem), the product owner can terminate a sprint. This needs to be rare, or else the stakeholder trust will disappear. If something isn't done at the end of a sprint, it goes to the top of the backlog- never give the impression you've delivered value that you haven't.
 
 #### Demo
 
@@ -155,6 +176,19 @@ What did we do well, what can improve in the future? Scrum Master is responsible
 * **Focus**: No distractions or other assignments or committees during a sprint. Switching to other tasks when blocked introduces context switching.
 * **Openness**: Standups, task boards, and retros don't give opportunities for CYA or plausible deniability.
 
+### Product Owners
+
+* Understands what the company needs the most
+* Understands what features the team can potentially deliver
+* Figures out which features are more or less valuable
+* Figures out (with the team) which features are harder or easier to build
+* Helps the team figure out which features to build in each sprint
+* Helps the company figure out how to prepare for the next round of software
+
+### Scrum Masters
+
+* Help the team follow the rules of scrum and remove any impediments that are stopping them from doing so
+
 ## Scrum Planning and Collective Commitment
 ## XP and Embracing Change
 ## XP, Simplicity, and Incremental Design
@@ -169,3 +203,5 @@ What did we do well, what can improve in the future? Scrum Master is responsible
 * Find the agile practices the team thinks feel "empty" and are giving them better-than-not-doing-it results
 * Look for values or principles they're already tacitly aligned on
 * Help the team understand that working long hours leads to less code (not more), and the quality is lower too
+* Identify the person with the authority and willingness to be a product owner early- they need to have buy-in from the business
+* If a team is just doing a daily status meeting, help them learn the difference between self-organization and command-and-control
