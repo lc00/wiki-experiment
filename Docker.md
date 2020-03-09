@@ -113,7 +113,7 @@ RUN gem update --system
 RUN gem install rails
 ```
 
-`sudo docker -v $(pwd):/app rails-new:latest rails new --api my-app-name`
+`sudo docker run -v $(pwd):/app rails-new:latest rails new --api my-app-name`
 
 To use your rails app:
 
@@ -129,6 +129,6 @@ RUN bundle install
 CMD ["rails", "s", "-b", "0.0.0.0"]
 ```
 
-`sudo docker -v $(pwd):/app rails-new:latest rails g model user`
+`sudo docker run -v $(pwd):/app my-rails-app:latest rails g model user`
 
-`sudo docker -p 3000:3000 -v $(pwd):/app rails-new:latest`
+`sudo docker run -p 3000:3000 -v $(pwd):/app my-rails-app:latest`
