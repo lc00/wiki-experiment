@@ -85,3 +85,50 @@ CMD npm run serve
 * `git clone kylecoberly/my-image`
 * `sudo docker pull kylecoberly/my-image`
 * `sudo docker run -p 8080:8080 kylecoberly/my-image`
+
+## Clean up
+
+Images are huge. Clean up unused stuff with:
+
+`docker system prune -a`
+
+## Rails-Specific Issues
+
+Dockerizing Rails stuff sucks.
+
+* There is no official Rails docker image, you have to customize the Ruby one
+* Gems need to be installed in the image
+* The server needs to be bound to 0.0.0.0
+* The Gem locations need to be updated
+* Sometimes the correct version of bundler needs to be installed
+* When creating a new app, you also need Node installed if you're using ERB
+* If you want to use Docker to `rails new`, you probably need a seperate image for that vs. the one that you'll run generators with. You need your gems in the image when you generate, but you won't have a Gemfile yet when you run `rails new`.
+
+To generate a new rails app:
+
+```Dockerfile
+FROM ruby:2.6.5
+WORKDIR /app
+RUN gem update --system
+RUN gem install rails
+```
+
+`sudo docker -v $(pwd):/app rails-new:latest rails new --api my-app-name`
+
+To use your rails app:
+
+```Dockerfile
+FROM ruby:2.6.5
+WORKDIR /app
+RUN gem update --system
+RUN gem install rails
+COPY Gemfile .
+COPY Gemfile.lock .
+RUN bundle install
+
+CMD ["rails", "s", "-b", "0.0.0.0"]
+```
+
+`sudo docker -v $(pwd):/app rails-new:latest rails g model user`
+
+`sudo docker -p 3000:3000 -v $(pwd):/app rails-new:latest`

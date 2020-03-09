@@ -111,6 +111,7 @@
 ## DevOps
 
 * [[Docker]]
+* [[CI Pipelines]]
 
 ## CMS
 
