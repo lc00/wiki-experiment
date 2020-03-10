@@ -107,7 +107,7 @@ Dockerizing Rails stuff sucks.
 To generate a new rails app:
 
 ```Dockerfile
-FROM ruby:2.6.5
+FROM ruby:2.7.0
 WORKDIR /app
 RUN gem update --system
 RUN gem install rails
@@ -115,13 +115,12 @@ RUN gem install rails
 
 `sudo docker run -v $(pwd):/app rails-new:latest rails new --api my-app-name`
 
+I have one of these saved at `kylecoberly/rails-new:2.7.0`
+
 To use your rails app:
 
 ```Dockerfile
-FROM ruby:2.6.5
-WORKDIR /app
-RUN gem update --system
-RUN gem install rails
+FROM kylecoberly/rails-new:2.7.0
 COPY Gemfile .
 COPY Gemfile.lock .
 RUN bundle install
@@ -129,6 +128,8 @@ RUN bundle install
 CMD ["rails", "s", "-b", "0.0.0.0"]
 ```
 
-`sudo docker run -v $(pwd):/app my-rails-app:latest rails g model user`
+`docker run --user `id -u`:`id -u` -v $(pwd):/app my-rails-app:latest rails g model user`
 
-`sudo docker run -p 3000:3000 -v $(pwd):/app my-rails-app:latest`
+NOTE: `docker run` on Linux always creates files as root. Specify your user manually to override it.
+
+`docker run --user `id -u`:`id -u` -p 3000:3000 -v $(pwd):/app my-rails-app:latest`
