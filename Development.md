@@ -38,6 +38,9 @@
 * [[BDD]]
 * [[Cypress Cucumber]]
 * [[Gherkin]]
+* [[Jest]]
+* [[Vue-Jest]]
+* [[What-To-Test]]
 
 ## OOP
 
