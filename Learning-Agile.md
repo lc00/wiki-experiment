@@ -393,7 +393,95 @@ I'm sure I'll find other ways to solve all these problems. In time. The pain wil
 
 Lean is a mindset, rather than a collection of practices.
 
+* "Multitasking" is a term people use when they mean "overloaded"
+* "If stupid enters the room, you have a moral duty to shoot it, no matter who's escorting it."
+* Pull systems eliminate constraints
+
+### Measurements
+
+* Lean teams use measurements to make sure that everyone is seeing the project and the way their actions impact it in the same way (like lead time).
+* A WIP area chart can help see how quickly software is being delivered.
+  * Track how many stories are in each stage of the process at once
+  * A ribbon getting narrower means more flowed into the stage than out
+  * You can notice trends when a lot of things move together
+  * A solid line means a blockage
+
+### Waste
+
+Waste is anything that doesn't actively help you build better software. The project manager relentlessly updating plans, binders of specs, people reciting statuses to be copied by a PM into meeting notes no one will look at.
+
+Seven software wastes:
+
+* **Partially done work**
+* **Extra processes**: eg. creating a lot of time estimates
+* **Extra features**
+* **Task switching**
+* **Waiting**
+* **Motion**: eg. not sitting together
+* **Defects**
+
+Every one of these is probably useful for someone, sometime. They are waste in terms of building valuable products.
+
+### Value Stream Mapping
+
+Map the steps it takes to deliver a minimally marketable feature. The line goes up when it's being worked on, and down while waiting for the next step. For example:
+
+* Create requirements document (4 days)
+* 8 days
+* Task breakdown and estimation (6 days)
+* 4 days
+* Create project schedule (3 days)
+* 5 days
+* Review plan and get approval (1 day)
+* 6 days
+* Develop software (12 days)
+* 1/2 day
+* Test software (8 days)
+* 3 days
+* Validate scope is complete (1/2 day)
+* 9 days
+* Deploy (1 day)
+
+In this, it was 71 days from the time the team started working to when it was deployed. Of this, 35.5 were spent waiting.
+
+### Integrity
+
+* Perceived integrity: How well a product meets the needs of the person using it
+* Conceptual integrity: How well the features form a single, unified product
+
+### Options thinking
+
+What do you have the option (but not the obligation) to do?
+
+* In scrum, the team is committed to delivering valuable software at the end of a sprint. They have the option to do that by delivering specific features, but that can change if the PO pulls them out or if they can't be done-done.
+* There are no "late tasks"- the team can always change the tasks if it helps them develop valuable software
+* Designs are options, not commitments- if you find a better way to do something (a better option), you should take it
+* Decoupled components give you lots of options
+
+### Set-based development
+
+Have the team follow several paths simultaneously to build alternatives you can compare. You can frequently check-in to see which approach is appearing more promising. This can save tons of time speculating.
+
+### Heroes and Magical Thinking
+
+Believing that if you set high goals and tight timelines, people will rise to the occasion inevitably creates a hero culture of individuals rather than a cohesive team. The manager thinks their team is magical, and they can pile anything on them and it will get done. No one looks too closely at the quality of what's being built, how many stop-gaps are being thrown in, or what's being done to the team dynamic. All that's recognized is the number of hours, so that's what people start giving. Working a lot of hours results in slower delivery, not faster.
+
+Lean is a mindset for making how the team works more explicit.
+
+### Lean Values
+
+* **Eliminate Waste**: Find work you're doing that doesn't directly help create valuable software and eliminate it
+* **Amplify Learning**: Use feedback to improve how you build software
+* **Decide as late as possible**: Make every important decision for your project when you have the most information about it: the last responsible moment.
+* **Deliver as fast as possible**: Understand the cost of delay, and minimize it with pull systems and queues.
+* **Empower the team**: Establish a focused and effective work environment, and build a whole team of energized people
+* **Build integrity in**: Build software that intuitively makes sense to users and which forms a coherent whole
+* **See the whole**: Understand the work that happens on your project, and use the right kind of measurements to make sure you're actually seeing everything clearly.
+
 ## Kanban, Flow, and Constantly Improving
+
+
+
 ## The Agile Coach
 
 * Talk to team members separately and try to understand how their perspectives differ across the different roles.
@@ -417,6 +505,9 @@ Lean is a mindset, rather than a collection of practices.
 * Help them find examples of code that was never needed, features that were never used, and sometimes never requested.
 * Rather than engage in a debate, try to uncover what specific problems the team is having with practices like pairing or TDD. Coach them through executing the practice.
 * Don't let an enthusiastic team member make a practice seem like zealotry
+* What kinds of waste does the team have?
+* Gently work with managers to recognize their own magical thinking- don't create friction between the team and the company
+* Separate the idea of the process from the people working on it
 
 ### Barriers to Scrum
 
