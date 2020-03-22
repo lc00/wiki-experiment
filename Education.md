@@ -24,7 +24,6 @@
 
 ## To Finish
 
-* [[Blended]] - Michael Horn, Heather Staker
 * [Disrupting Class](Disrupting-Class) - Clayton Christensen
 * [[Thinking Fast and Slow]] - Daniel Kahneman
 * [[The Aims of Education]] - Whitehead
