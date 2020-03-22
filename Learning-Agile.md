@@ -244,6 +244,94 @@ Story points work because:
 * You may need to remove stories from the backlog before the end of a sprint to get below the line, which gives you an opportunity to communicate in advance with stakeholders
 
 ## XP and Embracing Change
+
+Use working software as the basis for conversation, not documentation. Use it to drive conversations, get feedback, and make changes.
+
+>> Programming practices by themselves are barren. Unless given purpose by values, they become rote. Pair programming, for example, makes no sense as a "thing to do to check off a box." Pairing to please your boss is just frustrating. Pair programming to communicate, get feedback, simplify the system, catch errors, and bolster your courage makes a lot of sense. - Kent Beck
+
+XP practices allow you to confidently do rework without also introducing bugs, and to incorporate really good ideas if it makes sense to. BRUF sometimes works OK for the first release, maybe the second. By the third+ release, users want things to change, but to incorporate those changes parts of the system will need to survive redesign.
+
+Quality isn't just about giving users what they ask for, it's about meeting their needs, even if it's not what they asked for.
+
+### Programming practices
+
+* **Pairing**: Two brains on the problem, keeps bugs from being built into the code, reduces fatigue, reduces temptation for shortcuts. It also normalizes code practices, and gets the best from each developer.
+* **Test-first development**: Keeps bugs from being built into the code, ensures testable code. It also prevents CYA requirements-following and encourages developers to think about how the code is going to be used.
+
+### Integration practices
+
+* **10 Minute Builds**: Includes running the tests, short enough that people do it often
+* **Continuous integration**: Reintegrate master frequently.
+  * Pass a "build token" (like a rubber chicken) from pair to pair. When a pair gets the token, they integrate the latest changes
+
+### Planning practices
+
+* **Weekly Iterations**: Working through stories
+* **Quarterly Themes**: Talk about the big picture, recurring issues, repair work needed, etc.
+* **Slack**: Small stories added to the end, which get cut if the team runs out of time
+
+### Team Practices
+
+* **Sit together**
+* **Informative Workspace**: Information radiatiors
+* **Osmotic Communication**: Learning things through discussions that happen out in the open
+
+### XP Values
+
+* **Communication**: Everyone knows what everyone else is doing
+* **Simplicity**: Developers focus on writing the most simple and direct solution possible
+* **Feedback**: Constant tests and feedback loops keep the quality high
+* **Courage**: Making the best choices for the project, even if it means throwing things away or doing a different approach
+* **Respect**: Every team member is important and valuable
+
+### XP Principles
+
+* **Humanity**: Software is built by people, and the needs of those people need to be balanced with the needs of the project.
+* **Economics**: Someone's paying for this, and someone needs to be mindful about the cost
+* **Mutual Benefit**: Search for practices that benefit the individual, the team, and the customer together
+* **Self-similarity**: The pattern of a monthly cycle is the same as weekly cycle is the same as a daily cycle.
+* **Improvement**: Do your best today, know what you need to do to be better tomorrow
+* **Diversity**: Lots of different opinions and perspectives make better products
+* **Reflection**: Stay aware of what's working and what's not
+* **Flow**: No distinct phases
+* **Opportunity**: Each problem is a chance to learn something new about software development
+* **Redundancy**: Redundancy can avoid big quality problems
+* **Failure**: It's ok to try things that don't work
+* **Quality**: You can't deliver faster by accepting a lower quality product
+* **Accepted responsibility**: If someone is responsible for something, they have the authority to get it done
+* **Baby steps**: Take small steps in the right direction
+
+### Corollary Practices
+
+* **Real customer involvement**: Bring customers to your meetings and listen to them
+* **Incremental deployment**: Deploying small pieces of the system individually
+* **Team Continuity**: Keep effective teams together
+* **Shrinking Teams**: As a team becomes more effective, instead of adding more work, remove a team member and use that team member to bring XP culture to another team
+* **Root-Cause Analysis**: When something goes wrong, figure out what the problem was, what caused it, and eliminate the problem upstream
+* **Shared code**: Collective ownership
+* **Code and tests**: Only the code and tests are maintained by the team. Documentation is generated automatically, and history is shared through word-of-mouth culture
+* **Single codebase**: Don't manage multiple versions of the code
+* **Daily deployment**: Push a new version of the software into production every day
+* **Negotiated scope contract**: Instead of fixing scope and negotiating time, fix time and negotiate scope.
+* **Pay per use**: Instead of charging for development, charge the customer when they use the system. This is real-time, constant feedback about which features are being used and which aren't.
+
+### Bad XP Shortcuts
+
+These are better than not doing anything, but don't capture the values of XP. The values matter, but they're less concrete than the practices, so they're harder to train. They also don't force the team to acknowledge that anything is wrong.
+
+* Using code reviews instead of pairing.
+* Having frequent meetings instead of sitting together.
+* Don't have the team integrate, just do it on the server.
+* Write the tests last.
+
+The canary in the coalmine for XP falling apart is people not pairing.
+
+### Differences from Scrum
+
+* No fixed roles- a "PO" can also be a developer
+* No retro, because you're never-not retroing
+* Can be adopted more piecemeal
+
 ## XP, Simplicity, and Incremental Design
 ## Lean, Eliminating Waste, and Seeing The Whole
 ## Kanban, Flow, and Constantly Improving
@@ -263,6 +351,9 @@ Story points work because:
 * Find team members who have "tunnel vision" about a particular feature, and get them exposure to other features to help make their view more holistic.
 * Make sure all the data (burndown, backlog, etc) is in a visible area
 * You won't solve the politics of a company; focus on helping the team see what the politics are first.
+* Some cultural changes are big enough that adopting them could get everyone involved fired
+* Help the team find examples where they were hesitant to show something to someone outside the team. Have they ever manipulated a demo to work around a bug?
+* Help the team create information radiators.
 
 ### Barriers to Scrum
 
