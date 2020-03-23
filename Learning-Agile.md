@@ -480,7 +480,69 @@ Lean is a mindset for making how the team works more explicit.
 
 ## Kanban, Flow, and Constantly Improving
 
+Kanban is a method for process improvement. It requires an existing process and a lean mindset.
 
+> You would never run our servers at full utilization. Why haven't we learned that lesson in software development yet?
+
+* A policy is a step or rule you always follow
+* Not everything within a project is within control of the team
+* Every team has some process, even if it's chaotic, or only exists in people's heads. The first step is to make that explicit.
+* Recognizing the entire system is lean's "seeing the whole"
+* A work item is not a task. Tasks move work items across the kanban board. Kanban boards include the steps before and after the team works on something, including how it gets into the system in the first place, maintenance/support, etc.
+* The process improvement is owned by the team, not the managers
+* You can't simultaneously visualize what's happening _and_ tinker with it- draw what you actually do, not what you wish you did.
+* Never copy another team's kanban board
+* Walking the board: Discussing the status of every item on the board
+* If you send something back to the beginning of a board, add a dot to help visualize that you did it more than once
+* Working on the next item, or the next stage for the current item, is an option not a commitment. The kanban board visualizes your options.
+* Setting a WIP limit is a policy for a stage.
+* When a process is at its WIP limit, the team needs to find other work to do.
+* If a feedback loop is too fast (like too low a WIP limit), it causes thrashing- feeding information back into the system before the previous information has been assimilated.
+* Work to eliminate loops and make the work linear
+* Kanban teams use a reliable cadence instead of a timebox for delivery
+* WIP limits keep the chaos and overburdening out
+* Make your policies explicit and written down- WIP limits, exit criteria, definition of done, etc.
+* Don't worry about the variability of the little pieces; look at the system as a whole
+* Visualizing the system helps those outside it understand how to work with it too; managers realize they have to start making trade-offs about priorities, instead of just making the team work harder.
+* Traditional PM helps teams manage variability by trying to insulate against change
+* Scrum task boards are internal to the team, managed by the PO; Kanban boards are external too, and other stakeholders interact with them.
+
+### Measuring Flow
+
+A cumulative flow diagram helps visualize how long items have stayed in the system. The stripes are columns on the kanban board.
+
+Some key measures:
+
+* Average arrival rate: Rate at which items are added to the process every day
+* Average inventory: Total items in the workflow
+* Lead time: How long it takes to get an item through the system
+
+The trendlines for inventory, lead time, and arrival rate should stay flat. A wide ribbon indicates a bottleneck, it means more working is coming in than out. Work can spike, as long as the ribbons stay proportionately the same and inventory isn't accumulated. Periodic irregularities point to events, like releases. Check the WIP area chart to see if inventory is regularly increasing, indicating an unstable system. The right WIP limit gets inventory from accumulating anywhere.
+
+When the trendlines are flat, the system is stable. A stable system is subject to Little's law: The average lead time is equal to the average inventory * the average arrival rate.
+
+`L = W * λ` and `W = L / λ`
+
+Lead time is directly linked to customer satisfaction and increased quality. So, to make your customers happy, work on fewer features at once.
+
+Stabilizing the sytem lets you control the system. Once the sytem is stable, you control lead time by controlling arrival rate.
+
+### Method
+
+Foundational principles:
+
+* Start with what you do now
+* Agree to pursue incremental, evolutionary change
+* Intially, respect current roles, responsibilities, and job titles
+
+Then adopt the core practices:
+
+* Visualize
+* Limit WIP
+* Manage flow
+* Make process policies explicit
+* Implement feedback loops
+* Improve collaboratively, evolve experimentally
 
 ## The Agile Coach
 
@@ -508,6 +570,38 @@ Lean is a mindset for making how the team works more explicit.
 * What kinds of waste does the team have?
 * Gently work with managers to recognize their own magical thinking- don't create friction between the team and the company
 * Separate the idea of the process from the people working on it
+* Kanban starts with lean thinking
+* The biggest barrier to adopting kanban is understanding that it's not a project management tool, it's a system for process improvement
+* Help teams understand and visualize their options vs. their commitments
+* The primary job of an agile coach is helping individuals overcome fear and hatred of change by adopting an agile mindset
+* Don't let scrum masters assign work to people
+* People will naturally gravitate to the part of the change that feels familiar- don't let them!
+* Remember that everyone was good at their job until you showed up
+* Disillusionment comes from doing the same thing and slapping agile terms on it
+* Spend some time assessing where everyone is at on the shu-ha-ri of agile adoption
+* Beginners need to start with unambiguous rules
+
+### Warning Signs that the Team Is Having Trouble With Change
+
+> "We already build software well. Why change?"
+
+It's a reasonable question. Stay positive about the work they've done, and look for areas you can improve.
+
+> "Agile is risky"
+
+It feels that way because problems are so immediately apparrent and you can CYA. Keep people feeling safe.
+
+> "That practice isn't going to work for me"
+
+Start where they're comfortable, guide them to the practices slowly.
+
+> "Agile doesn't work in our industry"
+
+They're used to having the comfort of big plans, especially PMs and architects. Deciding at the last moment sounds scary, but they also don't have to own the decisions alone and will have more information.
+
+> "This is the same thing we do but with a different name"
+
+This means the person has never seen real agile before. Help illustrate the differences.
 
 ### Barriers to Scrum
 
@@ -553,3 +647,11 @@ Is the team and the boss OK with:
 * Not being able to to poor requirements on the PO or senior manager
 * Taking the time to really understand your users
 * Building something that isn't perfect because what your users really need is good enough
+
+### Coach Wooden's Principles of Coaching
+
+* Industriousness - Working hard at things you might not have worked hard at before
+* Enthusiasm - When your heart is in your work, it rubs off on everyone around you
+* Condition - Have pride of workmanship
+* Fundamentals - Don't get carried away by the details of some complicated system
+* Development of team spirit - Look out for people trying to maximize their own interests
