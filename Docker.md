@@ -128,8 +128,8 @@ RUN bundle install
 CMD ["rails", "s", "-b", "0.0.0.0"]
 ```
 
-`docker run --user `id -u`:`id -u` -v $(pwd):/app my-rails-app:latest rails g model user`
+`docker run --user $(id -u):$(id -u) -v $(pwd):/app my-rails-app:latest rails g model user`
 
 NOTE: `docker run` on Linux always creates files as root. Specify your user manually to override it.
 
-`docker run --user `id -u`:`id -u` -p 3000:3000 -v $(pwd):/app my-rails-app:latest`
+`docker run --user $(id -u):$(id -u) -p 3000:3000 -v $(pwd):/app my-rails-app:latest`
