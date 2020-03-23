@@ -12,6 +12,7 @@
 * [[Functional JavaScript]] - Fogus
 * [[lodash]]
 * [[TypeScript]]
+* [[Service Worker]]
 
 ## Node
 
