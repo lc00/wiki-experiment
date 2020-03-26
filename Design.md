@@ -7,6 +7,7 @@
 ## Layout
 
 * [[Design School Layout]] - Richard Poulin
+* [[Responsive Design Workflow]] - Hay
 
 ## Typography
 
@@ -15,7 +16,6 @@
 ## To Finish
 
 * [[The Design of Everyday Things]] - Don Norman
-* [[Responsive Design Workflow]] - Hay
 * [[The Best Interface Is No Interface]] - Golden Krishna
 * [[The Book of GIMP]]
 * [[Visual Poetry]]
