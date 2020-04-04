@@ -22,6 +22,10 @@
 * [[How People Learn]] - Brain, Mind, Experience, and School
 * [[Pragmatic Thinking and Learning]] - Andy Hunt
 
+## Tools
+
+* [[Krita]]
+
 ## To Finish
 
 * [Disrupting Class](Disrupting-Class) - Clayton Christensen
