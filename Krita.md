@@ -14,7 +14,7 @@
 * Remap Rotate Hue to `Alt+Control-H` / `Alt+Shift-H`
 * Remap Rectangle Tool to `R`
 * Remap Line Tool to `L`
-* Remap Text Tool to `Shift+T`
+* Remap Text Tool to `Control+T`
 * Make your default new canvas 2 layers to keep a white background
 
 ## Krita Shortcuts
