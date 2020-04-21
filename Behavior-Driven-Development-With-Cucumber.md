@@ -191,6 +191,8 @@ Other built-in types:
 * {int} - Positive and negative integerse
 * {float} - Floating-point numbers
 
+You can create custom types for, eg. different types of users, objects, etc. You need to match these with regex.
+
 ### Testing Stack
 
 Feature File -> Step Definitions -> Test Helpers -> Automation Framework
@@ -199,6 +201,7 @@ Eg: Gherkin -> Cucumber -> Helpers -> Capybara
 
 * Gherkin and Cucumber are not web-specific- Using different helpers and automation frameworks would work for CLI apps, etc.
 * Cucumber is for customer-facing tests, mocha et al are for developer-facing tests. Either tool can be used at any layer of the testing pyramid. You can do Given directly on persistence, When on the UI, and Then in the logic layer. This requires good decoupling, though.
+* Not every step definition should go through the UI. If you have at least one, you can increase speed by hitting the services directly. You can tag these scenarios separately. Gherkin exposes system behavior to stakeholders, it doesn't dictate what's being tested.
 
 ### Product Workflow
 
@@ -223,16 +226,186 @@ It's ok to make some assumptions that turn out to be wrong.
   * Write a small amount of code
   * Assert that the result isn't blank
   * Hard code the answer
+* Make it real with TDD
+* Implement the actual design
+* Refactor
 
 It's common to hard-code the first response, and flesh it out as it becomes more complicated.
 
 ## Frequent Delivery and Visibility
 
+You should get the product to a stable, "done" state multiple times a day. Waterfall aims to get to that state at the end of the project, scrum aims to get to that state at the end of the sprint, BDD aims to get to that state at the end of the scenario. The privilege of focus means that by not trying to get everything done at once, you get more done.
+
+### What "testers" can do
+
+* Asking questions when the team is exploring the behavior of new stories
+* Asking questions when the known scenarios pass and you need to discover new scenarios that should pass but don't yet
+
+They move to more high-value work, instead of routine work that's easily automated. Instead of only doing manual regression testing, testers can do exploratory testing: "Simultaneously learning about the system while designing and executing tests, using feedback from the last test to inform the next. Find new scenarios around the edges of the system's current behavior. Only add new scenarios for things that don't work as expected.
+
+Have a dedicated environment for automated tests that won't interfere with exploratory tests.
+
+### Gherkin Tips
+
+* Aim for symmetry between your Givens and Thens
+* Refactor shared setup to a background step
+
+### Legacy Systems
+
+"Integrate and Strangle":
+
+Augment existing systems by extending them rather than modifying them. Wrap them in services to isolate your work from the existing system. Over time, the new system can replace existing behaviors and "strangle" the old system, but the system still works at every step of the way.
+
+### Adoption Challenges
+
+Change takes patience. Look for:
+
+* Siloing tends to creep back
+* New skills that work with a coach are harder to do when the coach leaves
+* Developers will start taking on too much WIP and not collaborate
+* Analysts will revert back to handing the team "requirements"
+* The team will find some stories hard to split, so they'll stop trying
+* The team will get hung up on test framework details
+
 ## Making Scenarios More Expressive
+
+Scenarios should read as sentences. If you would be running out of breath or dying for punctuation, it's probably too long. Ask yourself how you would summarize all the steps using business language. That's a concept you need in your domain.
+
+Scenarios shouldn't be so vague they're essentially tautologies. Look out for words like "valid", "correct", or "successfully." Fix this by asking "for example?" and "what's another example?" and "what would an incorrect result look like?"
+
+Don't put implementation details like buttons and clicks into the feature file, and generally keep technical language out. You should be able to completely redo the UI without changing the feature file.
+
+Look out for steps that have a lot of quoted strings and tables. Ask if it's really necessary to know all of these things for this example. If you take it out, does the example still work? Does it differentiate it from other examples?
+
+Clarity and expressiveness is more important than reuse.
+
+### Ubiquitous Language
+
+From Domain-Driven Design. You need a powerful mental model for your domain. You shouldn't have to translate layers of domain concepts between business and technical representations.
+
+> If we mean the same thing, we should write it in exactly the same way. If we write it the same way, we should mean exactly the same thing.... If one word is different, then they should know that one-word difference is significant, and they must understand the difference before they implement it.
+
+### Gherkin Language
+
+* Given steps should be passive voice. They describe things that just are, so we don't care about how they got that way.
+* When steps are about action, so they should be present-tense and active.
+* Prefer writing first-person to help develop user empathy. For example:
+
+```gherkin
+Given I'm library patron Chandra Khan 
+When I log into my library account
+```
+
+* You can use third-person when describing multiple people (like a chat app)
+* Then steps should contain the word "should" for a preference, and "expect" for an expectation
+
+```gherkin
+Then my account should be reinstated
+And I expect to be fined $1.00
+```
+
+* Then steps can either include the actor or make a statement about the system. Use whichever feels more natural.
+* Aggressively fine-tune and delete filler words. Go for concise language.
+* If you're talking an entity with attributes, use a table
+* Consider how a nontechnical user would write the step
+* The step should still work if you totally changed the underlying technology
+* Consider combining multiple technical steps into one domain actions (eg. "Searching for a book")
+* A scenario title should answer "What is this particular example intended to illustrate?"
+
+```gherkin
+Feature: Ebook Search
+  Scenario: By author - Complete last name matches
+```
 
 ## Growing Living Documentation
 
+"Dead" documentation is a snapshot in time, but isn't necessarily connected to the feature itself. Living documentation is executable.
+
+New, unrelated behaviors should not break old scenarios.
+
+Feature files replace:
+
+* Requirements specifications
+* Detailed test plans, cases, and scripts
+* Traceability docs (in regulated environments)
+
+They do not replace:
+
+* Design docs and mockups
+* Data dictionaries and glossaries
+* Guides
+* Support tools
+
+Keep Gherkin language out of your stories. User stories are told, not written; don't formalize them until you have to, just stay in conversation, write free-form, and focus on learning.
+
+MMFs and user stories are planning artifacts; don't tie them too closely to feature files. Planning artifacts are transient and ephemeral, feature files are living documentation. Organize feature files by business function.
+
+If the behavior changes, the scenario should change. Otherwise, it shouldn't.
+
+Split a feature file when:
+
+* Backgrounds change
+* A new domain concept emerges
+
+Use tags as a secondary level of organization.
+
+* Tag things that require particular services or infrastructure to be running
+* Tag things that are especially slow
+* Tag things that are unreliable
+
+Keep the structure of your docs emergent!
+
 ## Succeeding With Scenario Data
 
-## Conclusion
+Good scenarios are:
 
+* Independent
+  * No state dependencies
+  * Able to run in any order
+* Repeatable
+  * Identical results with every run
+* Researchable
+  * Something better than "expected true, got false"
+* Realistic
+  * Actual examples, no "User A", etc.
+* Robust
+  * Tests don't break due to unrelated changes
+  * Tests aren't dependent on infrastructure and side effects
+  * Decouple date and time
+  * Give the test scenarios their own environment to run in
+* Maintainable
+  * Can be understood and modified by someone other than the person who wrote it
+* Fast
+  * Fast tests get run more often and tighten the feedback loop
+
+Only use enough test data for the examples in your app.
+
+When you have to change your scenarios to accomodate a refactor, change your Then steps first and work backward.
+
+Choose a "test data curator" to own and manage the test data for the application.
+
+Data can be shared or scenario-specific. Create shared data for:
+
+* When a background step performs the same data setup for all the scenarios in a file
+* When the data for the scenario obscures the behavior you're trying to test
+* When you have domain-specific data:
+  * Lists of companies
+  * Lists of products
+  * Important date ranges
+  * Standard weather and terrain conditions
+
+"Data Personas" are standardized sets of data:
+
+```gherkin
+Feature: Data persona definitions
+
+  Scenario: Jennifer the researcher
+    When I'm Jennifer
+    Then I should have only the following office:
+      | Room Number | AB 123 |
+    And I should only have the following lab:
+      | Room Number | AB 124 |
+    And I should only have the following research animals:
+```
+
+These feature files can serve as glossaries for your data personas and also executable, so they assert that they still work correctly.
