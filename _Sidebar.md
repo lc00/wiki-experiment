@@ -3,6 +3,5 @@
 * [[Education]]
 * [[Economics]]
 * [[Design]]
-* [[Agile]]
 * [[Data]]
 * [[Audio]]
