@@ -89,9 +89,7 @@ Start with a happy path feature. Good examples put you in the user's shoes and b
 ### Example Mapping
 
 * Pink stickies: Discussions about examples usually lead down distracting side tracks because reality is complex and interlinked. Put those in a "parking lot"- they're worth talking about, just not right now.
-* Yellow stickies: Stories
-* Green stickies: Examples
-* Blue stickies: Rules
+* Yellow/Green/Blue stickies: Stories, Examples, Rules
 
 ### Personas
 
@@ -127,7 +125,7 @@ Features aren't 1:1 with stories: Just describe the feature, it may shift and go
 
 ### Agile Testing Quadrants
 
-[Agile testing quadrants](https://lisacrispin.com/wp-content/uploads/2011/11/Agile-Testing-Quadrants.png)
+![Agile testing quadrants](https://lisacrispin.com/wp-content/uploads/2011/11/Agile-Testing-Quadrants.png)
 
 * Business-facing tests that critique the product look at something that already exists. This is what is traditionally thought of as testing. Failing tests in this quadrant tend to become new BDD examples. Most teams have decent coverage here.
 * Business-facing tests that support the team are written first, and act as specifications. This is where BDD lives. Most teams have nothing here.
@@ -236,7 +234,7 @@ It's common to hard-code the first response, and flesh it out as it becomes more
 
 You should get the product to a stable, "done" state multiple times a day. Waterfall aims to get to that state at the end of the project, scrum aims to get to that state at the end of the sprint, BDD aims to get to that state at the end of the scenario. The privilege of focus means that by not trying to get everything done at once, you get more done.
 
-### What "testers" can do
+### What "testers" Can Do
 
 * Asking questions when the team is exploring the behavior of new stories
 * Asking questions when the known scenarios pass and you need to discover new scenarios that should pass but don't yet
