@@ -30,6 +30,10 @@
 * [[Ruby]]
 * [[Rails]]
 
+## Go
+
+* [[Go]]
+
 ## Agile
 
 * [[Lean and Agile Management]] - The University of Colorado
