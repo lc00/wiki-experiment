@@ -1,3 +1,10 @@
+## Overview
+
+* Every project should have a `tsconfig.json` that says where the src files are, where the build files should go, what browsers should be targeted, etc.
+* `tslint` is deprecated in favor of `eslint`
+* Prefer local ts installations
+  * `npm i -D typescript @types/node
+
 ## Types
 
 * Built-ins - `number`, `boolean`, `undefined`, `string`, `object` (non-primative)
