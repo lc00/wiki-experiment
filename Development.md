@@ -12,6 +12,7 @@
 * [[Functional JavaScript]] - Fogus
 * [[lodash]]
 * [[TypeScript]]
+* [[Programming TypeScript]] - Boris Cherny
 * [[Service Worker]]
 
 ## Node
