@@ -141,6 +141,124 @@ Language.English
 
 ## Functions
 
+* TypeScript generally can't infer parameters, but can often infer return type
+* Parameters can be optional (must go last) or have defaults (don't need to be explicitly typed)
+* `arguments` and `function` are unsafe
+
+### Definitions
+
+* **Formal Parameter** - Parameter
+* **Actual Parameter** - Argument
+* **Type Level Code** - Valid TypeScript, but not valid JavaScript on its own
+* **Value Level Code** - Valid JavaScript
+* **Contextual Typing** - Using a function signature type to get the types of parameters and return values
+* **Overloaded function** - A function with multiple call signatures
+* **Concrete Type** - A definite type, like boolean, Date[], { a: number } | { b: string }, (numbers: number[]) => number
+* **Generic Type Parameter** - A placeholder type used to enforce a type-level constraint in multiple places. Also called a polymorphic type parameter.
+* **Upper Bound** - A type that another type must have somewhere in its hierarchy
+
+```
+function add(a: number, b: number): number {
+  return a + b
+}
+
+function add(...numbers: number[]) {
+  return numbers.reduce((sum, number) => sum += number)
+}
+
+type someObject = {
+  someKey: "someValue"
+  someOptionalKey?: "someOtherValue"
+}
+
+function someFunction(): someObject {
+  // Whatever
+}
+
+function typeThis(this: someObject): void {
+}
+
+// Typing a function signature
+// When you do this, you don't need also annotate the parameters in the function definition ("contextual typing")
+type Greeting = (message: string) => void
+
+// Overloaded function signature
+type Reserve = {
+  (from: Date, to: Date, destination: string): Reservation
+  (from: Date, destination: string): Reservation
+}
+// When you implement this, you need to combine it into one type:
+let reserve: Reserve = (from: Date, toOrDestination: Date | String, destination?: string) => {
+  // And then check to see which one it is:
+  if (toOrDestination instanceof Date && destination !== undefined){
+    // it's `to`
+  }
+}
+```
+
+### Generics
+
+Generics are placeholders for type. You can indicate that multiple things need to be the same type, without specifying what they are ahead of time.
+
+```ts
+type Filter = {
+  <T>(array: T[], fn: (item: T) => boolean): T[]
+}
+type Map = {
+  <T, U>(array: T[], fn: (item: T) => U): U[]
+}
+
+type Whatever = <T = string>(T): boolean // default value
+```
+
+* Generics are like placeholder types
+* `<T, U, V>` are the TS conventions, but they can be anything, including descriptive words
+* Concrete types are bound at compile time, and are compiled differently for each instance
+* Generic types generally inferred well, but may need to be explicitly bound as well (eg. Promises resolution values)
+
+Generics can be scoped two different ways:
+
+```ts
+// Per signature
+type Filter = {
+  <T>(array: T[], fn: (item: T) => boolean): T[]
+}
+// or
+type Filter = <T>(array: T[], fn: (item: T) => boolean): T[]
+let filter: Filter = //
+
+// For all signatures
+type Filter<T> = {
+  (array: T[], fn: (item: T) => boolean): T[]
+}
+// or
+type Filter<T> = (array: T[], fn: (item: T) => boolean): T[]
+let filter: Filter<number> = //
+```
+
+You can also use generics in type aliases, and pass those like parameters:
+
+```ts
+type SomeType<T> = {
+  someKey: T
+  someOtherKey: string
+}
+
+type SomeOtherType<T> = {
+  someKey: SomeType<T>
+  someOtherKey: boolean
+}
+
+type SomeConcreteType = SomeOtherType<string>
+```
+
+You can "bound" generics to at least be some concrete type (including joins and intersections), which preserves the original type while still bounding it.
+
+```ts
+type NodeMapper = <T extends TreeNode>(item: T[]): T
+type NodeMapper = <T extends TreeNode & OtherNode>(item: T[]): T
+```
+
 ## Classes and Interfaces
 
 ## Advanced Types
