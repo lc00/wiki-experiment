@@ -56,6 +56,7 @@
 * [[Jest]]
 * [[Vue-Jest]]
 * [[What-To-Test]]
+* [[TDD By Example]] - Beck
 
 ## OOP
 
@@ -162,11 +163,8 @@
 
 ## To Finish
 
-* [[TDD By Example]]
-* [[ATDD By Example]]
 * [[How Linux Works]]
 * [[Ubuntu]]
 * [[A Practical Guide To Large-Scale Agile Development]]
 * [[Succeeding With Agile]] - Mike Cohn
-* [[Sprint]] - Jake Knapp
 * [[Scrum Shortcuts]]
