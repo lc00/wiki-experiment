@@ -261,6 +261,87 @@ type NodeMapper = <T extends TreeNode & OtherNode>(item: T[]): T
 
 ## Classes and Interfaces
 
+* Adds access modifiers, readonly
+* Abstract classes can include overrideable methods
+* Interfaces are lighter and just define a shape and can be extended, and can't include type expressions
+* Interfaces can be declared multiple times and will merge
+  * Interfaces can take in generics, but all generics must have the same type and name
+* `this` can be a return type
+* Classes are structurally typed- that means it doesn't check to see if the names are the same, only if the types are assignable
+* Types and values have different namespaces, _except_ for classes and enums, which uses the same for both
+* Classes generate types for both the Class itself as well as the constructor
+* Classes can have generics, as can methods
+
+```ts
+class Piece<K, V> implements SomeInterface, SomeOtherInterface {
+  constructor(
+    private readonly color: Color,
+    file: File,
+    rank: Rank,
+  ){
+    this.position = new Position(file, rank)
+  }
+  something = (K): V => {
+  }
+}
+```
+
+### Mixins
+
+* A mixin is just a function that takes in a class constructor and returns a class constructor
+
+```ts
+// Declares a new type that takes in a generic
+// It is equal to a constructor that takes in any arguments, and returns that generic
+type ClassConstructor<T> = new(...args: any[]) => T
+
+//the function addDebug, which declares a generic, which gives a value for T
+function addDebug
+  <C extends ClassConstructor
+    <{ getDebugValue(): object }>
+  >
+  // Takes in a class as an argument, it needs to be a class constructor
+  (Class: C) {
+    // Returns an anonymous class that extends the target class and has a debug method
+    return class extends Class {
+      debug(){
+        let Name = Class.constructor.name
+        let value = this.getDebugValue()
+        return `${Name}(${JSON.stringify(value)})`
+      }
+    }
+  }
+
+const User = new addDebug(SomeClass)
+const someUser = new User("a", 1, false)
+someUser.debug()
+```
+
+### Decorators
+
+Wrap a class and return a new one with new functionality. Not quite ready for primetime yet.
+
+```ts
+function serializable<
+  T extends ClassConstructor<{
+    getValue(): Payload
+  }>
+>(Constructor: T) {
+  return class extends Constructor {
+    serialize() {
+      return this.getValue().toString()
+    }
+  }
+}
+
+@serializable
+class APIPayload {
+  getValue(): Payload {
+    //
+  }
+}
+```
+
 ## Advanced Types
 
 ## Handling Errors
