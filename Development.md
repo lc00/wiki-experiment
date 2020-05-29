@@ -43,6 +43,7 @@
 * [[The Agile Samurai]]
 * [[Learning Agile]]
 * [[Behavior-Driven Development with Cucumber]] - Richard Lawrence
+* [[XP-Explained]] - Beck
 
 ## Testing
 
